@@ -1,0 +1,4599 @@
+View {
+Width 5.314960630 
+Height 4.173228346 
+Mag 3.7 
+Center 83.18881m 61.64076m 
+Grid 25 25 
+Index 0 4175 
+PrintScale 0.0 
+ShowHoles
+ShowNames
+ShowValues
+SolidPads
+SavedFrameString "13 56 1762 1002 0 0 1920 1058 " 
+PadFillColor 5898 30146 13107 
+GridColor 57344 57344 65280 
+HoleColor 55000 55000 65535 
+BackgroundColor 65535 65535 65535 
+SelectedSignalTraceColor 12345 54321 6789 
+CustomGrid "1.20 mm" 
+CustomGrid "0.66250 mm" 
+CustomGrid "1.90 mm" 
+CustomGrid "5.60 mm" 
+CustomGrid "1.03750 mm" 
+}
+
+Setup {
+SerialNumber 1607 
+Layers 2 
+TraceWidth 0.20m 
+Spacing 0.20m 
+SolderMaskRing 0.20m 
+ForceMetric 
+}
+GerberOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+FlattenCopperFlood no 
+DrillFile DRILL.TXT 
+Aux1File AUX1.GBR 
+Aux2File AUX2.GBR 
+Silk1File SILK1.GBR 
+Silk2File SILK2.GBR 
+Mask1File MASK1.GBR 
+Mask2File MASK2.GBR 
+Layer1File LAYER1.GBR 
+Layer2File LAYER2.GBR 
+Layer3File LAYER3.GBR 
+Layer4File LAYER4.GBR 
+LayerXFile LAYER%d.GBR 
+AuxXFile AUX%d.GBR 
+}
+
+PostscriptOptions {
+NormalLayers yes 
+NormalLayersFlipOdd no 
+NormalLayersFlipEven no 
+PlaneLayers yes 
+PlaneLayersFlipOdd no 
+PlaneLayersFlipEven no 
+SilkLayers yes 
+SilkLayersFlipOdd no 
+SilkLayersFlipEven no 
+SolderMaskLayers yes 
+SolderMaskLayersFlipOdd no 
+SolderMaskLayersFlipEven no 
+}
+
+
+Type 'd' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 9.5 12 9.5 0 }
+Path Front
+{ 9.5 5.5 7 8 4.5 8 2 6 2 2.5 4.5 0 7 0 9.5 2.5 }
+}
+
+Type ALPHAPOT {
+NameData { 60 -2.00994m 13.07129m 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Circle 1.70m }
+Pad B { Rectangle 1.50m 1.50m }
+Pin 0 { A A A -300 300 1.20m P }
+Pin 0 { A A A 100 300 1.20m P }
+Pin 1 { B B B 0 0 1m P }
+Pin 2 { B B B -100 0 1m P }
+Pin 3 { B B B -200 0 1m P }
+Path Silk
+{ -5.05509m 7.63663m W 10 S 10 -197.5 8.07770m -4.90190m 8.50537m -4.71479m
+8.90663m -4.46084m 9.26932m -4.14777m 9.58239m -3.78509m 9.83634m -3.38382m
+10.02345m -2.95615m 10.13805m -2.51509m 10.17663m -2.07402m 10.13805m -1.64635m
+10.02345m -1.24509m 9.83634m -0.88240m 9.58239m -0.56933m 9.26932m -0.31538m
+8.90663m -0.12827m 8.50537m -0.01367m 8.07770m 0.02491m 7.63663m -0.01367m
+7.19557m -0.12827m 6.76790m -0.31538m 6.36663m -0.56933m 6.00395m -0.88240m
+5.69088m -1.24509m 5.43693m -1.64635m 5.24982m -2.07402m 5.13522m -2.51509m
+5.09663m -2.95615m 5.13522m -3.38382m 5.24982m -3.78509m 5.43693m -4.14777m
+5.69088m -4.46084m 6.00395m -4.71479m 6.36663m -4.90190m 6.76790m -197.5
+7.19557m -5.05509m 7.63663m }
+Path Silk
+{ -300 287.5 W 10 S 10 -300 75 100 75 100 500 -300 500 -300 287.5 }
+Path Silk
+{ -2.76909m 7.63663m W 10 S 10 -2.26109m 7.63663m }
+Path Silk
+{ -2.51509m 7.89063m W 10 S 10 -2.51509m 7.38263m }
+}
+
+Type 0603 {
+NameData { 60 60 30 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 40 30 }
+Pin 1 { A 0 0 0 0 0 P }
+Pin 2 { A 0 0 60 0 0 P }
+Path Silk
+{ 0.53778m -0.48676m W 7 S 10 0.97160m -0.49069m }
+Path Silk
+{ 0.54738m 0.49003m W 7 S 10 0.98120m 0.48610m }
+}
+
+Type THONKPOT {
+NameData { 60 -1.74333m 2.73196m 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Circle 2.40m }
+Pad B { Rectangle 1.50m 1.50m }
+Pin 0 { A A A -300 300 2.10m P }
+Pin 0 { A A A 100 300 2.10m P }
+Pin 1 { B B B 0 0 0.82m P }
+Pin 2 { B B B -100 0 0.82m P }
+Pin 3 { B B B -200 0 0.82m P }
+Path Silk
+{ -5.05509m 7.63663m W 10 S 10 -197.5 8.07770m -4.90190m 8.50537m -4.71479m
+8.90663m -4.46084m 9.26932m -4.14777m 9.58239m -3.78509m 9.83634m -3.38382m
+10.02345m -2.95615m 10.13805m -2.51509m 10.17663m -2.07402m 10.13805m -1.64635m
+10.02345m -1.24509m 9.83634m -0.88240m 9.58239m -0.56933m 9.26932m -0.31538m
+8.90663m -0.12827m 8.50537m -0.01367m 8.07770m 0.02491m 7.63663m -0.01367m
+7.19557m -0.12827m 6.76790m -0.31538m 6.36663m -0.56933m 6.00395m -0.88240m
+5.69088m -1.24509m 5.43693m -1.64635m 5.24982m -2.07402m 5.13522m -2.51509m
+5.09663m -2.95615m 5.13522m -3.38382m 5.24982m -3.78509m 5.43693m -4.14777m
+5.69088m -4.46084m 6.00395m -4.71479m 6.36663m -4.90190m 6.76790m -197.5
+7.19557m -5.05509m 7.63663m }
+Path Silk
+{ -300 287.5 W 10 S 10 -300 75 100 75 100 500 -300 500 -300 287.5 }
+Path Silk
+{ -2.76909m 7.63663m W 10 S 10 -2.26109m 7.63663m }
+Path Silk
+{ -2.51509m 7.89063m W 10 S 10 -2.51509m 7.38263m }
+}
+
+Type led3mm {
+NameData { 40 3.23917m -1.55913m 0 Center }
+ValueData { 0 -1.27620m 0 0 }
+Pad A { Circle 62 }
+Pin 1 { A A A -1.27620m 0 28 P }
+Pin 2 { A A A 1.26380m 0 28 P }
+Path Silk
+{ -1.57979m -1.05558m W 10 S 10 -1.34350m -1.34350m -1.05558m -1.57979m -0.72709m
+-1.75537m -0.37067m -1.86349m 0 -1.90m }
+Path Silk
+{ 1.34351m 1.34351m W 10 S 10 1.05559m 1.57980m 0.72710m 1.75538m 0.37068m
+1.86350m 0 1.90m -0.37067m 1.86350m -0.72709m 1.75538m -1.05558m 1.57980m
+-1.34350m 1.34351m -1.57979m 1.05559m }
+Path Silk
+{ 1.34351m -1.34350m W 10 S 10 1.05559m -1.57979m 0.72710m -1.75537m 0.37068m
+-1.86349m 0 -1.90m }
+Path Silk
+{ 1.37365m 1.33042m W 10 S 10 1.36356m 0.97575m }
+Path Silk
+{ 1.37781m -1.32523m W 10 S 10 1.38672m -0.98957m }
+}
+
+Type 'Q' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 2 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 }
+Path Front
+{ 6 4 10 0 }
+}
+
+Type "TL2285 push" {
+NameData { 50 -8.05512m -2.64898m 180 Center }
+ValueData { 0 -10.07553m -4.80489m 0 }
+Pad A { Circle 45 }
+Pin 1 { A A A -10m 0 28 P }
+Pin 2 { A A A -7.50m 0 28 P }
+Pin 3 { A A A -5m 0 28 P }
+Pin 4 { A A A -10m -6m 28 P }
+Pin 5 { A A A -7.50m -6m 28 P }
+Pin 6 { A A A -5m -6m 28 P }
+Path Silk
+{ -4m -7m W 10 S 10 -4m 1m -11m 1m -11m -7m -4m -7m }
+}
+
+Type POWER {
+NameData { 50 -150 200 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 1.60m 1.60m }
+Pad B { Circle 1.60m }
+Pin 1 { A A A 100 0 1m P }
+Pin 12 { B B B 100 100 1m P }
+Pin 3 { B B B 100 300 1m P }
+Pin 3 { B B B 100 200 1m P }
+Pin 4 { B B B 100 400 1m P }
+Pin 5 { B B B 0 400 1m P }
+Pin 6 { B B B 0 300 1m P }
+Pin 6 { B B B 0 200 1m P }
+Pin 7 { B B B 0 100 1m P }
+Pin 8 { B B B 0 0 1m P }
+Path BackSilk
+{ -2.34855m 0.27760m W 0.14286m S 0.14286m -2.91998m 0.27760m }
+Path BackSilk
+{ -3.34855m 0.56332m W 0.14286m S 0.14286m -3.49140m 0.70617m -3.49140m -0.15097m
+{ -3.34855m -0.15097m }
+-3.63426m -0.15097m }
+Path BackSilk
+{ -4.06283m 0.56332m W 0.14286m S 0.14286m -4.20569m 0.70617m -4.49140m 0.70617m
+-4.63426m 0.56332m -4.63426m 0.42046m -4.49140m 0.27760m -4.06283m -0.00811m
+-4.06283m -0.15097m -4.63426m -0.15097m }
+Path BackSilk
+{ -193.7 0.70617m W 0.14286m S 0.14286m -5.20569m -0.15097m -5.49140m 0.70617m
+}
+Path BackSilk
+{ -2.43100m 10.50842m W 0.14286m S 0.14286m -2.57386m 10.65127m -2.57386m
+9.79413m { -2.43100m 9.79413m }
+-2.71672m 9.79413m }
+Path BackSilk
+{ -3.14529m 10.50842m W 0.14286m S 0.14286m -3.28815m 10.65127m -3.57386m
+10.65127m -3.71672m 10.50842m -3.71672m 10.36556m -3.57386m 10.22270m -3.14529m
+9.93699m -3.14529m 9.79413m -3.71672m 9.79413m }
+Path BackSilk
+{ -4.00243m 10.65127m W 0.14286m S 0.14286m -4.28815m 9.79413m -4.57386m 10.65127m
+}
+Path BackSilk
+{ -2.87948m 5.30798m W 0.14286m S 0.14286m -2.73662m 5.45083m -2.45090m 5.45083m
+-2.30805m 5.30798m -2.30805m 4.73655m -2.45090m 4.59369m -2.73662m 4.59369m
+-2.87948m 4.73655m -2.87948m 4.95083m -2.73662m 4.95083m }
+Path BackSilk
+{ -3.16519m 4.59369m W 0.14286m S 0.14286m -3.16519m 5.45083m -3.73662m 4.59369m
+-3.73662m 5.45083m }
+Path BackSilk
+{ -4.59376m 5.30798m W 0.14286m S 0.14286m -4.45090m 5.45083m -4.02233m 5.45083m
+-4.02233m 4.59369m -4.45090m 4.59369m -4.59376m 4.73655m -4.59376m 5.30798m
+}
+Path BackSilk
+{ -1.67813m 8.30355m W 8 S 10 -1.55908m 1.92783m }
+}
+
+Type 'B' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 4 10 2 8 0 2 0 }
+}
+
+Type "9mm alpha" {
+NameData { 60 -1.74333m 2.73196m 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Circle 2.50m }
+Pad B { Rectangle 1.80m 1.80m }
+Pin 0 { A A A -300 300 1.80m P }
+Pin 0 { A A A 100 300 1.80m P }
+Pin 1 { B B B 0 0 1m P }
+Pin 2 { B B B -100 0 1m P }
+Pin 3 { B B B -200 0 1m P }
+Path Silk
+{ -5.05509m 7.63663m W 10 S 10 -197.5 8.07770m -4.90190m 8.50537m -4.71479m
+8.90663m -4.46084m 9.26932m -4.14777m 9.58239m -3.78509m 9.83634m -3.38382m
+10.02345m -2.95615m 10.13805m -2.51509m 10.17663m -2.07402m 10.13805m -1.64635m
+10.02345m -1.24509m 9.83634m -0.88240m 9.58239m -0.56933m 9.26932m -0.31538m
+8.90663m -0.12827m 8.50537m -0.01367m 8.07770m 0.02491m 7.63663m -0.01367m
+7.19557m -0.12827m 6.76790m -0.31538m 6.36663m -0.56933m 6.00395m -0.88240m
+5.69088m -1.24509m 5.43693m -1.64635m 5.24982m -2.07402m 5.13522m -2.51509m
+5.09663m -2.95615m 5.13522m -3.38382m 5.24982m -3.78509m 5.43693m -4.14777m
+5.69088m -4.46084m 6.00395m -4.71479m 6.36663m -4.90190m 6.76790m -197.5
+7.19557m -5.05509m 7.63663m }
+Path Silk
+{ -300 287.5 W 10 S 10 -300 75 100 75 100 500 -300 500 -300 287.5 }
+Path Silk
+{ -2.76909m 7.63663m W 10 S 10 -2.26109m 7.63663m }
+Path Silk
+{ -2.51509m 7.89063m W 10 S 10 -2.51509m 7.38263m }
+}
+
+Type 'y' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 8 3 8 6.5 0 }
+Path Front
+{ 9.5 8 9.5 7 4.5 -4.5 3.5 -4.5 }
+}
+
+Type 'T' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 6 0 6 12 { 2 12 }
+10 12 }
+}
+
+Type 'S' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 8 4 6 8 6 10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type 'R' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 { 2 6 }
+10 0 }
+}
+
+Type 'W' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 4 0 6 12 8 0 10 12 }
+}
+
+Type 'V' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 0 10 12 }
+}
+
+Type 'U' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 2 4 0 8 0 10 2 10 12 }
+}
+
+Type DIODE-SOD323 {
+NameData { 60 -1.85134m -1.30551m 180 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 31 24 }
+Pin 0 { A 0 0 -95 0 0 P }
+Pin 10 { A 0 0 0 0 0 P }
+Path Silk
+{ -0.25m -0.50m W 0.20m S 10 -0.25m -0.75m -2.25m -0.75m -2.25m -0.50m }
+Path Silk
+{ -2.25m 0.50m W 0.20m S 10 -2.25m 0.75m -0.25m 0.75m -0.25m 0.50m }
+Path Silk
+{ -1.56704m 0.74991m W 0.20m S 10 -1.56704m -0.75009m }
+}
+
+Type 'E' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 10 0 }
+}
+
+Type 'C' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 }
+}
+
+Type '(' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 6 0 5 1.5 4.5 2.5 4 4.5 4 7.5 4.5 9.5 }
+Path Front
+{ 6 12 5 10.5 4.5 9.5 }
+}
+
+Type ')' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 3 1.5 3.5 2.5 4 4.5 4 7.5 3.5 9.5 3 10.5 2 12 }
+}
+
+Type 'o' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 2.5 2 5.5 4.5 8 7 8 9.5 5.5 9.5 2.5 7 0 4.5 0 2 2.5 }
+}
+
+Type 'r' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 9 2 0 }
+Path Front
+{ 9.5 6.5 7 8 4.5 8 2 6.5 }
+}
+
+Type 'm' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 0.14605m 0 0.14605m 5.5 0.19337m 0.20288m 9.5 5.5 9.5 0 }
+Path Front
+{ 2 5.5 0.09827m 0.20288m 0.14582m 0.13948m }
+Path Front
+{ 2 9 2 0 }
+}
+
+Type '!' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 5 0 6 0 6 0.5 5 0.5 5 0 }
+Path Front
+{ 5 4 4.5 0.29845m 5 12 6 12 6.5 0.29845m 6 3 5 3 }
+Path Front
+{ 5.5 12 5.5 5.5 }
+}
+
+Type 'l' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 0 4 12 }
+}
+
+Type 'h' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 0 }
+Path Front
+{ 2 6 4.5 8 7 8 9.5 5.5 9.5 0 }
+}
+
+Type 'i' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 0.14605m 0.19685m 0.14605m 0 }
+Path Front
+{ 0.14605m 11 0.14605m 0.28575m }
+}
+
+Type 'O' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+}
+
+Type 'N' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 10 0 10 12 }
+}
+
+Type 'M' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 6 6 10 12 10 0 }
+}
+
+Type 'L' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 0 10 0 }
+}
+
+Type 't' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 10 4 1 5 0 6.5 0 7.5 1 }
+Path Front
+{ 2 8 6 8 }
+}
+
+Type '.' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 5 0 6 0 6 1 5 1 5 0 }
+}
+
+Type 'I' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 0 4 12 }
+}
+
+Type 'J' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 4 2 2 4 0 6 0 8 2 8 12 6 12 10 12 }
+}
+
+Type 'D' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 2 12 2 0 8 0 10 2 10 10 }
+}
+
+Type 'F' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 { 8 6 }
+2 0 }
+}
+
+Type '/' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type '-' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 6 10 6 }
+}
+
+Type '0' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 10 }
+Path Front
+{ 6 8 6 4 }
+}
+
+Type '9' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 2 4 0 8 0 10 2 10 10 8 12 4 12 2 10 2 7 4 5 8 5 10 7 }
+}
+
+Type '8' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 8 6 10 8 10 10 8 12 4 12 2 10 2 8 4 6 8 6 10 4 10 2 8 0 4 0 2 2 2 4 4
+6 }
+}
+
+Type '6' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 7 4 7 2 5 }
+}
+
+Type 'A' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 6 12 8.5 4.5 { 3.5 4.5 }
+10 0 }
+}
+
+Type 'G' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 10 8 12 4 12 2 10 2 2 4 0 8 0 10 2 10 5 8 5 }
+}
+
+Type 'K' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 4 { 4 6 { 10 12 }
+10 0 }
+2 0 }
+}
+
+Type '5' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 12 2 12 2 6 4 8 8 8 10 6 10 2 8 0 4 0 2 2 }
+}
+
+Type "SOD-123 diode" {
+NameData { 60 -147 84 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 1.20m 0.70m }
+Pin 0 { A 0 0 -3.70m 0 0 P }
+Pin 0 { A 0 0 0 0 0 P }
+Path Silk
+{ -115 25 W 10 S 10 -115 -25 }
+Path Silk
+{ -115 30 W 10 S 10 -30 30 -30 -30 -115 -30 }
+Path Silk
+{ -95 25 W 10 S 10 -95 -25 }
+}
+
+Type panasoniccapC {
+NameData { 50 225 -225 0 }
+ValueData { 50 -0.14955m -4.48191m 0 }
+Pad A { Rectangle 2.50m 1.20m }
+Pin 1 { A 0 0 0 0 0 U }
+Pin 2 { A 0 0 3.70m 0 0 U }
+Path Silk
+{ -0.79041m 1.30517m W 10 S 10 0.57566m 2.64986m 4.51333m 2.64362m }
+Path Silk
+{ 4.54237m 2.64362m W 10 S 10 4.54118m 0.78599m }
+Path Silk
+{ -0.77068m -1.33806m W 10 S 10 0.54441m -2.64867m 4.50585m -2.64419m 4.52161m
+-0.80045m }
+Path Silk
+{ -0.77005m -1.28498m W 10 S 10 -0.78520m -0.84265m }
+Path Silk
+{ -0.79143m 1.28702m W 10 S 10 -0.78134m 0.82954m }
+Path Silk
+{ -0.13027m -0.81697m W 10 S 10 0.02911m -1.15877m 0.24542m -1.46769m 0.51209m
+-1.73436m 0.82101m -1.95067m 1.16281m -2.11005m 1.52708m -2.20766m 1.90277m
+-2.24053m }
+Path Silk
+{ 3.93582m 0.78454m W 10 S 10 3.77644m 1.12633m 3.56013m 1.43526m 3.29346m
+1.70193m 2.98453m 1.91824m 2.64274m 2.07762m 2.27847m 2.17523m 1.90277m
+2.20809m 1.52708m 2.17523m 1.16281m 2.07762m 0.82101m 1.91824m 0.51209m
+1.70193m 0.24542m 1.43526m 0.02911m 1.12633m -0.13027m 0.78454m }
+Path Silk
+{ 3.93582m -0.81697m W 10 S 10 3.77644m -1.15877m 3.56013m -1.46769m 3.29346m
+-1.73436m 2.98453m -1.95067m 2.64274m -2.11005m 2.27847m -2.20766m 1.90277m
+-2.24053m }
+}
+
+Type SOT-223 {
+Note unused 
+NameData { 60 -31 345 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 63 83 }
+Pad B { Rectangle 154 83 }
+Pin 1 { A 0 0 0 0 0 P }
+Pin 2 { A 0 0 91 0 0 P }
+Pin 3 { A 0 0 181 0 0 P }
+Pin 4 { B 0 0 91 244 0 P }
+}
+
+Type '4' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 8 0 8 12 2 5 10 5 }
+}
+
+Type '1' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 4 10 6 12 6 0 { 4 0 }
+8 0 }
+}
+
+Type '2' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 2 2 2 0 10 0 }
+}
+
+Type '3' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 10 4 12 8 12 10 10 10 8 8 6 { 6 6 }
+10 4 10 2 8 0 4 0 2 2 }
+}
+
+Type 'Y' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 6 6 { 10 12 }
+6 0 }
+}
+
+Type 'Z' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 12 2 0 10 0 }
+}
+
+Type 'X' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 0 }
+Path Front
+{ 2 0 10 12 }
+}
+
+Type TSSOP14 {
+Note unused 
+NameData { 60 -20 68 0 Center }
+ValueData { 0 0 0 0 }
+Pad A { Rectangle 40 16 }
+Pin 14 { A 0 0 220 0 0 P }
+Pin 13 { A 0 0 220 -26 0 P }
+Pin 12 { A 0 0 220 -52 0 P }
+Pin 11 { A 0 0 220 -78 0 P }
+Pin 10 { A 0 0 220 -104 0 P }
+Pin 9 { A 0 0 220 -130 0 P }
+Pin 8 { A 0 0 220 -156 0 P }
+Pin 7 { A 0 0 0 -156 0 P }
+Pin 6 { A 0 0 0 -130 0 P }
+Pin 5 { A 0 0 0 -104 0 P }
+Pin 4 { A 0 0 0 -78 0 P }
+Pin 3 { A 0 0 0 -52 0 P }
+Pin 2 { A 0 0 0 -26 0 P }
+Pin 1 { A 0 0 0 0 0 P }
+Path Silk
+{ 87 -5 W 10 88 -7 }
+Path Silk
+{ 88 -7 W 10 88 -9 }
+Path Silk
+{ 88 -9 W 10 88 -11 }
+Path Silk
+{ 88 -11 W 10 89 -13 }
+Path Silk
+{ 89 -13 W 10 90 -14 }
+Path Silk
+{ 90 -14 W 10 91 -16 }
+Path Silk
+{ 91 -16 W 10 93 -18 }
+Path Silk
+{ 93 -18 W 10 94 -19 }
+Path Silk
+{ 94 -19 W 10 96 -21 }
+Path Silk
+{ 96 -21 W 10 97 -22 }
+Path Silk
+{ 97 -22 W 10 99 -23 }
+Path Silk
+{ 99 -23 W 10 101 -24 }
+Path Silk
+{ 101 -24 W 10 103 -24 }
+Path Silk
+{ 103 -24 W 10 105 -24 }
+Path Silk
+{ 105 -24 W 10 107 -24 }
+Path Silk
+{ 127 -5 W 10 126 -7 }
+Path Silk
+{ 126 -7 W 10 126 -9 }
+Path Silk
+{ 126 -9 W 10 126 -11 }
+Path Silk
+{ 126 -11 W 10 125 -13 }
+Path Silk
+{ 125 -13 W 10 124 -14 }
+Path Silk
+{ 124 -14 W 10 123 -16 }
+Path Silk
+{ 123 -16 W 10 121 -18 }
+Path Silk
+{ 121 -18 W 10 120 -19 }
+Path Silk
+{ 120 -19 W 10 118 -21 }
+Path Silk
+{ 118 -21 W 10 117 -22 }
+Path Silk
+{ 117 -22 W 10 115 -23 }
+Path Silk
+{ 115 -23 W 10 113 -24 }
+Path Silk
+{ 113 -24 W 10 111 -24 }
+Path Silk
+{ 111 -24 W 10 109 -24 }
+Path Silk
+{ 109 -24 W 10 107 -24 }
+Path Silk
+{ 35 -5 W 10 85 -5 }
+Path Silk
+{ 130 -5 W 10 185 -5 }
+Path Silk
+{ 185 -155 W 10 185 -5 }
+Path Silk
+{ 35 -155 W 10 185 -155 }
+Path Silk
+{ 35 -155 W 10 35 -5 }
+}
+
+Type VIA {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Pad A { Circle 0.30m }
+Pin 1 { A A A 0 0 0.20m P }
+}
+
+Type HC49 {
+NameData { 50 3.02959m 105 0 }
+ValueData { 50 2.37060m -3.73241m 0 }
+Pad A { Rectangle 5.60m 2.10m }
+Pin 1 { A 0 0 0 0 0 U }
+Pin 2 { A 0 0 9.50m 0 0 U }
+Path Silk
+{ 0 2m W 10 S 10 9.50m 2m }
+Path Silk
+{ 0 -2m W 10 S 10 9.50m -2m }
+}
+
+Type '7' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 10 12 4 0 }
+}
+
+Type 'H' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 12 2 6 { 10 6 { 10 0 }
+10 12 }
+2 0 }
+}
+
+Type PJ301BM {
+NameData { 50 -4.38634m 10.59572m 0 }
+ValueData { 50 -2.42816m 10.44090m 0 }
+Pad A { Circle 2.50m }
+Pad B { Circle 1.50m }
+Pin 1 { A A A 0 0 2.10m P }
+Pin 2 { A A A 0 8.10m 2.10m P }
+Pin 3 { A A A -4.70m 2.70m 2.10m P }
+Pin 4 { B B B 4.70m 2.70m 1.10m P }
+Path Silk
+{ -2m 0 W 10 S 10 -5m 0 -5m 1m }
+Path Silk
+{ -5m 5m W 10 S 10 -5m 9m -2m 9m }
+Path Silk
+{ 2m 9m W 10 S 10 5m 9m 5m 4m }
+Path Silk
+{ 5m 1m W 10 S 10 5m 0 4m 0 2m 0 }
+}
+
+Type 'a' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 10 0 10 8 }
+Path Front
+{ 2 2.6 2.7 5.1 3.8 6.8 5.2 7.7 6.2 8 7 8 8.4 8 10 7.2 }
+Path Front
+{ 2 2.5 2 1.9 2.1 1.5 2.4 1 3.1 0.6 4.5 0 6.7 0 8.8 0.9 10 2 }
+}
+
+Type 'e' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 4.5 9.5 4.5 9.5 5.5 7 8 4.5 8 2 6 2 2.5 2 2 4 0 8 0 9.5 1 }
+}
+
+Type 'f' {
+NameData { 0 0 0 0 Center }
+ValueData { 0 0 0 0 }
+Path Front
+{ 5 0 5 11 6 12 8 12 9 11 9 10.5 }
+Path Front
+{ 3 6 7 6 }
+}
+
+Type 'P' {
+NameData { 0 0 0 0 }
+ValueData { 0 0 0 0 }
+Path Front
+{ 2 0 2 12 8 12 10 10 10 8 8 6 2 6 }
+}
+
+Type ISP {
+NameData { 50 -75 -100 90 }
+ValueData { 50 -300 25 0 }
+Pad A { Circle 1.60m }
+Pin 1 { A A A 0 0 1m P }
+Pin 2 { A A A 100 0 1m P }
+Pin 3 { A A A 200 0 1m P }
+Pin 4 { A A A 0 -100 1m P }
+Pin 5 { A A A 100 -100 1m P }
+Pin 6 { A A A 200 -100 1m P }
+Path BackSilk
+{ 4.80226m -5.01687m W 0.14286m S 0.14286m 4.65941m -4.87401m 4.65941m -4.58829m
+4.80226m -4.44544m 5.37369m -4.44544m 5.51655m -4.58829m 5.51655m -4.87401m
+5.37369m -5.01687m 5.15941m -5.01687m 5.15941m -4.87401m }
+Path BackSilk
+{ 5.51655m -5.30258m W 0.14286m S 0.14286m 4.65941m -5.30258m 5.51655m -5.87401m
+4.65941m -5.87401m }
+Path BackSilk
+{ 4.80226m -6.73115m W 0.14286m S 0.14286m 4.65941m -6.58829m 4.65941m -6.15972m
+5.51655m -6.15972m 5.51655m -6.58829m 5.37369m -6.73115m 4.80226m -6.73115m
+}
+Path BackSilk
+{ -1.97262m -0.58772m W 0.14286m S 0.14286m -2.82976m -0.58772m }
+Path BackSilk
+{ -2.68691m -1.58772m W 0.14286m S 0.14286m -2.82976m -1.44487m -2.82976m
+-1.15915m -2.68691m -1.01630m -2.54405m -1.01630m -2.40119m -1.15915m -2.40119m
+-1.44487m -2.25833m -1.58772m -2.11548m -1.58772m -1.97262m -1.44487m -1.97262m
+-1.15915m -2.11548m -1.01630m }
+Path BackSilk
+{ -1.97262m -1.87344m W 0.14286m S 0.14286m -2.82976m -1.87344m -2.82976m
+-2.30201m -2.68691m -2.44487m -2.54405m -2.44487m -2.40119m -2.30201m -2.40119m
+-1.87344m }
+Path BackSilk
+{ 0.26439m 5.50655m W 0.14286m S 0.14286m -0.59275m 5.50655m -0.16418m 5.22084m
+-0.59275m 4.93512m 0.26439m 4.93512m }
+Path BackSilk
+{ 0.26439m 4.50655m W 0.14286m S 0.14286m -0.59275m 4.50655m }
+Path BackSilk
+{ -0.44990m 3.50655m W 0.14286m S 0.14286m -0.59275m 3.64941m -0.59275m 3.93512m
+-0.44990m 4.07798m -0.30704m 4.07798m -0.16418m 3.93512m -0.16418m 3.64941m
+-0.02132m 3.50655m 0.12153m 3.50655m 0.26439m 3.64941m 0.26439m 3.93512m
+0.12153m 4.07798m }
+Path BackSilk
+{ -0.44990m 2.64941m W 0.14286m S 0.14286m -0.59275m 2.79227m -0.59275m 3.07798m
+-0.44990m 3.22084m 0.12153m 3.22084m 0.26439m 3.07798m 0.26439m 2.79227m
+0.12153m 2.64941m -0.44990m 2.64941m }
+Path BackSilk
+{ 3.03535m -4.44977m W 0.14286m S 0.14286m 2.17821m -4.44977m 2.60678m -4.73548m
+2.17821m -5.02120m 3.03535m -5.02120m }
+Path BackSilk
+{ 2.32106m -5.87834m W 0.14286m S 0.14286m 2.17821m -5.73548m 2.17821m -5.44977m
+2.32106m -5.30691m 2.89249m -5.30691m 3.03535m -5.44977m 3.03535m -5.73548m
+2.89249m -5.87834m 2.32106m -5.87834m }
+Path BackSilk
+{ 2.32106m -6.73548m W 0.14286m S 0.14286m 2.17821m -6.59262m 2.17821m -6.30691m
+2.32106m -6.16405m 2.46392m -6.16405m 2.60678m -6.30691m 2.60678m -6.59262m
+2.74964m -6.73548m 2.89249m -6.73548m 3.03535m -6.59262m 3.03535m -6.30691m
+2.89249m -6.16405m }
+Path BackSilk
+{ 3.03535m -7.16405m W 0.14286m S 0.14286m 2.17821m -7.16405m }
+Path BackSilk
+{ 5.60197m 4.72318m W 0.14286m S 0.14286m 4.74483m 4.72318m 4.74483m 4.29461m
+4.88768m 4.15175m 5.03054m 4.15175m 5.17340m 4.29461m { 5.17340m 4.72318m
+}
+5.60197m 4.15175m }
+Path BackSilk
+{ 4.88768m 3.29461m W 0.14286m S 0.14286m 4.74483m 3.43747m 4.74483m 3.72318m
+4.88768m 3.86604m 5.03054m 3.86604m 5.17340m 3.72318m 5.17340m 3.43747m
+5.31626m 3.29461m 5.45911m 3.29461m 5.60197m 3.43747m 5.60197m 3.72318m
+5.45911m 3.86604m }
+Path BackSilk
+{ 5.60197m 2.72318m W 0.14286m S 0.14286m 4.74483m 2.72318m { 4.74483m 3.00890m
+}
+4.74483m 2.43747m }
+Path BackSilk
+{ 2.28962m 4.31274m W 0.14286m S 0.14286m 2.14677m 4.45560m 2.14677m 4.74132m
+2.28962m 4.88417m 2.43248m 4.88417m 2.57534m 4.74132m 2.57534m 4.45560m
+2.71820m 4.31274m 2.86105m 4.31274m 3.00391m 4.45560m 3.00391m 4.74132m
+2.86105m 4.88417m }
+Path BackSilk
+{ 2.28962m 3.45560m W 0.14286m S 0.14286m 2.14677m 3.59846m 2.14677m 3.88417m
+2.28962m 4.02703m 2.86105m 4.02703m 3.00391m 3.88417m 3.00391m 3.59846m
+2.86105m 3.45560m }
+Path BackSilk
+{ 2.14677m 3.16989m W 0.14286m S 0.14286m 2.71820m 3.16989m { 2.57534m 3.02703m
+{ 2.14677m 2.59846m }
+3.00391m 2.59846m }
+3.00391m 3.16989m }
+Path BackSilk
+{ -0.29687m -4.54988m W 0.14286m S 0.14286m 0.56027m -4.83559m -0.29687m -5.12131m
+}
+Path BackSilk
+{ -0.15402m -5.97845m W 0.14286m S 0.14286m -0.29687m -5.83559m -0.29687m
+-5.54988m -0.15402m -5.40702m 0.41741m -5.40702m 0.56027m -5.54988m 0.56027m
+-5.83559m 0.41741m -5.97845m }
+Path BackSilk
+{ -0.15402m -6.83559m W 0.14286m S 0.14286m -0.29687m -6.69273m -0.29687m
+-6.40702m -0.15402m -6.26416m 0.41741m -6.26416m 0.56027m -6.40702m 0.56027m
+-6.69273m 0.41741m -6.83559m }
+Path BackSilk
+{ 150 50 W 10 S 10 150 75 50 75 50 50 -50 50 -50 -150 250 -150 250 50 150
+50 }
+}
+
+
+Part VIA { Name VIA6 Loc { 2075 3775 }
+}
+Part VIA { Name VIA228 Loc { 3275 2350 }
+}
+Part VIA { Name VIA225 Loc { 3275 2400 }
+}
+Part 0603 { Name R26 Loc { 4910 2075 180 }
+NameData { 60 4890 2140 0 Center }
+}
+Part DIODE-SOD323 { Name D4 Loc { 3075 4050 180 }
+NameData { 60 79.88355m 103.98044m 0 Center }
+}
+Part TSSOP14 { Name IC5 Loc { 4905 3855 }
+NameData { 60 133.08m 96.87355m 90 Center }
+}
+Part 0603 { Name C12 Loc { 3750 1975 }
+}
+Part 0603 { Name R38 Loc { 3615 2975 }
+NameData { 60 3675 3020 0 Center }
+}
+Part led3mm { Name RL7 Loc { 54.61620m 2400 }
+NameData { 40 58.10057m 59.05942m 0 Center }
+}
+Part 0603 { Name R9 Loc { 40 1450 }
+NameData { 60 2.41118m 37.84431m 0 Center }
+}
+Part 0603 { Name F1 Loc { 4000 215 90 }
+NameData { 60 104.24155m 6.88001m 90 Center }
+}
+Part VIA { Name VIA120 Loc { 2150 3675 }
+}
+Part 0603 { Name R1 Loc { 725 100 }
+NameData { 60 19.73534m 3.52331m 0 Center }
+}
+Part VIA { Name VIA65 Loc { 1950 1675 }
+}
+Part led3mm { Name RL9 Loc { 13.97620m 1350 }
+NameData { 40 17.57573m 32.25198m 0 Center }
+}
+Part 0603 { Name R40 Loc { 3565 2650 }
+NameData { 60 87.84278m 66.67040m 0 Center }
+}
+Part VIA { Name VIA51 Loc { 400 125 }
+}
+Part VIA { Name VIA26 Loc { 1250 575 }
+}
+Part VIA { Name VIA25 Loc { 1150 575 }
+}
+Part VIA { Name VIA244 Loc { 3325 2600 }
+}
+Part VIA { Name VIA45 Loc { 1725 450 }
+}
+Part "TL2285 push" { Name S4 Loc { 58.58m 81.63m 180 }
+}
+Part VIA { Name VIA64 Loc { 850 4000 }
+}
+Part VIA { Name VIA63 Loc { 825 2950 }
+}
+Part led3mm { Name L4 Loc { 74.93620m 3250 }
+NameData { 40 78.12323m 80.71944m 0 Center }
+}
+Part DIODE-SOD323 { Name D22 Loc { 2000 2220 90 }
+NameData { 60 2030 2350 90 Center }
+}
+Part VIA { Name VIA140 Loc { 1475 2950 }
+}
+Part VIA { Name VIA80 Loc { 750 1700 }
+}
+Part VIA { Name VIA27 Loc { 1925 550 90 }
+}
+Part led3mm { Name L15 Loc { 54.61620m 100 }
+NameData { 40 58.35345m 0.59600m 0 Center }
+}
+Part VIA { Name VIA123 Loc { 3525 950 }
+}
+Part VIA { Name VIA92 Loc { 1775 2725 }
+}
+Part VIA { Name VIA54 Loc { 1250 625 }
+}
+Part VIA { Name VIA62 Loc { 850 975 }
+}
+Part VIA { Name VIA57 Loc { 1500 700 }
+}
+Part VIA { Name VIA43 Loc { 1000 150 }
+}
+Part VIA { Name VIA24 Loc { 2900 1625 }
+}
+Part 0603 { Name C7 Loc { 1615 2850 }
+NameData { 60 42.32050m 73.42574m 0 Center }
+}
+Part DIODE-SOD323 { Name D1 Loc { 755 4050 180 }
+NameData { 60 20.95555m 103.98044m 0 Center }
+}
+Part VIA { Name VIA28 Loc { 1950 575 }
+}
+Part VIA { Name VIA58 Loc { 2300 800 }
+}
+Part TSSOP14 { Name IC3 Loc { 1500 1706 }
+NameData { 60 41.55589m 37.42904m 0 Center }
+}
+Part DIODE-SOD323 { Name D2 Loc { 39.36999m 4050 180 }
+NameData { 60 41.14854m 103.98044m 0 Center }
+}
+Part 0603 { Name R5 Loc { 40 2500 }
+NameData { 60 2.24926m 64.52269m 0 Center }
+}
+Part VIA { Name VIA5 Loc { 1925 3775 }
+}
+Part DIODE-SOD323 { Name D10 Loc { 39.36999m 1950 180 }
+}
+Part DIODE-SOD323 { Name D8 Loc { 3100 2975 -90 }
+NameData { 60 3130 2910 90 Center }
+}
+Part panasoniccapC { Name C9 Loc { 3750 46.88m -90 }
+NameData { 50 3575 45.61m -90 }
+}
+Part VIA { Name VIA60 Loc { 2750 625 }
+}
+Part led3mm { Name RL3 Loc { 54.61620m 3450 }
+NameData { 40 58.11340m 85.73211m 0 Center }
+}
+Part VIA { Name VIA87 Loc { 3175 650 }
+}
+Part "9mm alpha" { Name P11 Loc { 2100 1500 }
+NameData { 60 51.82131m 51.22987m 0 Center }
+}
+Part VIA { Name VIA35 Loc { 625 1025 }
+}
+Part VIA { Name VIA1 Loc { 1275 3750 }
+}
+Part VIA { Name VIA44 Loc { 1950 625 }
+}
+Part VIA { Name VIA191 Loc { 3925 2875 }
+}
+Part "TL2285 push" { Name S13 Loc { -2.38m 1.62m 180 }
+}
+Part 0603 { Name R29 Loc { 5050 3075 }
+NameData { 60 129.76802m 75.57978m 0 Center }
+}
+Part PJ301BM { Name J1 Loc { 4950 100 }
+NameData { 50 121.45004m 12.96508m 0 }
+}
+Part VIA { Name VIA8 Loc { 2900 3725 }
+}
+Part VIA { Name VIA29 Loc { 2075 575 }
+}
+Part DIODE-SOD323 { Name D27 Loc { 2350 800 180 }
+NameData { 60 61.63838m 17.51805m 0 Center }
+}
+Part DIODE-SOD323 { Name D34 Loc { 4820 3550 }
+NameData { 60 117.81683m 89.55406m 0 Center }
+}
+Part VIA { Name VIA234 Loc { 3375 2350 }
+}
+Part "TL2285 push" { Name S5 Loc { -2.38m 54.96m 180 }
+}
+Part VIA { Name VIA197 Loc { 4350 2900 }
+}
+Part led3mm { Name RL2 Loc { 34.29620m 3450 }
+NameData { 40 37.79824m 85.83221m 0 Center }
+}
+Part "9mm alpha" { Name P16 Loc { 2900 450 }
+NameData { 60 72.11124m 24.67807m 0 Center }
+}
+Part VIA { Name VIA167 Loc { 4650 3125 }
+}
+Part VIA { Name VIA231 Loc { 3325 2350 }
+}
+Part VIA { Name VIA162 Loc { 5000 3875 }
+}
+Part VIA { Name VIA166 Loc { 4800 3350 }
+}
+Part 0603 { Name C19 Loc { 4390 3175 }
+NameData { 60 108.84606m 80.02151m 0 Center }
+}
+Part VIA { Name VIA158 Loc { 4675 3750 }
+}
+Part 0603 { Name C23 Loc { 3925 2765 90 }
+NameData { 60 102.20316m 71.59809m 90 Center }
+}
+Part led3mm { Name RL11 Loc { 54.61620m 1350 }
+NameData { 40 58.60337m 32.38983m 0 Center }
+}
+Part VIA { Name VIA161 Loc { 4975 3775 }
+}
+Part VIA { Name VIA235 Loc { 3400 2375 }
+}
+Part 0603 { Name C18 Loc { 5075 3925 90 }
+NameData { 60 129.60099m 104.82462m 90 Center }
+}
+Part VIA { Name VIA177 Loc { 4550 3325 }
+}
+Part PJ301BM { Name J4 Loc { 4400 100 }
+NameData { 50 107.58697m 12.78335m 0 }
+}
+Part DIODE-SOD323 { Name D5 Loc { 750 3000 180 }
+NameData { 60 20.90541m 77.42559m 0 Center }
+}
+Part VIA { Name VIA241 Loc { 3500 2375 }
+}
+Part 0603 { Name R35 Loc { 3450 3050 }
+NameData { 60 85.08630m 76.82326m 0 Center }
+}
+Part TSSOP14 { Name IC1 Loc { 1500 3806 }
+NameData { 60 42.02097m 90.91620m 0 Center }
+}
+Part led3mm { Name L8 Loc { 74.93620m 2200 }
+NameData { 40 78.21797m 53.97818m 0 Center }
+}
+Part "9mm alpha" { Name P14 Loc { 1300 450 }
+NameData { 60 31.74590m 24.57900m 0 Center }
+}
+Part VIA { Name VIA220 Loc { 3300 2525 }
+}
+Part 0603 { Name C13 Loc { 3750 1275 }
+NameData { 60 3800 1190 0 Center }
+}
+Part 0603 { Name R19 Loc { 4740 3775 }
+NameData { 60 117.87109m 95.29715m 0 Center }
+}
+Part 0603 { Name R18 Loc { 4740 3925 }
+NameData { 60 117.88359m 99.06511m 0 Center }
+}
+Part VIA { Name VIA74 Loc { 3775 550 }
+}
+Part 0603 { Name R17 Loc { 4740 3850 }
+NameData { 60 117.83008m 97.14200m 0 Center }
+}
+Part "SOD-123 diode" { Name Z1 Loc { 4500 94.09m -90 }
+NameData { 60 4395 3750 -90 Center }
+}
+Part VIA { Name VIA90 Loc { 3450 650 }
+}
+Part VIA { Name VIA101 Loc { 725 2275 }
+}
+Part DIODE-SOD323 { Name D15 Loc { 2350 900 180 }
+NameData { 60 61.65440m 24.14278m 0 Center }
+}
+Part VIA { Name VIA102 Loc { 825 2275 }
+}
+Part VIA { Name VIA143 Loc { 1525 2075 }
+}
+Part VIA { Name VIA111 Loc { 625 2750 }
+}
+Part VIA { Name VIA103 Loc { 3075 1125 }
+}
+Part VIA { Name VIA107 Loc { 3225 350 }
+}
+Part 0603 { Name C5 Loc { 1615 750 }
+NameData { 60 42.25134m 20.05795m 0 Center }
+}
+Part led3mm { Name RL12 Loc { 74.93620m 1350 }
+NameData { 40 78.77880m 32.34998m 0 Center }
+}
+Part panasoniccapC { Name C11 Loc { 3750 2350 -90 }
+NameData { 50 98.79496m 58.89644m -90 }
+}
+Part VIA { Name VIA183 Loc { 3775 3175 }
+}
+Part led3mm { Name L3 Loc { 54.61620m 3250 }
+NameData { 40 57.79147m 80.60016m 0 Center }
+}
+Part VIA { Name VIA190 Loc { 3675 2675 }
+}
+Part VIA { Name VIA193 Loc { 3850 2525 }
+}
+Part VIA { Name VIA196 Loc { 3850 3450 }
+}
+Part 0603 { Name R34 Loc { 3600 3250 }
+NameData { 60 92.97982m 83.85324m 0 Center }
+}
+Part VIA { Name VIA171 Loc { 3950 1950 }
+}
+Part VIA { Name VIA105 Loc { 3100 575 }
+}
+Part VIA { Name VIA108 Loc { 3525 475 }
+}
+Part VIA { Name VIA153 Loc { 1625 1500 }
+}
+Part VIA { Name VIA148 Loc { 2350 375 }
+}
+Part VIA { Name VIA149 Loc { 1700 3950 }
+}
+Part VIA { Name VIA151 Loc { 1600 2575 }
+}
+Part VIA { Name VIA114 Loc { 1500 2800 }
+}
+Part VIA { Name VIA147 Loc { 2350 200 }
+}
+Part VIA { Name VIA3 Loc { 1925 3725 }
+}
+Part DIODE-SOD323 { Name D16 Loc { 3075 900 180 }
+NameData { 60 79.93585m 24.44201m 0 Center }
+}
+Part VIA { Name VIA34 Loc { 3975 150 }
+}
+Part VIA { Name VIA36 Loc { 900 1025 }
+}
+Part VIA { Name VIA33 Loc { 3775 650 }
+}
+Part led3mm { Name L12 Loc { 74.93620m 1150 }
+NameData { 40 78.47851m 27.38263m 0 Center }
+}
+Part VIA { Name VIA38 Loc { 900 2075 }
+}
+Part VIA { Name VIA127 Loc { 3050 3125 }
+}
+Part VIA { Name VIA181 Loc { 4300 2325 }
+}
+Part VIA { Name VIA7 Loc { 2725 3725 }
+}
+Part 0603 { Name R15 Loc { 1540 300 }
+NameData { 60 40.36192m 8.39296m 0 Center }
+}
+Part VIA { Name VIA18 Loc { 2100 1600 }
+}
+Part VIA { Name VIA17 Loc { 1925 1600 }
+}
+Part DIODE-SOD323 { Name D6 Loc { 1545 3000 180 }
+NameData { 60 41.12487m 77.39362m 0 Center }
+}
+Part VIA { Name VIA15 Loc { 1300 1650 }
+}
+Part VIA { Name VIA12 Loc { 2100 2650 }
+}
+Part VIA { Name VIA11 Loc { 1925 2650 }
+}
+Part POWER { Name CN2 Loc { 3400 1425 }
+}
+Part THONKPOT { Name P18 Loc { 5050 1400 }
+NameData { 60 125.93179m 49.08867m 0 Center }
+}
+Part led3mm { Name L6 Loc { 34.29620m 2200 }
+NameData { 40 37.27722m 53.90039m 0 Center }
+}
+Part VIA { Name VIA226 Loc { 3300 2475 }
+}
+Part VIA { Name VIA61 Loc { 850 1875 }
+}
+Part VIA { Name VIA246 Loc { 3350 2625 }
+}
+Part VIA { Name VIA89 Loc { 3725 650 }
+}
+Part 0603 { Name R21 Loc { 4740 3700 }
+NameData { 60 117.88959m 93.37153m 0 Center }
+}
+Part DIODE-SOD323 { Name D30 Loc { 1575 175 90 }
+NameData { 60 38.51647m 4.12344m 90 Center }
+}
+Part VIA { Name VIA32 Loc { 2850 575 }
+}
+Part VIA { Name VIA55 Loc { 2600 975 }
+}
+Part DIODE-SOD323 { Name D28 Loc { 400 170 90 }
+NameData { 60 10.84222m 7.19179m 90 Center }
+}
+Part VIA { Name VIA85 Loc { 2300 1850 }
+}
+Part "9mm alpha" { Name P9 Loc { 500 1500 }
+NameData { 60 10.97361m 51.20009m 0 Center }
+}
+Part TSSOP14 { Name IC6 Loc { 3780 3055 }
+NameData { 60 99.55181m 78.50583m 0 Center }
+}
+Part VIA { Name VIA160 Loc { 4825 3475 }
+}
+Part 0603 { Name R28 Loc { 4900 3150 }
+NameData { 60 125.95755m 81.33376m 0 Center }
+}
+Part VIA { Name VIA59 Loc { 2850 625 }
+}
+Part VIA { Name VIA40 Loc { 3850 700 }
+}
+Part VIA { Name VIA42 Loc { 925 450 }
+}
+Part VIA { Name VIA159 Loc { 4900 3650 }
+}
+Part void { Name D32 Loc { 90.06m 1275 }
+NameData { 60 88.85245m 29.68122m 0 Center }
+ValueData { 0 90.06m 1275 0 }
+Pad A { Rectangle 1.20m 0.70m }
+Pin 0 { A 0 0 3400 1275 0 P }
+Pin 10 { A 0 0 90.06m 1275 0 P }
+Path S 1 { 87.13900m 1300 W 10 S 10 87.13900m 1250 }
+Path S 1 { 87.13900m 1305 W 10 S 10 89.29800m 1305 89.29800m 1245 87.13900m
+1245 }
+Path S 1 { 87.64700m 1300 W 10 S 10 87.64700m 1250 }
+}
+Part VIA { Name VIA152 Loc { 1700 2900 }
+}
+Part 0603 { Name C3 Loc { 3315 125 }
+NameData { 60 3360 20 0 Center }
+}
+Part 0603 { Name R20 Loc { 4740 3625 }
+NameData { 60 117.81158m 91.46542m 0 Center }
+}
+Part DIODE-SOD323 { Name D17 Loc { 1200 3270 90 }
+NameData { 60 31.29741m 86.39609m 90 Center }
+}
+Part "9mm alpha" { Name P6 Loc { 1300 2550 }
+NameData { 60 31.34698m 77.88226m 0 Center }
+}
+Part "TL2285 push" { Name S14 Loc { 17.94m 1.62m 180 }
+}
+Part VIA { Name VIA86 Loc { 3500 400 }
+}
+Part led3mm { Name L14 Loc { 34.29620m 100 }
+NameData { 40 31.66961m 0.67768m 0 Center }
+}
+Part VIA { Name VIA50 Loc { 625 525 }
+}
+TextPart { Name "GATE LENGTH" Lay { S 1 1.0 } Loc { 119.67741m 32.48952m } Size { 50 } Font OpenSans-Bold 300
+
+Path S 1 { 120.58455m 33.39666m W 0.18143m S 0.18143m 120.40312m 33.57809m 120.04027m
+33.57809m 119.85884m 33.39666m 119.85884m 32.67095m 120.04027m 32.48952m
+120.40312m 32.48952m 120.58455m 32.67095m 120.58455m 32.94309m 120.40312m
+32.94309m }
+Path S 1 { 120.94741m 32.48952m W 0.18143m S 0.18143m 121.31027m 33.57809m 121.53705m
+32.89773m { 121.08348m 32.89773m }
+121.67312m 32.48952m }
+Path S 1 { 122.39884m 32.48952m W 0.18143m S 0.18143m 122.39884m 33.57809m { 122.03598m
+33.57809m }
+122.76170m 33.57809m }
+Path S 1 { 123.85027m 33.57809m W 0.18143m S 0.18143m 123.12455m 33.57809m 123.12455m
+33.03381m { 123.66884m 33.03381m }
+123.12455m 32.48952m 123.85027m 32.48952m }
+Path S 1 { 125.30170m 33.57809m W 0.18143m S 0.18143m 125.30170m 32.48952m 126.02741m
+32.48952m }
+Path S 1 { 127.11598m 33.57809m W 0.18143m S 0.18143m 126.39027m 33.57809m 126.39027m
+33.03381m { 126.93455m 33.03381m }
+126.39027m 32.48952m 127.11598m 32.48952m }
+Path S 1 { 127.47884m 32.48952m W 0.18143m S 0.18143m 127.47884m 33.57809m 128.20455m
+32.48952m 128.20455m 33.57809m }
+Path S 1 { 129.29312m 33.39666m W 0.18143m S 0.18143m 129.11170m 33.57809m 128.74884m
+33.57809m 128.56741m 33.39666m 128.56741m 32.67095m 128.74884m 32.48952m
+129.11170m 32.48952m 129.29312m 32.67095m 129.29312m 32.94309m 129.11170m
+32.94309m }
+Path S 1 { 130.01884m 32.48952m W 0.18143m S 0.18143m 130.01884m 33.57809m { 129.65598m
+33.57809m }
+130.38170m 33.57809m }
+Path S 1 { 130.74455m 33.57809m W 0.18143m S 0.18143m 130.74455m 33.03381m { 131.47027m
+33.03381m { 131.47027m 32.48952m }
+131.47027m 33.57809m }
+130.74455m 32.48952m }
+}
+Part VIA { Name VIA104 Loc { 3075 800 }
+}
+Part VIA { Name VIA91 Loc { 3450 775 }
+}
+Part VIA { Name VIA94 Loc { 3700 550 }
+}
+Part DIODE-SOD323 { Name D12 Loc { 3100 1875 -90 }
+NameData { 60 81.18641m 49.45241m 90 Center }
+}
+Part VIA { Name VIA96 Loc { 3425 825 }
+}
+Part VIA { Name VIA138 Loc { 1550 3275 }
+}
+Part VIA { Name VIA82 Loc { 2600 2025 }
+}
+Part VIA { Name VIA84 Loc { 1500 1750 }
+}
+Part VIA { Name VIA117 Loc { 3475 925 }
+}
+Part VIA { Name VIA83 Loc { 2525 1850 }
+}
+Part VIA { Name VIA70 Loc { 2825 1250 }
+}
+Part VIA { Name VIA71 Loc { 1725 1500 }
+}
+Part VIA { Name VIA73 Loc { 3175 600 }
+}
+Part 0603 { Name R13 Loc { 40 400 }
+NameData { 60 2.67090m 11.06271m 0 Center }
+}
+Part 0603 { Name R11 Loc { 1540 1350 }
+NameData { 60 40.64924m 35.23044m 0 Center }
+}
+Part VIA { Name VIA233 Loc { 3375 2400 }
+}
+Part VIA { Name VIA236 Loc { 3425 2400 }
+}
+Part VIA { Name VIA186 Loc { 3375 2800 }
+}
+Part 0603 { Name C21 Loc { 4900 3075 }
+NameData { 60 126.06432m 75.34863m 0 Center }
+}
+Part 0603 { Name R39 Loc { 3565 2800 }
+NameData { 60 87.83778m 70.51980m 0 Center }
+}
+Part VIA { Name VIA200 Loc { 3425 2150 }
+}
+Part VIA { Name VIA210 Loc { 3375 2700 }
+}
+Part VIA { Name VIA201 Loc { 3575 2200 }
+}
+Part void { Name X Loc { 81.91374m 59.06297m }
+NameData { 0 81.91374m 59.06297m 0 }
+ValueData { 0 81.91374m 59.06297m 0 }
+Path L 1 { 82.54874m 59.06297m W 10 S 10 90.16874m 59.06297m }
+Path L 1 { 81.95109m 59.66062m W 10 S 10 90.16874m 59.66062m }
+Path L 1 { 81.91374m 60.25826m W 10 S 10 90.16874m 60.25826m }
+Path L 1 { 81.91374m 60.85591m W 10 S 10 90.16874m 60.85591m }
+Path L 1 { 81.91374m 61.45356m W 10 S 10 90.16874m 61.45356m }
+Path L 1 { 81.91374m 62.05121m W 10 S 10 90.16874m 62.05121m }
+Path L 1 { 81.91374m 62.64885m W 10 S 10 90.16874m 62.64885m }
+Path L 1 { 81.91374m 63.24650m W 10 S 10 90.16874m 63.24650m }
+Path L 1 { 81.91374m 63.84415m W 10 S 10 90.16874m 63.84415m }
+Path L 1 { 81.91374m 64.44179m W 10 S 10 90.16874m 64.44179m }
+Path L 1 { 81.91374m 65.03944m W 10 S 10 90.16874m 65.03944m }
+Path L 1 { 81.91374m 65.63709m W 10 S 10 90.16874m 65.63709m }
+Path L 1 { 81.91374m 66.23473m W 10 S 10 89.98197m 66.23473m }
+Path L 1 { 81.91374m 66.83238m W 10 S 10 89.38432m 66.83238m }
+Path L 1 { 81.91374m 67.43003m W 10 S 10 88.89874m 67.43003m }
+Path L 1 { 81.91374m 68.02768m W 10 S 10 88.89874m 68.02768m }
+Path L 1 { 81.95110m 68.62532m W 10 S 10 88.89874m 68.62532m }
+}
+Part void { Name X Loc { 81.91374m 59.06297m }
+NameData { 0 81.91374m 59.06297m 0 }
+ValueData { 0 81.91374m 59.06297m 0 }
+Path L 1 { 82.54874m 59.06297m W 10 S 10 90.16874m 59.06297m }
+Path L 1 { 81.95109m 59.66062m W 10 S 10 90.16874m 59.66062m }
+Path L 1 { 81.91374m 60.25826m W 10 S 10 90.16874m 60.25826m }
+Path L 1 { 81.91374m 60.85591m W 10 S 10 90.16874m 60.85591m }
+Path L 1 { 81.91374m 61.45356m W 10 S 10 90.16874m 61.45356m }
+Path L 1 { 81.91374m 62.05121m W 10 S 10 90.16874m 62.05121m }
+Path L 1 { 81.91374m 62.64885m W 10 S 10 90.16874m 62.64885m }
+Path L 1 { 81.91374m 63.24650m W 10 S 10 90.16874m 63.24650m }
+Path L 1 { 81.91374m 63.84415m W 10 S 10 90.16874m 63.84415m }
+Path L 1 { 81.91374m 64.44179m W 10 S 10 90.16874m 64.44179m }
+Path L 1 { 81.91374m 65.03944m W 10 S 10 90.16874m 65.03944m }
+Path L 1 { 81.91374m 65.63709m W 10 S 10 90.16874m 65.63709m }
+Path L 1 { 81.91374m 66.23473m W 10 S 10 89.98197m 66.23473m }
+Path L 1 { 81.91374m 66.83238m W 10 S 10 89.38432m 66.83238m }
+Path L 1 { 81.91374m 67.43003m W 10 S 10 88.89874m 67.43003m }
+Path L 1 { 81.91374m 68.02768m W 10 S 10 88.89874m 68.02768m }
+Path L 1 { 81.95110m 68.62532m W 10 S 10 88.89874m 68.62532m }
+}
+Part VIA { Name VIA211 Loc { 3400 2675 }
+}
+Part VIA { Name VIA212 Loc { 3250 2625 }
+}
+Part VIA { Name VIA224 Loc { 3250 2375 }
+}
+Part 0603 { Name C22 Loc { 3850 2765 90 }
+NameData { 60 96.56285m 71.56784m 90 Center }
+}
+Part TSSOP14 { Name IC2 Loc { 1500 70.00239m }
+NameData { 60 41.65388m 64.08426m 0 Center }
+}
+Part void { Name R2 Loc { 725 3450 }
+NameData { 60 19.64615m 88.75063m 0 Center }
+ValueData { 0 725 3450 0 }
+Pad A { Rectangle 40 30 }
+Pin 1 { A 0 0 725 3450 0 P }
+Pin 2 { A 0 0 785 3450 0 P }
+}
+Part VIA { Name VIA78 Loc { 1250 1700 }
+}
+Part VIA { Name VIA180 Loc { 4075 2125 }
+}
+Part VIA { Name VIA31 Loc { 2750 575 }
+}
+Part led3mm { Name RL8 Loc { 74.93620m 2400 }
+NameData { 40 78.38760m 58.97410m 0 Center }
+}
+Part led3mm { Name L16 Loc { 74.93620m 100 }
+NameData { 40 78.67574m 0.58581m 0 Center }
+}
+Part led3mm { Name L2 Loc { 34.29620m 3250 }
+NameData { 40 37.31248m 80.76716m 0 Center }
+}
+Part 0603 { Name R4 Loc { 2340 3450 }
+NameData { 60 60.73913m 88.60301m 0 Center }
+}
+Part 0603 { Name R7 Loc { 1540 2400 }
+NameData { 60 40.36192m 61.73296m 0 Center }
+}
+Part 0603 { Name R14 Loc { 740 300 }
+NameData { 60 20.04192m 8.39296m 0 Center }
+}
+Part "9mm alpha" { Name P17 Loc { 4200 3500 }
+}
+Part VIA { Name VIA66 Loc { 97.48299m 13.97388m }
+}
+Part VIA { Name VIA169 Loc { 4500 3175 }
+}
+Part 0603 { Name R31 Loc { 4340 1175 }
+NameData { 60 4420 1220 0 Center }
+}
+Part VIA { Name VIA185 Loc { 3500 2800 }
+}
+Part VIA { Name VIA133 Loc { 1575 1475 }
+}
+Part VIA { Name VIA179 Loc { 3800 2125 }
+}
+Part void { Name X Loc { 3225 2325 }
+NameData { 0 3225 2325 0 }
+ValueData { 0 3225 2325 0 }
+Path L 1 { 3250 2325 W 10 S 10 3550 2325 }
+Path L 1 { 81.95235m 59.65265m W 10 S 10 3550 59.65265m }
+Path L 1 { 3225 60.25029m W 10 S 10 3550 60.25029m }
+Path L 1 { 3225 60.84794m W 10 S 10 3550 60.84794m }
+Path L 1 { 3225 61.44559m W 10 S 10 3550 61.44559m }
+Path L 1 { 3225 62.04324m W 10 S 10 3550 62.04324m }
+Path L 1 { 3225 62.64088m W 10 S 10 3550 62.64088m }
+Path L 1 { 3225 63.23853m W 10 S 10 3550 63.23853m }
+Path L 1 { 3225 63.83618m W 10 S 10 3550 63.83618m }
+Path L 1 { 3225 64.43382m W 10 S 10 3550 64.43382m }
+Path L 1 { 3225 65.03147m W 10 S 10 3550 65.03147m }
+Path L 1 { 3225 65.62912m W 10 S 10 3550 65.62912m }
+Path L 1 { 3225 66.22676m W 10 S 10 89.98323m 66.22676m }
+Path L 1 { 3225 66.82441m W 10 S 10 89.38558m 66.82441m }
+Path L 1 { 3225 67.42206m W 10 S 10 3500 67.42206m }
+Path L 1 { 3225 68.01971m W 10 S 10 3500 68.01971m }
+Path L 1 { 81.95236m 68.61735m W 10 S 10 3500 68.61735m }
+}
+Part VIA { Name VIA213 Loc { 3275 2600 }
+}
+Part VIA { Name VIA178 Loc { 3700 2075 }
+}
+Part led3mm { Name L5 Loc { 13.97620m 2200 }
+NameData { 40 17.28619m 53.95250m 0 Center }
+}
+Part VIA { Name VIA217 Loc { 3275 2500 }
+}
+Part VIA { Name VIA176 Loc { 4775 3050 }
+}
+Part VIA { Name VIA188 Loc { 3650 2025 }
+}
+Part VIA { Name VIA205 Loc { 3325 2650 }
+}
+Part "TL2285 push" { Name S8 Loc { 58.58m 54.96m 180 }
+}
+Part VIA { Name VIA250 Loc { 4350 3925 }
+}
+Part 0603 { Name R22 Loc { 4390 3325 }
+NameData { 60 108.79881m 83.77883m 0 Center }
+}
+Part 0603 { Name R37 Loc { 3450 2975 }
+NameData { 60 85.11323m 74.96346m 0 Center }
+}
+Part "TL2285 push" { Name S11 Loc { 38.26m 28.29m 180 }
+}
+Part VIA { Name VIA39 Loc { 3800 725 }
+}
+Part VIA { Name VIA240 Loc { 3475 2350 }
+}
+Part 0603 { Name R10 Loc { 740 1350 }
+NameData { 60 20.26193m 35.37953m 0 Center }
+}
+Part VIA { Name VIA187 Loc { 3625 1900 }
+}
+Part VIA { Name VIA48 Loc { 1400 525 }
+}
+Part VIA { Name VIA223 Loc { 3275 2450 }
+}
+Part VIA { Name VIA9 Loc { 1275 2700 }
+}
+Part "TL2285 push" { Name S12 Loc { 58.58m 28.29m 180 }
+}
+Part VIA { Name VIA68 Loc { 3125 800 }
+}
+Part panasoniccapC { Name C15 Loc { 5025 3600 -90 }
+NameData { 50 126.22927m 84.72143m 0 }
+}
+Part VIA { Name VIA2 Loc { 1125 3750 }
+}
+Part "9mm alpha" { Name P2 Loc { 1300 3600 }
+NameData { 60 31.30195m 104.43257m 0 Center }
+}
+Part VIA { Name VIA118 Loc { 2000 3325 }
+}
+Part VIA { Name VIA4 Loc { 2100 3725 }
+}
+Part VIA { Name VIA145 Loc { 3850 900 }
+}
+Part VIA { Name VIA136 Loc { 1525 825 }
+}
+TextPart { Name "STEP RANGE" Lay { S 1 1.0 } Loc { 113.75571m 2900 } Size { 50 } Font OpenSans-Bold 300
+
+Path S 1 { 114.66285m 74.56714m W 0.18143m S 0.18143m 114.48142m 74.74857m 114.11857m
+74.74857m 113.93714m 74.56714m 113.93714m 74.38571m 114.11857m 74.20429m
+114.48142m 74.20429m 114.66285m 74.02286m 114.66285m 73.84143m 114.48142m
+2900 114.11857m 2900 113.93714m 73.84143m }
+Path S 1 { 115.38857m 2900 W 0.18143m S 0.18143m 115.38857m 74.74857m { 115.02571m
+74.74857m }
+115.75142m 74.74857m }
+Path S 1 { 4600 74.74857m W 0.18143m S 0.18143m 116.11428m 74.74857m 116.11428m
+74.20429m { 116.65857m 74.20429m }
+116.11428m 2900 4600 2900 }
+Path S 1 { 117.20285m 2900 W 0.18143m S 0.18143m 117.20285m 74.74857m 117.74714m
+74.74857m 117.92857m 74.56714m 117.92857m 74.38571m 117.74714m 74.20429m
+117.20285m 74.20429m }
+Path S 1 { 4700 2900 W 0.18143m S 0.18143m 4700 74.74857m 119.92428m 74.74857m
+120.10571m 74.56714m 120.10571m 74.38571m 119.92428m 74.20429m { 4700 74.20429m
+}
+120.10571m 2900 }
+Path S 1 { 120.46857m 2900 W 0.18143m S 0.18143m 120.83142m 74.74857m 121.05821m
+74.06821m { 120.60464m 74.06821m }
+121.19428m 2900 }
+Path S 1 { 121.55714m 2900 W 0.18143m S 0.18143m 121.55714m 74.74857m 122.28285m
+2900 122.28285m 74.74857m }
+Path S 1 { 123.37142m 74.56714m W 0.18143m S 0.18143m 4850 74.74857m 122.82714m
+74.74857m 122.64571m 74.56714m 122.64571m 73.84143m 122.82714m 2900 4850
+2900 123.37142m 73.84143m 123.37142m 74.11357m 4850 74.11357m }
+Path S 1 { 4900 74.74857m W 0.18143m S 0.18143m 123.73428m 74.74857m 123.73428m
+74.20429m { 124.27857m 74.20429m }
+123.73428m 2900 4900 2900 }
+}
+Part VIA { Name VIA21 Loc { 2725 2675 }
+}
+Part VIA { Name VIA125 Loc { 1425 3675 }
+}
+Part VIA { Name VIA128 Loc { 1250 3800 }
+}
+Part 0603 { Name C8 Loc { 1590 3900 }
+NameData { 60 41.61062m 100.10188m 0 Center }
+}
+Part "TL2285 push" { Name S6 Loc { 17.94m 54.96m 180 }
+}
+Part VIA { Name VIA23 Loc { 2725 1625 }
+}
+Part VIA { Name VIA22 Loc { 2900 2675 }
+}
+TextPart { Name ATT Lay { S 1 1.0 } Loc { 109.44109m 51.09029m } Size { 50 } Font Mohave 300
+
+Path S 1 { 109.62252m 51.09029m W 0.18143m S 0.18143m 109.98538m 52.17886m 110.21216m
+2027.5 { 109.75859m 2027.5 }
+110.34823m 51.09029m }
+Path S 1 { 111.07395m 51.09029m W 0.18143m S 0.18143m 111.07395m 52.17886m { 110.71109m
+52.17886m }
+111.43680m 52.17886m }
+Path S 1 { 112.16252m 51.09029m W 0.18143m S 0.18143m 112.16252m 52.17886m { 111.79966m
+52.17886m }
+112.52538m 52.17886m }
+}
+TextPart { Name "RATE IN" Lay { S 1 1.0 } Loc { 110.62230m 1063.3 } Size { 40 } Font OpenSans-Bold 300
+
+Path S 1 { 110.76744m 1063.3 W 0.14514m S 0.14514m 110.76744m 27.87868m 111.20287m
+27.87868m 111.34801m 27.73353m 111.34801m 27.58839m 111.20287m 27.44325m
+{ 110.76744m 27.44325m }
+111.34801m 1063.3 }
+Path S 1 { 111.63830m 1063.3 W 0.14514m S 0.14514m 111.92859m 27.87868m 112.11001m
+27.33439m { 111.74716m 27.33439m }
+112.21887m 1063.3 }
+Path S 1 { 112.79944m 1063.3 W 0.14514m S 0.14514m 112.79944m 27.87868m { 112.50916m
+27.87868m }
+113.08973m 27.87868m }
+Path S 1 { 113.96059m 27.87868m W 0.14514m S 0.14514m 113.38001m 27.87868m 113.38001m
+27.44325m { 113.81544m 27.44325m }
+113.38001m 1063.3 113.96059m 1063.3 }
+Path S 1 { 115.26687m 1063.3 W 0.14514m S 0.14514m 115.26687m 27.87868m }
+Path S 1 { 115.70230m 1063.3 W 0.14514m S 0.14514m 115.70230m 27.87868m 116.28287m
+1063.3 116.28287m 27.87868m }
+}
+Part VIA { Name VIA116 Loc { 1900 3825 }
+}
+Part VIA { Name VIA10 Loc { 1125 2700 }
+}
+Part "9mm alpha" { Name P19 Loc { 4775 2350 }
+}
+Part VIA { Name VIA100 Loc { 1450 2625 }
+}
+Part VIA { Name VIA175 Loc { 3125 3900 }
+}
+Part VIA { Name VIA194 Loc { 3850 2625 }
+}
+Part led3mm { Name L11 Loc { 54.61620m 1150 }
+NameData { 40 58.26603m 27.35922m 0 Center }
+}
+Part 0603 { Name C14 Loc { 3660 2475 180 }
+NameData { 60 92.99507m 64.20527m 0 Center }
+}
+Part 0603 { Name C20 Loc { 5050 3150 }
+NameData { 60 129.88729m 81.33651m 0 Center }
+}
+Part VIA { Name VIA95 Loc { 3500 600 }
+}
+Part VIA { Name VIA99 Loc { 1250 2150 }
+}
+Part VIA { Name VIA242 Loc { 3525 2350 }
+}
+Part VIA { Name VIA243 Loc { 3525 2400 }
+}
+Part "9mm alpha" { Name P10 Loc { 1300 1500 }
+NameData { 60 31.52727m 51.23696m 0 Center }
+}
+Part VIA { Name VIA81 Loc { 750 1225 }
+}
+Part led3mm { Name RL5 Loc { 13.97620m 2400 }
+NameData { 40 17.52500m 59.08836m 0 Center }
+}
+Part 0603 { Name R25 Loc { 5200 3525 90 }
+NameData { 60 5300 3590 90 Center }
+}
+Part VIA { Name VIA168 Loc { 5200 3450 }
+}
+Part VIA { Name VIA237 Loc { 3425 2350 }
+}
+Part VIA { Name VIA174 Loc { 3075 3475 }
+}
+Part VIA { Name VIA198 Loc { 4450 2900 }
+}
+Part VIA { Name VIA195 Loc { 3850 3300 }
+}
+Part VIA { Name VIA172 Loc { 3125 3475 }
+}
+Part 0603 { Name C24 Loc { 3565 2725 }
+NameData { 60 87.74883m 68.61914m 0 Center }
+}
+Part VIA { Name VIA199 Loc { 5275 3775 }
+}
+Part VIA { Name VIA238 Loc { 3450 2375 }
+}
+Part VIA { Name VIA206 Loc { 3350 2675 }
+}
+Part VIA { Name VIA215 Loc { 3275 2550 }
+}
+Part VIA { Name VIA113 Loc { 2300 2900 }
+}
+Part DIODE-SOD323 { Name D33 Loc { 4725 4000 180 }
+NameData { 60 117.91985m 100.97922m 0 Center }
+}
+Part led3mm { Name L13 Loc { 13.97620m 100 }
+NameData { 40 675 30 0 Center }
+}
+Part led3mm { Name RL10 Loc { 34.29620m 1350 }
+NameData { 40 38.23922m 32.37700m 0 Center }
+}
+Part void { Name X Loc { 3225 2325 }
+NameData { 0 3225 2325 0 }
+ValueData { 0 3225 2325 0 }
+Path L 1 { 3250 2325 W 10 S 10 3550 2325 }
+Path L 1 { 81.95235m 59.65265m W 10 S 10 3550 59.65265m }
+Path L 1 { 3225 60.25029m W 10 S 10 3550 60.25029m }
+Path L 1 { 3225 60.84794m W 10 S 10 3550 60.84794m }
+Path L 1 { 3225 61.44559m W 10 S 10 3550 61.44559m }
+Path L 1 { 3225 62.04324m W 10 S 10 3550 62.04324m }
+Path L 1 { 3225 62.64088m W 10 S 10 3550 62.64088m }
+Path L 1 { 3225 63.23853m W 10 S 10 3550 63.23853m }
+Path L 1 { 3225 63.83618m W 10 S 10 3550 63.83618m }
+Path L 1 { 3225 64.43382m W 10 S 10 3550 64.43382m }
+Path L 1 { 3225 65.03147m W 10 S 10 3550 65.03147m }
+Path L 1 { 3225 65.62912m W 10 S 10 3550 65.62912m }
+Path L 1 { 3225 66.22676m W 10 S 10 89.98323m 66.22676m }
+Path L 1 { 3225 66.82441m W 10 S 10 89.38558m 66.82441m }
+Path L 1 { 3225 67.42206m W 10 S 10 3500 67.42206m }
+Path L 1 { 3225 68.01971m W 10 S 10 3500 68.01971m }
+Path L 1 { 81.95236m 68.61735m W 10 S 10 3500 68.61735m }
+}
+Part VIA { Name VIA216 Loc { 3250 2525 }
+}
+Part VIA { Name VIA222 Loc { 3250 2425 }
+}
+Part VIA { Name VIA221 Loc { 3250 2475 }
+}
+Part VIA { Name VIA132 Loc { 1500 3850 }
+}
+Part VIA { Name VIA134 Loc { 1575 1275 }
+}
+Part led3mm { Name L7 Loc { 54.61620m 2200 }
+NameData { 40 57.74712m 53.86206m 0 Center }
+}
+Part "TL2285 push" { Name S3 Loc { 38.26m 81.63m 180 }
+}
+Part 0603 { Name R8 Loc { 2340 2400 }
+NameData { 60 60.68192m 61.73296m 0 Center }
+}
+Part VIA { Name VIA139 Loc { 1550 3150 }
+}
+Part VIA { Name VIA76 Loc { 400 1225 }
+}
+Part VIA { Name VIA130 Loc { 3700 950 }
+}
+Part VIA { Name VIA98 Loc { 3075 2075 }
+}
+Part VIA { Name VIA119 Loc { 1700 3600 }
+}
+Part VIA { Name VIA144 Loc { 1500 1925 }
+}
+Part VIA { Name VIA204 Loc { 3300 2675 }
+}
+Part 0603 { Name R23 Loc { 4390 3250 }
+NameData { 60 108.84331m 81.93923m 0 Center }
+}
+Part VIA { Name VIA208 Loc { 3275 2700 }
+}
+Part DIODE-SOD323 { Name D23 Loc { 2350 1850 180 }
+NameData { 60 2425 1745 0 Center }
+}
+Part "9mm alpha" { Name P8 Loc { 2900 2550 }
+NameData { 60 71.91385m 78.04353m 0 Center }
+}
+Part VIA { Name VIA13 Loc { 2075 2675 }
+}
+Part DIODE-SOD323 { Name D25 Loc { 1200 1170 90 }
+NameData { 60 31.18691m 32.94045m 90 Center }
+}
+Part VIA { Name VIA14 Loc { 1950 2675 }
+}
+Part VIA { Name VIA150 Loc { 1600 3575 }
+}
+Part 0603 { Name C2 Loc { 3325 875 }
+NameData { 60 85.92348m 23.31379m 0 Center }
+}
+Part VIA { Name VIA157 Loc { 3700 600 }
+}
+Part VIA { Name VIA19 Loc { 2075 1625 }
+}
+Part VIA { Name VIA135 Loc { 1575 1150 }
+}
+Part 0603 { Name R3 Loc { 1540 3450 }
+NameData { 60 40.48312m 88.70776m 0 Center }
+}
+Part VIA { Name VIA72 Loc { 1250 1100 }
+}
+Part VIA { Name VIA229 Loc { 3300 2375 }
+}
+Part void { Name D31 Loc { 3400 1975 180 }
+NameData { 60 88.79m 2045 0 Center }
+ValueData { 0 3400 1975 180 }
+Pad A { Rectangle 1.20m 0.70m }
+Pin 0 { A 0 0 90.06m 1975 0 P }
+Pin 10 { A 0 0 3400 1975 0 P }
+Path S 1 { 3515 1950 W 10 S 10 3515 2000 }
+Path S 1 { 3515 1945 W 10 S 10 3430 1945 3430 2005 3515 2005 }
+Path S 1 { 3495 1950 W 10 S 10 3495 2000 }
+}
+Part VIA { Name VIA207 Loc { 3375 2650 }
+}
+Part DIODE-SOD323 { Name D14 Loc { 1545 900 180 }
+NameData { 60 41.02155m 23.97044m 0 Center }
+}
+Part led3mm { Name RL14 Loc { 34.29620m 300 }
+NameData { 40 31.39324m 8.80772m 0 Center }
+}
+Part VIA { Name VIA131 Loc { 700 3800 }
+}
+Part 0603 { Name C6 Loc { 1615 1800 }
+NameData { 60 42.28751m 46.78858m 0 Center }
+}
+Part VIA { Name VIA46 Loc { 1650 250 }
+}
+Part VIA { Name VIA37 Loc { 625 2075 }
+}
+Part VIA { Name VIA182 Loc { 3925 2425 }
+}
+Part led3mm { Name RL13 Loc { 13.97620m 300 }
+NameData { 40 16.35081m 9.88011m 0 Center }
+}
+Part void { Name IC8 Loc { 3597 768 }
+NameData { 60 92.22767m 10.03689m 0 Center }
+ValueData { 0 3597 768 0 }
+Pad A { Rectangle 63 12 }
+Pad B { Rectangle 12 63 }
+Pin 1 { A 0 0 3629 747 0 P }
+Pin 10 { B 0 0 3711 475 0 P }
+Pin 11 { B 0 0 3743 475 0 P }
+Pin 12 { B 0 0 3774 475 0 P }
+Pin 13 { B 0 0 3806 475 0 P }
+Pin 14 { B 0 0 3837 475 0 P }
+Pin 15 { B 0 0 3869 475 0 P }
+Pin 16 { B 0 0 3900 475 0 P }
+Pin 17 { A 0 0 3951 526 0 P }
+Pin 18 { A 0 0 3951 558 0 P }
+Pin 19 { A 0 0 3951 589 0 P }
+Pin 2 { A 0 0 3629 715 0 P }
+Pin 20 { A 0 0 3951 621 0 P }
+Pin 21 { A 0 0 3951 652 0 P }
+Pin 22 { A 0 0 3951 684 0 P }
+Pin 23 { A 0 0 3951 715 0 P }
+Pin 24 { A 0 0 3951 747 0 P }
+Pin 25 { B 0 0 3900 797 0 P }
+Pin 26 { B 0 0 3869 797 0 P }
+Pin 27 { B 0 0 3837 797 0 P }
+Pin 28 { B 0 0 3806 797 0 P }
+Pin 29 { B 0 0 3774 797 0 P }
+Pin 3 { A 0 0 3629 684 0 P }
+Pin 30 { B 0 0 3743 797 0 P }
+Pin 31 { B 0 0 3711 797 0 P }
+Pin 32 { B 0 0 3680 797 0 P }
+Pin 4 { A 0 0 3629 652 0 P }
+Pin 5 { A 0 0 3629 621 0 P }
+Pin 6 { A 0 0 3629 589 0 P }
+Pin 7 { A 0 0 3629 558 0 P }
+Pin 8 { A 0 0 3629 526 0 P }
+Pin 9 { B 0 0 3680 475 0 P }
+Path S 1 { 93.86711m 18.23918m W 10 S 10 93.96279m 18.25822m 94.04389m 18.31241m
+94.09808m 18.39351m 94.11711m 18.48918m 94.09808m 18.58486m 94.04389m 18.66596m
+93.96279m 18.72015m 93.86711m 18.73918m 93.77144m 18.72015m 93.69034m 18.66596m
+93.63615m 18.58486m 93.61711m 18.48918m 93.63615m 18.39351m 93.69034m 18.31241m
+93.77144m 18.25822m 93.86711m 18.23918m }
+}
+Part VIA { Name VIA88 Loc { 3175 775 }
+}
+Part VIA { Name VIA122 Loc { 3375 1125 }
+}
+Part VIA { Name VIA141 Loc { 1550 2550 }
+}
+Part 0603 { Name C16 Loc { 4650 3300 }
+NameData { 60 119.56984m 85.11747m 0 Center }
+}
+Part led3mm { Name RL15 Loc { 54.61620m 300 }
+NameData { 40 58.56394m 5.72781m 0 Center }
+}
+Part DIODE-SOD323 { Name D18 Loc { 2000 3270 90 }
+NameData { 60 51.45154m 86.27704m 90 Center }
+}
+Part VIA { Name VIA79 Loc { 1150 1700 }
+}
+Part 0603 { Name R30 Loc { 4040 1175 }
+NameData { 60 104.02861m 31.04715m 0 Center }
+}
+Part "TL2285 push" { Name S9 Loc { -2.38m 28.29m 180 }
+}
+Part 0603 { Name R16 Loc { 3775 875 90 }
+NameData { 60 94.54822m 24.18113m 90 Center }
+}
+Part VIA { Name VIA20 Loc { 1950 1625 }
+}
+Part DIODE-SOD323 { Name D7 Loc { 2340 3000 180 }
+NameData { 60 61.38088m 77.57933m 0 Center }
+}
+Part PJ301BM { Name J2 Loc { 4950 650 }
+NameData { 50 121.12218m 26.92088m 0 }
+}
+Part VIA { Name VIA115 Loc { 3450 875 }
+}
+Part VIA { Name VIA75 Loc { 1450 1575 }
+}
+Part VIA { Name VIA170 Loc { 3950 1850 }
+}
+Part "TL2285 push" { Name S7 Loc { 38.26m 54.96m 180 }
+}
+Part VIA { Name VIA245 Loc { 3350 2575 }
+}
+Part ISP { Name CN1 Loc { 3850 300 -90 }
+NameData { 50 90.70739m 3.44527m 0 }
+}
+Part VIA { Name VIA129 Loc { 1150 3800 }
+}
+Part 0603 { Name R12 Loc { 2340 1350 }
+NameData { 60 60.65205m 35.41954m 0 Center }
+}
+Part VIA { Name VIA16 Loc { 1100 1650 }
+}
+Part DIODE-SOD323 { Name D19 Loc { 2350 2900 180 }
+NameData { 60 2425 2795 0 Center }
+}
+Part DIODE-SOD323 { Name D24 Loc { 400 1170 90 }
+NameData { 60 10.91641m 32.95749m 90 Center }
+}
+Part VIA { Name VIA30 Loc { 2100 550 }
+}
+Part void { Name P1 Loc { 500 3600 }
+NameData { 60 10.62016m 104.56406m 0 Center }
+ValueData { 0 500 3600 0 }
+Pad A { Circle 2.50m }
+Pad B { Rectangle 1.80m 1.80m }
+Pin 0 { A A A 200 3900 1.80m P }
+Pin 0 { A A A 600 3900 1.80m P }
+Pin 1 { B B B 500 3600 1m P }
+Pin 2 { B B B 400 3600 1m P }
+Pin 3 { B B B 300 3600 1m P }
+Path S 1 { 7.64491m 99.07663m W 10 S 10 302.5 99.51770m 7.79810m 99.94537m 7.98521m
+100.34663m 8.23916m 100.70932m 8.55223m 101.02239m 8.91491m 101.27634m
+9.31618m 101.46345m 9.74385m 101.57805m 10.18491m 101.61663m 10.62598m
+101.57805m 11.05365m 101.46345m 11.45491m 101.27634m 11.81760m 101.02239m
+12.13067m 100.70932m 12.38462m 100.34663m 12.57173m 99.94537m 12.68633m
+99.51770m 12.72491m 99.07663m 12.68633m 98.63557m 12.57173m 98.20790m 12.38462m
+97.80663m 12.13067m 97.44395m 11.81760m 97.13088m 11.45491m 96.87693m 11.05365m
+96.68982m 10.62598m 96.57522m 10.18491m 96.53663m 9.74385m 96.57522m 9.31618m
+96.68982m 8.91491m 96.87693m 8.55223m 97.13088m 8.23916m 97.44395m 7.98521m
+97.80663m 7.79810m 98.20790m 302.5 98.63557m 7.64491m 99.07663m }
+Path S 1 { 200 3887.5 W 10 S 10 200 3675 600 3675 600 4100 200 4100 200 3887.5
+}
+Path S 1 { 9.93091m 99.07663m W 10 S 10 10.43891m 99.07663m }
+Path S 1 { 10.18491m 99.33063m W 10 S 10 10.18491m 98.82263m }
+}
+Part DIODE-SOD323 { Name D20 Loc { 400 2220 90 }
+NameData { 60 430 2350 90 Center }
+}
+Part HC49 { Name Q1 Loc { 3350 7.64500m 90 }
+NameData { 50 82.62449m 11.80398m 90 }
+}
+Part VIA { Name VIA142 Loc { 1525 2225 }
+}
+Part VIA { Name VIA110 Loc { 1150 2750 }
+}
+Part 0603 { Name R36 Loc { 3450 2900 }
+NameData { 60 85.07159m 72.97048m 0 Center }
+}
+Part VIA { Name VIA106 Loc { 3100 475 }
+}
+TextPart { Name "ALEX BALLESTER" Lay { S 2 1.0 } Loc { 128.84227m 97.57042m back } Size { 1m
+} Font OpenSans-Bold 300 
+Path S 2 { 128.69941m 97.57042m W 0.14286m S 0.14286m 128.41370m 98.42756m 128.23513m
+97.89185m { 128.59227m 97.89185m }
+128.12798m 97.57042m }
+Path S 2 { 127.84227m 98.42756m W 0.14286m S 0.14286m 127.84227m 97.57042m 127.27084m
+97.57042m }
+Path S 2 { 126.41370m 98.42756m W 0.14286m S 0.14286m 126.98513m 98.42756m 126.98513m
+97.99899m { 126.55656m 97.99899m }
+126.98513m 97.57042m 126.41370m 97.57042m }
+Path S 2 { 126.12798m 98.42756m W 0.14286m S 0.14286m 125.55656m 97.57042m }
+Path S 2 { 126.12798m 97.57042m W 0.14286m S 0.14286m 125.55656m 98.42756m }
+Path S 2 { 124.41370m 97.57042m W 0.14286m S 0.14286m 124.41370m 98.42756m 123.98513m
+98.42756m 123.84227m 98.28471m 123.84227m 98.14185m 123.98513m 97.99899m
+{ 124.41370m 97.99899m }
+123.84227m 97.85613m 123.84227m 97.71328m 123.98513m 97.57042m 124.41370m
+97.57042m }
+Path S 2 { 123.55656m 97.57042m W 0.14286m S 0.14286m 123.27084m 98.42756m 123.09227m
+97.89185m { 123.44941m 97.89185m }
+122.98513m 97.57042m }
+Path S 2 { 122.69941m 98.42756m W 0.14286m S 0.14286m 122.69941m 97.57042m 122.12798m
+97.57042m }
+Path S 2 { 121.84227m 98.42756m W 0.14286m S 0.14286m 121.84227m 97.57042m 121.27084m
+97.57042m }
+Path S 2 { 120.41370m 98.42756m W 0.14286m S 0.14286m 120.98513m 98.42756m 120.98513m
+97.99899m { 120.55656m 97.99899m }
+120.98513m 97.57042m 120.41370m 97.57042m }
+Path S 2 { 119.55656m 98.28471m W 0.14286m S 0.14286m 119.69941m 98.42756m 119.98513m
+98.42756m 120.12798m 98.28471m 120.12798m 98.14185m 119.98513m 97.99899m
+119.69941m 97.99899m 119.55656m 97.85613m 119.55656m 97.71328m 119.69941m
+97.57042m 119.98513m 97.57042m 120.12798m 97.71328m }
+Path S 2 { 118.98513m 97.57042m W 0.14286m S 0.14286m 118.98513m 98.42756m { 119.27084m
+98.42756m }
+118.69941m 98.42756m }
+Path S 2 { 117.84227m 98.42756m W 0.14286m S 0.14286m 118.41370m 98.42756m 118.41370m
+97.99899m { 117.98513m 97.99899m }
+118.41370m 97.57042m 117.84227m 97.57042m }
+Path S 2 { 117.55656m 97.57042m W 0.14286m S 0.14286m 117.55656m 98.42756m 117.12798m
+98.42756m 116.98513m 98.28471m 116.98513m 98.14185m 117.12798m 97.99899m
+{ 117.55656m 97.99899m }
+116.98513m 97.57042m }
+}
+TextPart { Name "V0.1 15.MAY.2015" Lay { S 1 1.0 } Loc { 81.43359m 97.54557m } Size { 1m
+} Font OpenSans-Bold 300 
+Path S 1 { 81.57645m 98.40271m W 0.14286m S 0.14286m 81.86216m 97.54557m 82.14788m
+98.40271m }
+Path S 1 { 83.00502m 98.25986m W 0.14286m S 0.14286m 82.86216m 98.40271m 82.57645m
+98.40271m 82.43359m 98.25986m 82.43359m 97.68843m 82.57645m 97.54557m 82.86216m
+97.54557m 83.00502m 97.68843m 83.00502m 98.25986m }
+Path S 1 { 82.71930m 98.11700m W 0.14286m S 0.14286m 82.71930m 97.83128m }
+Path S 1 { 83.50502m 97.54557m W 0.14286m S 0.14286m 83.57645m 97.54557m 83.57645m
+97.61700m 83.50502m 97.61700m 83.50502m 97.54557m }
+Path S 1 { 84.29073m 98.25986m W 0.14286m S 0.14286m 84.43359m 98.40271m 84.43359m
+97.54557m { 84.29073m 97.54557m }
+84.57645m 97.54557m }
+Path S 1 { 86.00502m 98.25986m W 0.14286m S 0.14286m 86.14788m 98.40271m 86.14788m
+97.54557m { 86.00502m 97.54557m }
+86.29073m 97.54557m }
+Path S 1 { 87.29073m 98.40271m W 0.14286m S 0.14286m 86.71930m 98.40271m 86.71930m
+97.97414m 86.86216m 98.11700m 87.14788m 98.11700m 87.29073m 97.97414m 87.29073m
+97.68843m 87.14788m 97.54557m 86.86216m 97.54557m 86.71930m 97.68843m }
+Path S 1 { 87.79073m 97.54557m W 0.14286m S 0.14286m 87.86216m 97.54557m 87.86216m
+97.61700m 87.79073m 97.61700m 87.79073m 97.54557m }
+Path S 1 { 88.43359m 97.54557m W 0.14286m S 0.14286m 88.43359m 98.40271m 88.71930m
+97.97414m 89.00502m 98.40271m 89.00502m 97.54557m }
+Path S 1 { 89.29073m 97.54557m W 0.14286m S 0.14286m 89.57645m 98.40271m 89.75502m
+97.86700m { 89.39788m 97.86700m }
+89.86216m 97.54557m }
+Path S 1 { 90.14788m 98.40271m W 0.14286m S 0.14286m 90.43359m 97.97414m { 90.71930m
+98.40271m }
+90.43359m 97.54557m }
+Path S 1 { 91.21930m 97.54557m W 0.14286m S 0.14286m 91.29073m 97.54557m 91.29073m
+97.61700m 91.21930m 97.61700m 91.21930m 97.54557m }
+Path S 1 { 91.86216m 98.25986m W 0.14286m S 0.14286m 92.00502m 98.40271m 92.29073m
+98.40271m 92.43359m 98.25986m 92.43359m 98.11700m 92.29073m 97.97414m 91.86216m
+97.68843m 91.86216m 97.54557m 92.43359m 97.54557m }
+Path S 1 { 93.29073m 98.25986m W 0.14286m S 0.14286m 93.14788m 98.40271m 92.86216m
+98.40271m 92.71930m 98.25986m 92.71930m 97.68843m 92.86216m 97.54557m 93.14788m
+97.54557m 93.29073m 97.68843m 93.29073m 98.25986m }
+Path S 1 { 93.00502m 98.11700m W 0.14286m S 0.14286m 93.00502m 97.83128m }
+Path S 1 { 93.71930m 98.25986m W 0.14286m S 0.14286m 93.86216m 98.40271m 93.86216m
+97.54557m { 93.71930m 97.54557m }
+94.00502m 97.54557m }
+Path S 1 { 95.00502m 98.40271m W 0.14286m S 0.14286m 94.43359m 98.40271m 94.43359m
+97.97414m 94.57645m 98.11700m 94.86216m 98.11700m 95.00502m 97.97414m 95.00502m
+97.68843m 94.86216m 97.54557m 94.57645m 97.54557m 94.43359m 97.68843m }
+}
+TextPart { Name RATE Lay { S 1 1.0 } Loc { 101.77124m 102.87317m } Size { 50 } Font Mohave 300
+
+Path S 1 { 101.95267m 102.87317m W 0.18143m S 0.18143m 101.95267m 103.96174m
+102.49695m 103.96174m 102.67838m 103.78031m 102.67838m 103.59888m 102.49695m
+103.41746m { 101.95267m 103.41746m }
+102.67838m 102.87317m }
+Path S 1 { 103.04124m 102.87317m W 0.18143m S 0.18143m 103.40410m 103.96174m
+103.63088m 103.28138m { 103.17731m 103.28138m }
+103.76695m 102.87317m }
+Path S 1 { 104.49267m 102.87317m W 0.18143m S 0.18143m 104.49267m 103.96174m
+{ 104.12981m 103.96174m }
+104.85553m 103.96174m }
+Path S 1 { 105.94410m 103.96174m W 0.18143m S 0.18143m 105.21838m 103.96174m
+105.21838m 103.41746m { 105.76267m 103.41746m }
+105.21838m 102.87317m 105.94410m 102.87317m }
+}
+TextPart { Name CLOCK Lay { S 1 1.0 } Loc { 125.65331m 13.05359m } Size { 40 } Font Mohave 300
+
+Path S 1 { 126.37902m 13.77930m W 0.14514m S 0.14514m 126.23388m 13.92445m 125.94360m
+13.92445m 125.79845m 13.77930m 125.79845m 13.19873m 125.94360m 13.05359m
+126.23388m 13.05359m 126.37902m 13.19873m }
+Path S 1 { 126.66931m 13.92445m W 0.14514m S 0.14514m 126.66931m 13.05359m 127.24988m
+13.05359m }
+Path S 1 { 128.12074m 13.77930m W 0.14514m S 0.14514m 127.97560m 13.92445m 127.68531m
+13.92445m 127.54017m 13.77930m 127.54017m 13.19873m 127.68531m 13.05359m
+127.97560m 13.05359m 128.12074m 13.19873m 128.12074m 13.77930m }
+Path S 1 { 128.99160m 13.77930m W 0.14514m S 0.14514m 128.84645m 13.92445m 128.55617m
+13.92445m 128.41102m 13.77930m 128.41102m 13.19873m 128.55617m 13.05359m
+128.84645m 13.05359m 128.99160m 13.19873m }
+Path S 1 { 129.28188m 13.92445m W 0.14514m S 0.14514m 129.28188m 13.34388m { 129.42702m
+13.48902m { 129.86245m 13.92445m }
+129.86245m 13.05359m }
+129.28188m 13.05359m }
+}
+TextPart { Name ARRHYTHMIA Lay { S 2 1.0 } Loc { 132.99143m 101.36214m back } Size { 2.50m
+} Font Mohave 300 
+Path S 2 { 132.63429m 101.36214m W 0.35714m S 0.35714m 131.92m 4075 131.47357m
+102.16571m { 132.36643m 102.16571m }
+131.20572m 101.36214m }
+Path S 2 { 130.49143m 101.36214m W 0.35714m S 0.35714m 130.49143m 4075 129.42m
+4075 129.06286m 103.14785m 129.06286m 102.79071m 129.42m 102.43357m { 130.49143m
+102.43357m }
+129.06286m 101.36214m }
+Path S 2 { 128.34857m 101.36214m W 0.35714m S 0.35714m 128.34857m 4075 127.27714m
+4075 126.92m 103.14785m 126.92m 102.79071m 127.27714m 102.43357m { 128.34857m
+102.43357m }
+126.92m 101.36214m }
+Path S 2 { 126.20572m 4075 W 0.35714m S 0.35714m 126.20572m 102.43357m { 124.77714m
+102.43357m { 124.77714m 101.36214m }
+124.77714m 4075 }
+126.20572m 101.36214m }
+Path S 2 { 124.06286m 4075 W 0.35714m S 0.35714m 123.34857m 102.43357m { 122.63429m
+4075 }
+123.34857m 101.36214m }
+Path S 2 { 121.20572m 101.36214m W 0.35714m S 0.35714m 121.20572m 4075 { 4800
+4075 }
+120.49143m 4075 }
+Path S 2 { 119.77714m 4075 W 0.35714m S 0.35714m 119.77714m 102.43357m { 118.34857m
+102.43357m { 118.34857m 101.36214m }
+118.34857m 4075 }
+119.77714m 101.36214m }
+Path S 2 { 117.63429m 101.36214m W 0.35714m S 0.35714m 117.63429m 4075 116.92m
+102.43357m 116.20572m 4075 116.20572m 101.36214m }
+Path S 2 { 115.13429m 101.36214m W 0.35714m S 0.35714m 115.13429m 4075 }
+Path S 2 { 114.06286m 101.36214m W 0.35714m S 0.35714m 113.34857m 4075 112.90214m
+102.16571m { 113.79500m 102.16571m }
+112.63429m 101.36214m }
+}
+TextPart { Name ELECTRONICS Lay { S 2 1.0 } Loc { 131.03143m 84.16929m back } Size { 2m
+} Font OpenSans-Bold 300 
+Path S 2 { 129.60286m 85.88358m W 0.28571m S 0.28571m 130.74572m 85.88358m 130.74572m
+85.02643m { 129.88857m 85.02643m }
+130.74572m 84.16929m 129.60286m 84.16929m }
+Path S 2 { 129.03143m 85.88358m W 0.28571m S 0.28571m 129.03143m 84.16929m 127.88857m
+84.16929m }
+Path S 2 { 126.17429m 85.88358m W 0.28571m S 0.28571m 127.31714m 85.88358m 127.31714m
+85.02643m { 126.46m 85.02643m }
+127.31714m 84.16929m 126.17429m 84.16929m }
+Path S 2 { 4900 85.59786m W 0.28571m S 0.28571m 124.74572m 85.88358m 125.31714m
+85.88358m 125.60286m 85.59786m 125.60286m 3325 125.31714m 84.16929m 124.74572m
+84.16929m 4900 3325 }
+Path S 2 { 123.31714m 84.16929m W 0.28571m S 0.28571m 123.31714m 85.88358m { 123.88857m
+85.88358m }
+122.74572m 85.88358m }
+Path S 2 { 122.17429m 84.16929m W 0.28571m S 0.28571m 122.17429m 85.88358m 121.31714m
+85.88358m 121.03143m 85.59786m 121.03143m 85.31215m 121.31714m 85.02643m
+{ 122.17429m 85.02643m }
+121.03143m 84.16929m }
+Path S 2 { 119.31714m 85.59786m W 0.28571m S 0.28571m 119.60286m 85.88358m 120.17429m
+85.88358m 120.46m 85.59786m 120.46m 3325 120.17429m 84.16929m 119.60286m
+84.16929m 119.31714m 3325 119.31714m 85.59786m }
+Path S 2 { 118.74572m 84.16929m W 0.28571m S 0.28571m 118.74572m 85.88358m 117.60286m
+84.16929m 117.60286m 85.88358m }
+Path S 2 { 116.74572m 84.16929m W 0.28571m S 0.28571m 116.74572m 85.88358m }
+Path S 2 { 114.74572m 85.59786m W 0.28571m S 0.28571m 115.03143m 85.88358m 115.60286m
+85.88358m 115.88857m 85.59786m 115.88857m 3325 115.60286m 84.16929m 115.03143m
+84.16929m 114.74572m 3325 }
+Path S 2 { 113.03143m 85.59786m W 0.28571m S 0.28571m 113.31714m 85.88358m 113.88857m
+85.88358m 114.17429m 85.59786m 114.17429m 85.31215m 113.88857m 85.02643m
+113.31714m 85.02643m 113.03143m 84.74072m 113.03143m 3325 113.31714m 84.16929m
+113.88857m 84.16929m 114.17429m 3325 }
+}
+TextPart { Name CC-BY-NC-SA Lay { S 2 1.0 } Loc { 127.14370m 95.66542m back } Size { 1m
+} Font OpenSans-Bold 300 
+Path S 2 { 126.42941m 96.37971m W 0.14286m S 0.14286m 126.57227m 96.52256m 126.85799m
+96.52256m 127.00084m 96.37971m 127.00084m 95.80828m 126.85799m 95.66542m
+126.57227m 95.66542m 126.42941m 95.80828m }
+Path S 2 { 125.57227m 96.37971m W 0.14286m S 0.14286m 125.71513m 96.52256m 126.00084m
+96.52256m 126.14370m 96.37971m 126.14370m 95.80828m 126.00084m 95.66542m
+125.71513m 95.66542m 125.57227m 95.80828m }
+Path S 2 { 125.28656m 96.09399m W 0.14286m S 0.14286m 124.71513m 96.09399m }
+Path S 2 { 124.42941m 95.66542m W 0.14286m S 0.14286m 124.42941m 96.52256m 124.00084m
+96.52256m 123.85799m 96.37971m 123.85799m 96.23685m 124.00084m 96.09399m
+{ 124.42941m 96.09399m }
+123.85799m 95.95113m 123.85799m 95.80828m 124.00084m 95.66542m 124.42941m
+95.66542m }
+Path S 2 { 123.57227m 96.52256m W 0.14286m S 0.14286m 123.28656m 96.09399m { 123.00084m
+96.52256m }
+123.28656m 95.66542m }
+Path S 2 { 122.71513m 96.09399m W 0.14286m S 0.14286m 122.14370m 96.09399m }
+Path S 2 { 121.85799m 95.66542m W 0.14286m S 0.14286m 121.85799m 96.52256m 121.28656m
+95.66542m 121.28656m 96.52256m }
+Path S 2 { 120.42941m 96.37971m W 0.14286m S 0.14286m 120.57227m 96.52256m 120.85799m
+96.52256m 121.00084m 96.37971m 121.00084m 95.80828m 120.85799m 95.66542m
+120.57227m 95.66542m 120.42941m 95.80828m }
+Path S 2 { 120.14370m 96.09399m W 0.14286m S 0.14286m 119.57227m 96.09399m }
+Path S 2 { 118.71513m 96.37971m W 0.14286m S 0.14286m 118.85799m 96.52256m 119.14370m
+96.52256m 119.28656m 96.37971m 119.28656m 96.23685m 119.14370m 96.09399m
+118.85799m 96.09399m 118.71513m 95.95113m 118.71513m 95.80828m 118.85799m
+95.66542m 119.14370m 95.66542m 119.28656m 95.80828m }
+Path S 2 { 118.42941m 95.66542m W 0.14286m S 0.14286m 118.14370m 96.52256m 117.96513m
+95.98685m { 118.32227m 95.98685m }
+117.85799m 95.66542m }
+}
+TextPart { Name ARRHYTHMIA Lay { S 1 1.0 } Loc { 81.25086m 99.23135m } Size { 2m } Font OpenSans-Bold 300
+
+Path S 1 { 81.53657m 99.23135m W 0.28571m S 0.28571m 82.10800m 100.94564m 82.46515m
+99.87421m { 81.75086m 99.87421m }
+82.67943m 99.23135m }
+Path S 1 { 83.25086m 99.23135m W 0.28571m S 0.28571m 83.25086m 100.94564m 84.10800m
+100.94564m 84.39372m 100.65992m 84.39372m 100.37421m 84.10800m 100.08849m
+{ 83.25086m 100.08849m }
+84.39372m 99.23135m }
+Path S 1 { 84.96515m 99.23135m W 0.28571m S 0.28571m 84.96515m 100.94564m 85.82229m
+100.94564m 86.10800m 100.65992m 86.10800m 100.37421m 85.82229m 100.08849m
+{ 84.96515m 100.08849m }
+86.10800m 99.23135m }
+Path S 1 { 86.67943m 100.94564m W 0.28571m S 0.28571m 86.67943m 100.08849m { 87.82229m
+100.08849m { 87.82229m 99.23135m }
+87.82229m 100.94564m }
+86.67943m 99.23135m }
+Path S 1 { 88.39372m 100.94564m W 0.28571m S 0.28571m 88.96515m 100.08849m { 89.53657m
+100.94564m }
+88.96515m 99.23135m }
+Path S 1 { 90.67943m 99.23135m W 0.28571m S 0.28571m 90.67943m 100.94564m { 90.10800m
+100.94564m }
+91.25086m 100.94564m }
+Path S 1 { 91.82229m 100.94564m W 0.28571m S 0.28571m 91.82229m 100.08849m { 92.96515m
+100.08849m { 92.96515m 99.23135m }
+92.96515m 100.94564m }
+91.82229m 99.23135m }
+Path S 1 { 93.53657m 99.23135m W 0.28571m S 0.28571m 93.53657m 100.94564m 94.10800m
+100.08849m 94.67943m 100.94564m 94.67943m 99.23135m }
+Path S 1 { 95.53657m 99.23135m W 0.28571m S 0.28571m 95.53657m 100.94564m }
+Path S 1 { 96.39372m 99.23135m W 0.28571m S 0.28571m 96.96515m 100.94564m 97.32229m
+99.87421m { 96.60800m 99.87421m }
+97.53657m 99.23135m }
+}
+TextPart { Name STEP1 Lay { S 1 1.0 } Loc { 111.57170m 12.91661m } Size { 40 } Font Mohave 300
+
+Path S 1 { 112.29741m 13.64232m W 0.14514m S 0.14514m 112.15227m 13.78747m 111.86199m
+13.78747m 111.71684m 13.64232m 111.71684m 13.49718m 111.86199m 13.35204m
+112.15227m 13.35204m 112.29741m 13.20690m 112.29741m 13.06175m 112.15227m
+12.91661m 111.86199m 12.91661m 111.71684m 13.06175m }
+Path S 1 { 112.87799m 12.91661m W 0.14514m S 0.14514m 112.87799m 13.78747m { 112.58770m
+13.78747m }
+113.16827m 13.78747m }
+Path S 1 { 114.03913m 13.78747m W 0.14514m S 0.14514m 113.45856m 13.78747m 113.45856m
+13.35204m { 113.89399m 13.35204m }
+113.45856m 12.91661m 114.03913m 12.91661m }
+Path S 1 { 114.32941m 12.91661m W 0.14514m S 0.14514m 114.32941m 13.78747m 114.76484m
+13.78747m 114.90999m 13.64232m 114.90999m 13.49718m 114.76484m 13.35204m
+114.32941m 13.35204m }
+Path S 1 { 115.34541m 13.64232m W 0.14514m S 0.14514m 115.49056m 13.78747m 115.49056m
+12.91661m { 115.34541m 12.91661m }
+115.63570m 12.91661m }
+}
+TextPart { Name "V0.1 15-MAY-2015" Lay { S 2 1.0 } Loc { 130.63942m 99.21828m back } Size { 1.20m
+} Font OpenSans-Bold 300 
+Path S 2 { 130.46799m 100.24685m W 0.17143m S 0.17143m 130.12513m 99.21828m
+129.78228m 100.24685m }
+Path S 2 { 128.75371m 100.07542m W 0.17143m S 0.17143m 128.92513m 100.24685m
+129.26799m 100.24685m 129.43942m 100.07542m 129.43942m 99.38971m 129.26799m
+99.21828m 128.92513m 99.21828m 128.75371m 99.38971m 128.75371m 100.07542m
+}
+Path S 2 { 129.09656m 99.90399m W 0.17143m S 0.17143m 129.09656m 99.56114m }
+Path S 2 { 128.15371m 99.21828m W 0.17143m S 0.17143m 128.06799m 99.21828m 128.06799m
+99.30399m 128.15371m 99.30399m 128.15371m 99.21828m }
+Path S 2 { 127.21085m 100.07542m W 0.17143m S 0.17143m 127.03942m 100.24685m
+127.03942m 99.21828m { 127.21085m 99.21828m }
+126.86799m 99.21828m }
+Path S 2 { 125.15371m 100.07542m W 0.17143m S 0.17143m 124.98228m 100.24685m
+124.98228m 99.21828m { 125.15371m 99.21828m }
+124.81085m 99.21828m }
+Path S 2 { 123.61085m 100.24685m W 0.17143m S 0.17143m 124.29656m 100.24685m
+124.29656m 99.73257m 124.12513m 99.90399m 123.78228m 99.90399m 123.61085m
+99.73257m 123.61085m 99.38971m 123.78228m 99.21828m 124.12513m 99.21828m
+124.29656m 99.38971m }
+Path S 2 { 123.26799m 99.73257m W 0.17143m S 0.17143m 122.58228m 99.73257m }
+Path S 2 { 122.23942m 99.21828m W 0.17143m S 0.17143m 122.23942m 100.24685m
+121.89656m 99.73257m 121.55371m 100.24685m 121.55371m 99.21828m }
+Path S 2 { 121.21085m 99.21828m W 0.17143m S 0.17143m 120.86799m 100.24685m
+120.65371m 99.60399m { 121.08228m 99.60399m }
+120.52513m 99.21828m }
+Path S 2 { 120.18228m 100.24685m W 0.17143m S 0.17143m 119.83942m 99.73257m
+{ 119.49656m 100.24685m }
+119.83942m 99.21828m }
+Path S 2 { 119.15371m 99.73257m W 0.17143m S 0.17143m 118.46799m 99.73257m }
+Path S 2 { 118.12513m 100.07542m W 0.17143m S 0.17143m 117.95371m 100.24685m
+117.61085m 100.24685m 117.43942m 100.07542m 117.43942m 99.90399m 117.61085m
+99.73257m 118.12513m 99.38971m 118.12513m 99.21828m 117.43942m 99.21828m
+}
+Path S 2 { 116.41085m 100.07542m W 0.17143m S 0.17143m 116.58228m 100.24685m
+116.92513m 100.24685m 117.09656m 100.07542m 117.09656m 99.38971m 116.92513m
+99.21828m 116.58228m 99.21828m 116.41085m 99.38971m 116.41085m 100.07542m
+}
+Path S 2 { 116.75371m 99.90399m W 0.17143m S 0.17143m 116.75371m 99.56114m }
+Path S 2 { 115.89656m 100.07542m W 0.17143m S 0.17143m 115.72513m 100.24685m
+115.72513m 99.21828m { 115.89656m 99.21828m }
+115.55371m 99.21828m }
+Path S 2 { 114.35371m 100.24685m W 0.17143m S 0.17143m 115.03942m 100.24685m
+115.03942m 99.73257m 114.86799m 99.90399m 114.52513m 99.90399m 114.35371m
+99.73257m 114.35371m 99.38971m 114.52513m 99.21828m 114.86799m 99.21828m
+115.03942m 99.38971m }
+}
+TextPart { Name PLANKTON Lay { S 2 1.0 } Loc { 128.87214m 87.53500m back } Size { 2m } Font OpenSans-Bold 300
+
+Path S 2 { 128.58643m 87.53500m W 0.28571m S 0.28571m 128.58643m 89.24929m 127.72928m
+89.24929m 127.44357m 88.96357m 127.44357m 88.67786m 127.72928m 88.39214m
+128.58643m 88.39214m }
+Path S 2 { 126.87214m 89.24929m W 0.28571m S 0.28571m 126.87214m 87.53500m 125.72928m
+87.53500m }
+Path S 2 { 125.15785m 87.53500m W 0.28571m S 0.28571m 124.58643m 89.24929m 124.22928m
+88.17786m { 124.94357m 88.17786m }
+124.01500m 87.53500m }
+Path S 2 { 123.44357m 87.53500m W 0.28571m S 0.28571m 123.44357m 89.24929m 122.30071m
+87.53500m 122.30071m 89.24929m }
+Path S 2 { 121.72928m 89.24929m W 0.28571m S 0.28571m 121.72928m 88.10643m { 121.44357m
+88.39214m { 120.58643m 89.24929m }
+120.58643m 87.53500m }
+121.72928m 87.53500m }
+Path S 2 { 119.44357m 87.53500m W 0.28571m S 0.28571m 119.44357m 89.24929m { 4725
+89.24929m }
+118.87214m 89.24929m }
+Path S 2 { 117.15785m 88.96357m W 0.28571m S 0.28571m 117.44357m 89.24929m 118.01500m
+89.24929m 118.30071m 88.96357m 118.30071m 87.82071m 118.01500m 87.53500m
+117.44357m 87.53500m 117.15785m 87.82071m 117.15785m 88.96357m }
+Path S 2 { 116.58643m 87.53500m W 0.28571m S 0.28571m 116.58643m 89.24929m 115.44357m
+87.53500m 115.44357m 89.24929m }
+}
+Part "TL2285 push" { Name S2 Loc { 17.94m 81.63m 180 }
+}
+Part panasoniccapC { Name C10 Loc { 3750 1550 -90 }
+NameData { 50 3575 1525 -90 }
+}
+Part VIA { Name VIA156 Loc { 1550 450 }
+}
+Part 0603 { Name R24 Loc { 5275 515 90 }
+NameData { 60 132.61041m 14.68859m 90 Center }
+}
+Part "9mm alpha" { Name P13 Loc { 500 450 }
+NameData { 60 11.31959m 24.60805m 0 Center }
+}
+Part VIA { Name VIA109 Loc { 1250 2750 }
+}
+Part VIA { Name VIA154 Loc { 1725 1850 }
+}
+Part VIA { Name VIA163 Loc { 3850 950 }
+}
+Part VIA { Name VIA164 Loc { 3750 2450 }
+}
+Part "9mm alpha" { Name P7 Loc { 2100 2550 }
+NameData { 60 51.33006m 77.84129m 0 Center }
+}
+Part "9mm alpha" { Name P3 Loc { 2100 3600 }
+NameData { 60 51.41721m 104.58939m 0 Center }
+}
+Part THONKPOT { Name P20 Loc { 4500 1400 }
+NameData { 60 111.85888m 49.04141m 0 Center }
+}
+Part "9mm alpha" { Name P15 Loc { 2100 450 }
+NameData { 60 51.71665m 24.74027m 0 Center }
+}
+Part PJ301BM { Name J3 Loc { 4400 650 }
+}
+Part 0603 { Name C1 Loc { 90.17116m 15.66006m 90 }
+NameData { 60 90.71124m 14.13638m 90 Center }
+}
+Part VIA { Name VIA146 Loc { 3100 100 }
+}
+Part VIA { Name VIA126 Loc { 3600 925 }
+}
+Part VIA { Name VIA53 Loc { 725 475 }
+}
+Part DIODE-SOD323 { Name D26 Loc { 2000 1170 90 }
+NameData { 60 51.49466m 32.87251m 90 Center }
+}
+Part led3mm { Name RL6 Loc { 34.29620m 2400 }
+NameData { 40 37.76417m 59.03569m 0 Center }
+}
+Part 0603 { Name C4 Loc { 4000 375 90 }
+NameData { 60 104.45584m 10.67797m 90 Center }
+}
+Part DIODE-SOD323 { Name D21 Loc { 1200 2220 90 }
+NameData { 60 1230 2340 90 Center }
+}
+Part DIODE-SOD323 { Name D3 Loc { 2345 4050 180 }
+NameData { 60 61.34155m 103.98044m 0 Center }
+}
+Part DIODE-SOD323 { Name D13 Loc { 750 900 180 }
+NameData { 60 20.82855m 23.97044m 0 Center }
+}
+Part "9mm alpha" { Name P4 Loc { 2900 3600 }
+NameData { 60 71.87661m 104.54505m 0 Center }
+}
+Part VIA { Name VIA97 Loc { 3225 2075 }
+}
+Part DIODE-SOD323 { Name D9 Loc { 755 1950 180 }
+NameData { 60 21.03613m 50.84687m 0 Center }
+}
+Part 0603 { Name R33 Loc { 3325 3250 }
+NameData { 60 86.03100m 83.79472m 0 Center }
+}
+TextPart { Name "RESET IN" Lay { S 1 1.0 } Loc { 124.16061m 26.96705m } Size { 40 } Font OpenSans-Bold 300
+
+Path S 1 { 124.30575m 26.96705m W 0.14514m S 0.14514m 124.30575m 27.83791m 124.74118m
+27.83791m 124.88632m 27.69276m 124.88632m 27.54762m 124.74118m 27.40248m
+{ 124.30575m 27.40248m }
+124.88632m 26.96705m }
+Path S 1 { 125.75718m 27.83791m W 0.14514m S 0.14514m 125.17661m 27.83791m 125.17661m
+27.40248m { 125.61204m 27.40248m }
+125.17661m 26.96705m 125.75718m 26.96705m }
+Path S 1 { 126.62804m 27.69276m W 0.14514m S 0.14514m 126.48290m 27.83791m 126.19261m
+27.83791m 126.04747m 27.69276m 126.04747m 27.54762m 126.19261m 27.40248m
+126.48290m 27.40248m 126.62804m 27.25734m 126.62804m 27.11219m 126.48290m
+26.96705m 126.19261m 26.96705m 126.04747m 27.11219m }
+Path S 1 { 127.49890m 27.83791m W 0.14514m S 0.14514m 126.91832m 27.83791m 126.91832m
+27.40248m { 127.35375m 27.40248m }
+126.91832m 26.96705m 127.49890m 26.96705m }
+Path S 1 { 128.07947m 26.96705m W 0.14514m S 0.14514m 128.07947m 27.83791m { 127.78918m
+27.83791m }
+128.36975m 27.83791m }
+Path S 1 { 129.67604m 26.96705m W 0.14514m S 0.14514m 129.67604m 27.83791m }
+Path S 1 { 130.11147m 26.96705m W 0.14514m S 0.14514m 130.11147m 27.83791m 130.69204m
+26.96705m 130.69204m 27.83791m }
+}
+TextPart { Name "ALEX BALLESTER" Lay { S 1 1.0 } Loc { 81.47677m 95.94236m } Size { 1m
+} Font Mohave 300 
+Path S 1 { 81.61963m 95.94236m W 0.14286m S 0.14286m 81.90534m 96.79950m 82.08391m
+96.26379m { 81.72677m 96.26379m }
+82.19106m 95.94236m }
+Path S 1 { 82.47677m 96.79950m W 0.14286m S 0.14286m 82.47677m 95.94236m 83.04820m
+95.94236m }
+Path S 1 { 83.90534m 96.79950m W 0.14286m S 0.14286m 83.33391m 96.79950m 83.33391m
+96.37093m { 83.76248m 96.37093m }
+83.33391m 95.94236m 83.90534m 95.94236m }
+Path S 1 { 84.19106m 96.79950m W 0.14286m S 0.14286m 84.76248m 95.94236m }
+Path S 1 { 84.19106m 95.94236m W 0.14286m S 0.14286m 84.76248m 96.79950m }
+Path S 1 { 3382.1 95.94236m W 0.14286m S 0.14286m 3382.1 96.79950m 86.33391m
+96.79950m 86.47677m 96.65665m 86.47677m 96.51379m 86.33391m 96.37093m { 3382.1
+96.37093m }
+86.47677m 96.22807m 86.47677m 96.08522m 86.33391m 95.94236m 3382.1 95.94236m
+}
+Path S 1 { 86.76248m 95.94236m W 0.14286m S 0.14286m 87.04820m 96.79950m 87.22677m
+96.26379m { 86.86963m 96.26379m }
+87.33391m 95.94236m }
+Path S 1 { 87.61963m 96.79950m W 0.14286m S 0.14286m 87.61963m 95.94236m 88.19106m
+95.94236m }
+Path S 1 { 88.47677m 96.79950m W 0.14286m S 0.14286m 88.47677m 95.94236m 89.04820m
+95.94236m }
+Path S 1 { 89.90534m 96.79950m W 0.14286m S 0.14286m 89.33391m 96.79950m 89.33391m
+96.37093m { 89.76248m 96.37093m }
+89.33391m 95.94236m 89.90534m 95.94236m }
+Path S 1 { 90.76248m 96.65665m W 0.14286m S 0.14286m 90.61963m 96.79950m 90.33391m
+96.79950m 90.19106m 96.65665m 90.19106m 96.51379m 90.33391m 96.37093m 90.61963m
+96.37093m 90.76248m 96.22807m 90.76248m 96.08522m 90.61963m 95.94236m 90.33391m
+95.94236m 90.19106m 96.08522m }
+Path S 1 { 91.33391m 95.94236m W 0.14286m S 0.14286m 91.33391m 96.79950m { 91.04820m
+96.79950m }
+91.61963m 96.79950m }
+Path S 1 { 92.47677m 96.79950m W 0.14286m S 0.14286m 91.90534m 96.79950m 91.90534m
+96.37093m { 92.33391m 96.37093m }
+91.90534m 95.94236m 92.47677m 95.94236m }
+Path S 1 { 92.76248m 95.94236m W 0.14286m S 0.14286m 92.76248m 96.79950m 93.19106m
+96.79950m 93.33391m 96.65665m 93.33391m 96.51379m 93.19106m 96.37093m { 92.76248m
+96.37093m }
+93.33391m 95.94236m }
+}
+Part DIODE-SOD323 { Name D11 Loc { 2345 1950 180 }
+NameData { 60 61.35579m 50.74690m 0 Center }
+}
+Part "TL2285 push" { Name S15 Loc { 38.26m 1.62m 180 }
+}
+Part 0603 { Name R32 Loc { 4300 2100 180 }
+NameData { 60 109.03612m 54.71293m 0 Center }
+}
+Part SOT-223 { Name VR1 Loc { 3334 2250 }
+NameData { 60 83.37025m 64.35805m 0 Center }
+}
+Part 0603 { Name R6 Loc { 740 2400 }
+NameData { 60 20.04192m 61.73296m 0 Center }
+}
+Part VIA { Name VIA155 Loc { 1725 800 }
+}
+Part VIA { Name VIA192 Loc { 3850 2875 }
+}
+Part VIA { Name VIA247 Loc { 3775 3325 }
+}
+Part VIA { Name VIA93 Loc { 1775 2600 }
+}
+Part TSSOP14 { Name IC4 Loc { 1500 16.66238m }
+NameData { 60 41.64718m 10.70959m 0 Center }
+}
+Part "TL2285 push" { Name S10 Loc { 17.94m 28.29m 180 }
+}
+Part "9mm alpha" { Name P12 Loc { 2900 1500 }
+NameData { 60 72.05277m 51.19262m 0 Center }
+}
+Part VIA { Name VIA112 Loc { 2500 2900 }
+}
+Part VIA { Name VIA173 Loc { 3125 3575 }
+}
+Part "9mm alpha" { Name P5 Loc { 500 2550 }
+NameData { 60 11.01462m 78.12619m 0 Center }
+}
+Part VIA { Name VIA230 Loc { 3325 2400 }
+}
+Part 0603 { Name C17 Loc { 5000 3925 90 }
+NameData { 60 127.72238m 104.80237m 90 Center }
+}
+Part led3mm { Name RL4 Loc { 74.93620m 3450 }
+NameData { 40 78.44463m 85.82609m 0 Center }
+}
+Part led3mm { Name L1 Loc { 13.97620m 3250 }
+NameData { 40 17.20523m 80.80083m 0 Center }
+}
+Part VIA { Name VIA41 Loc { 1025 450 }
+}
+Part VIA { Name VIA189 Loc { 3675 2250 }
+}
+Part VIA { Name VIA214 Loc { 3250 2575 }
+}
+Part VIA { Name VIA47 Loc { 1475 300 }
+}
+Part VIA { Name VIA209 Loc { 3325 2700 }
+}
+Part DIODE-SOD323 { Name D29 Loc { 975 450 }
+NameData { 60 24.05834m 12.64670m 0 Center }
+}
+Part TSSOP14 { Name IC7 Loc { 4575 3250 }
+NameData { 60 4715 3015 0 Center }
+}
+Part led3mm { Name L10 Loc { 34.29620m 1150 }
+NameData { 40 38.06399m 27.43m 0 Center }
+}
+Part VIA { Name VIA202 Loc { 3250 2675 }
+}
+Part VIA { Name VIA203 Loc { 3275 2650 }
+}
+Part VIA { Name VIA218 Loc { 3300 2625 }
+}
+Part VIA { Name VIA219 Loc { 3300 2575 }
+}
+Part VIA { Name VIA239 Loc { 3475 2400 }
+}
+Part VIA { Name VIA232 Loc { 3350 2375 }
+}
+Part VIA { Name VIA227 Loc { 3300 2425 }
+}
+Part VIA { Name VIA184 Loc { 3450 3175 }
+}
+Part VIA { Name VIA165 Loc { 3250 2900 }
+}
+Part VIA { Name VIA77 Loc { 625 1475 }
+}
+Part 0603 { Name R27 Loc { 5225 2785 -90 }
+NameData { 60 131.13856m 70.82887m 90 Center }
+}
+Part VIA { Name VIA52 Loc { 625 475 }
+}
+Part VIA { Name VIA67 Loc { 3125 650 }
+}
+Part VIA { Name VIA248 Loc { 3750 2850 }
+}
+Part VIA { Name VIA249 Loc { 4500 3925 }
+}
+Part VIA { Name VIA137 Loc { 1550 3600 }
+}
+Part VIA { Name VIA124 Loc { 1950 3675 }
+}
+Part VIA { Name VIA121 Loc { 1225 3300 }
+}
+Part VIA { Name VIA69 Loc { 3075 1250 }
+}
+Part led3mm { Name L9 Loc { 13.97620m 1150 }
+NameData { 40 17.02240m 27.29893m 0 Center }
+}
+Part VIA { Name VIA49 Loc { 825 525 }
+}
+Part VIA { Name VIA56 Loc { 2500 800 }
+}
+
+
+Signal "**Signal 2**" 
+{ D1-10 D2-10 D3-10 P1-2 P2-2 P3-2 }
+Signal "**Signal 9**" 
+{ D5-10 D6-10 D7-10 P5-2 P6-2 P7-2 }
+Signal "**Signal 13**" 
+{ D10-10 D11-10 D9-10 P10-2 P11-2 P9-2 }
+Signal DD 
+{ D1-0 D10-0 D11-0 D12-0 D12-10 D13-0 D13-10 D14-0 D14-10 D15-0 D15-10 D16-0 D16-10 D2-0 D3-0 D4-0 D4-10 D5-0 D6-0 D7-0 D8-0 D8-10 D9-0 IC7-8 IC8-28 P12-2 P13-2 P14-2 P15-2 P16-2 P4-2 P8-2 R33-1 S10-1 S11-1 S12-1 S13-1 S14-1 S15-1 S2-1 S3-1 S4-1 S5-1 S6-1 S7-1 S8-1 S9-1 VIA172-1 VIA173-1 VIA174-1 VIA175-1 VIA176-1 VIA177-1 VIA35-1 VIA36-1 VIA37-1 VIA38-1 VIA39-1 VIA61-1 VIA62-1 VIA63-1 VIA64-1 }
+Signal "**Signal 3**" 
+{ IC1-3 P1-1 VIA1-1 VIA2-1 }
+Signal "**Signal 4**" 
+{ IC1-10 IC1-11 IC1-4 IC2-10 IC2-11 IC2-3 IC3-10 IC3-11 IC3-3 IC4-10 IC4-11 IC4-3 P11-1 P12-1 P13-1 P15-1 P16-1 P2-1 P3-1 P4-1 P5-1 P7-1 P8-1 P9-1 VIA10-1 VIA11-1 VIA12-1 VIA13-1 VIA14-1 VIA15-1 VIA16-1 VIA17-1 VIA18-1 VIA19-1 VIA20-1 VIA21-1 VIA22-1 VIA23-1 VIA24-1 VIA25-1 VIA26-1 VIA27-1 VIA28-1 VIA29-1 VIA3-1 VIA30-1 VIA31-1 VIA32-1 VIA4-1 VIA5-1 VIA6-1 VIA7-1 VIA8-1 VIA9-1 }
+Signal "**Signal 5**" 
+{ IC2-4 P6-1 }
+Signal "**Signal 6**" 
+{ IC3-4 P10-1 }
+Signal "**Signal 7**" 
+{ IC4-4 P14-1 }
+Signal CLK 
+{ IC1-12 IC1-2 IC1-5 IC1-9 IC2-12 IC2-2 IC2-5 IC2-9 IC3-12 IC3-2 IC3-5 IC3-9 IC4-12 IC4-2 IC4-5 IC4-9 IC7-4 IC8-27 VIA133-1 VIA134-1 VIA135-1 VIA136-1 VIA137-1 VIA138-1 VIA139-1 VIA140-1 VIA141-1 VIA142-1 VIA143-1 VIA144-1 VIA145-1 VIA146-1 VIA147-1 VIA148-1 VIA169-1 VIA170-1 VIA171-1 }
+Signal "**Signal 15**" 
+{ L1-2 L10-2 L11-2 L12-2 L13-2 L14-2 L15-2 L16-2 L2-2 L3-2 L4-2 L5-2 L6-2 L7-2 L8-2 L9-2 R1-1 }
+Signal "**Signal 18**" 
+{ RL2-1 S2-5 }
+Signal "**Signal 19**" 
+{ RL3-1 S3-5 }
+Signal "**Signal 20**" 
+{ RL4-1 S4-5 }
+Signal "**Signal 21**" 
+{ RL5-1 S5-5 }
+Signal "**Signal 22**" 
+{ RL6-1 S6-5 }
+Signal "**Signal 23**" 
+{ RL7-1 S7-5 }
+Signal "**Signal 24**" 
+{ RL8-1 S8-5 }
+Signal "**Signal 25**" 
+{ RL9-1 S9-5 }
+Signal "**Signal 26**" 
+{ RL10-1 S10-5 }
+Signal "**Signal 27**" 
+{ RL11-1 S11-5 }
+Signal "**Signal 28**" 
+{ RL12-1 S12-5 }
+Signal "**Signal 29**" 
+{ RL13-1 S13-5 }
+Signal "**Signal 30**" 
+{ RL14-1 S14-5 }
+Signal "**Signal 31**" 
+{ RL15-1 S15-5 }
+Signal "**Signal 32**" 
+{ R2-2 S2-6 }
+Signal "**Signal 33**" 
+{ R3-2 S3-6 }
+Signal "**Signal 34**" 
+{ R4-2 S4-6 }
+Signal "**Signal 35**" 
+{ R5-2 S5-6 }
+Signal "**Signal 36**" 
+{ R6-2 S6-6 }
+Signal "**Signal 37**" 
+{ R7-2 S7-6 }
+Signal "**Signal 38**" 
+{ R8-2 S8-6 }
+Signal "**Signal 39**" 
+{ R9-2 S9-6 }
+Signal "**Signal 40**" 
+{ R10-2 S10-6 }
+Signal "**Signal 41**" 
+{ R11-2 S11-6 }
+Signal "**Signal 42**" 
+{ R12-2 S12-6 }
+Signal "**Signal 44**" 
+{ R13-2 S13-6 }
+Signal "**Signal 45**" 
+{ R14-2 S14-6 }
+Signal "**Signal 46**" 
+{ R15-2 S15-6 }
+Signal "**Signal 1**" 
+{ CN1-1 IC8-16 }
+Signal "**Signal 10**" 
+{ CN1-2 IC8-17 }
+Signal "**Signal 47**" 
+{ C2-2 IC8-7 Q1-2 }
+Signal "**Signal 48**" 
+{ C3-2 IC8-8 Q1-1 }
+Signal "**Signal 49**" 
+{ C4-2 F1-2 IC8-18 }
+Signal "**Signal 50**" 
+{ CN1-3 IC8-29 R16-1 VIA33-1 }
+Signal "**Signal 51**" 
+{ D24-10 IC3-6 IC8-13 L10-1 VIA73-1 VIA74-1 VIA75-1 VIA76-1 VIA77-1 }
+Signal "**Signal 53**" 
+{ D27-0 D27-10 D29-0 D29-10 D30-0 IC4-1 IC4-8 IC8-24 IC8-26 L13-1 L15-1 S12-2 S14-2 S15-2 VIA40-1 VIA41-1 VIA42-1 VIA43-1 VIA45-1 VIA52-1 VIA53-1 VIA54-1 VIA55-1 VIA56-1 VIA57-1 VIA58-1 VIA59-1 VIA60-1 }
+Signal "**Signal 55**" 
+{ CN1-5 D30-10 IC4-13 IC8-15 L16-1 VIA44-1 }
+Signal "**Signal 58**" 
+{ D28-0 D28-10 IC4-6 IC8-25 L14-1 S13-2 VIA46-1 VIA47-1 VIA48-1 VIA49-1 VIA50-1 VIA51-1 }
+Signal "**Signal 61**" 
+{ D26-0 D26-10 IC3-13 IC8-23 L12-1 S11-2 VIA65-1 }
+Signal "**Signal 54**" 
+{ D24-0 D25-0 D25-10 IC3-8 IC8-14 L11-1 S10-2 S9-2 VIA66-1 VIA67-1 VIA68-1 VIA69-1 VIA70-1 VIA71-1 VIA72-1 }
+Signal "**Signal 60**" 
+{ D23-0 D23-10 IC3-1 IC8-12 L9-1 S8-2 VIA78-1 VIA79-1 VIA80-1 VIA81-1 VIA82-1 VIA83-1 VIA84-1 VIA85-1 VIA86-1 VIA87-1 VIA88-1 }
+Signal "**Signal 62**" 
+{ D22-0 D22-10 IC2-13 IC8-11 L8-1 S7-2 VIA89-1 VIA90-1 VIA91-1 VIA92-1 }
+Signal "**Signal 64**" 
+{ D19-0 D19-10 D20-0 D21-0 D21-10 IC2-1 IC2-8 IC8-10 IC8-2 L5-1 L7-1 S4-2 S5-2 S6-2 VIA109-1 VIA110-1 VIA111-1 VIA112-1 VIA113-1 VIA114-1 VIA115-1 VIA93-1 VIA94-1 VIA95-1 VIA96-1 VIA97-1 VIA98-1 VIA99-1 }
+Signal "**Signal 52**" 
+{ D20-10 IC2-6 IC8-9 L6-1 VIA100-1 VIA101-1 VIA102-1 VIA103-1 VIA104-1 VIA105-1 VIA106-1 VIA107-1 VIA108-1 }
+Signal "**Signal 59**" 
+{ D18-0 D18-10 IC1-13 IC8-1 L4-1 S3-2 VIA116-1 VIA117-1 VIA118-1 }
+Signal "**Signal 63**" 
+{ D17-0 D17-10 IC1-1 IC1-6 IC1-8 IC6-10 IC8-30 IC8-31 IC8-32 L1-1 L2-1 L3-1 S2-2 VIA119-1 VIA120-1 VIA121-1 VIA122-1 VIA123-1 VIA124-1 VIA125-1 VIA126-1 VIA127-1 VIA128-1 VIA129-1 VIA130-1 VIA131-1 VIA132-1 VIA178-1 VIA179-1 VIA180-1 }
+Signal "**Signal 8**" 
+{ CN2-4 CN2-5 D31-10 }
+Signal "**Signal 11**" 
+{ CN2-1 CN2-8 D32-0 }
+Signal "**Signal 14**" 
+{ IC5-2 R17-2 R18-1 }
+Signal "**Signal 16**" 
+{ D33-0 IC5-1 }
+Signal "**Signal 66**" 
+{ D34-0 D34-10 IC5-7 P17-3 R20-2 R21-2 R22-1 VIA159-1 VIA160-1 }
+Signal "**Signal 67**" 
+{ IC5-3 R21-1 }
+Signal "**Signal 68**" 
+{ IC5-8 IC5-9 J1-2 R24-1 R24-2 }
+Signal "**Signal 69**" 
+{ IC5-13 IC5-14 }
+Signal "**Signal 70**" 
+{ C10-2 C12-1 C13-1 C17-1 C18-1 C22-2 C23-2 C9-1 D31-0 D32-10 IC5-11 IC5-4 IC6-11 IC6-4 R40-2 VIA161-1 VIA162-1 VIA187-1 VIA188-1 VIA189-1 VIA190-1 VIA191-1 VIA192-1 VIA193-1 VIA194-1 VIA195-1 VIA196-1 VIA197-1 VIA198-1 VIA199-1 VR1-3 }
+Signal "**Signal 72**" 
+{ IC7-1 R22-2 R23-2 }
+Signal 5V 
+{ C1-1 C11-1 C14-2 C16-2 C19-2 C20-2 C5-2 C6-2 C7-2 C8-2 CN1-4 F1-1 IC1-14 IC2-14 IC3-14 IC4-14 IC7-14 IC7-2 IC7-3 IC8-4 IC8-6 P18-1 P18-2 R10-1 R11-1 R12-1 R13-1 R14-1 R15-1 R16-2 R2-1 R29-2 R3-1 R4-1 R5-1 R6-1 R7-1 R8-1 R9-1 VIA149-1 VIA150-1 VIA151-1 VIA152-1 VIA153-1 VIA154-1 VIA155-1 VIA156-1 VIA157-1 VIA163-1 VIA164-1 VIA165-1 VIA166-1 VIA200-1 VIA201-1 VIA202-1 VIA203-1 VIA204-1 VIA205-1 VIA206-1 VIA207-1 VIA208-1 VIA209-1 VIA210-1 VIA211-1 VIA212-1 VIA213-1 VIA214-1 VIA215-1 VIA216-1 VIA217-1 VIA218-1 VIA219-1 VIA220-1 VIA221-1 VIA222-1 VIA223-1 VIA224-1 VIA225-1 VIA226-1 VIA227-1 VIA228-1 VIA229-1 VIA230-1 VIA231-1 VIA232-1 VIA233-1 VIA234-1 VIA235-1 VIA236-1 VIA237-1 VIA238-1 VIA239-1 VIA240-1 VIA241-1 VIA242-1 VIA243-1 VIA244-1 VIA245-1 VIA246-1 VIA34-1 VR1-2 }
+Signal "**Signal 76**" 
+{ C19-1 IC5-10 IC7-5 R25-2 R26-1 }
+Signal "**Signal 77**" 
+{ IC7-6 R25-1 VIA167-1 VIA168-1 }
+Signal "**Signal 71**" 
+{ P18-3 R26-2 }
+Signal "**Signal 78**" 
+{ P19-1 P19-2 R34-2 }
+Signal "**Signal 80**" 
+{ IC6-12 J3-2 R31-2 }
+Signal "**Signal 82**" 
+{ IC7-11 J2-2 R27-2 }
+Signal "**Signal 83**" 
+{ IC7-10 R28-1 }
+Signal "**Signal 85**" 
+{ C20-1 C21-2 R28-2 }
+Signal "**Signal 86**" 
+{ C21-1 IC7-9 R29-1 }
+Signal "**Signal 88**" 
+{ P20-1 R32-1 }
+Signal "**Signal 89**" 
+{ IC6-8 IC6-9 R30-1 }
+Signal "**Signal 90**" 
+{ J4-2 R30-2 }
+Signal "**Signal 91**" 
+{ IC6-13 IC6-14 R32-2 }
+Signal "**Signal 93**" 
+{ IC6-2 R33-2 R34-1 }
+Signal "**Signal 94**" 
+{ IC6-1 P19-3 R35-1 VIA183-1 VIA184-1 }
+Signal "**Signal 95**" 
+{ IC6-6 P20-2 R35-2 R36-1 R36-2 R37-2 R38-2 VIA181-1 VIA182-1 }
+Signal "**Signal 97**" 
+{ IC6-7 R17-1 R38-1 VIA247-1 VIA248-1 VIA249-1 VIA250-1 Z1-0 }
+Signal "**Signal 99**" 
+{ C24-1 R37-1 R39-1 R40-1 VIA185-1 VIA186-1 }
+Signal "**Signal 17**" 
+{ P17-1 P17-2 R19-1 VIA158-1 }
+Signal "**Signal 65**" 
+{ IC8-19 }
+Signal "**Signal 12**" 
+{ C15-1 D33-10 IC5-5 IC5-6 R18-2 R19-2 }
+Signal "**Signal 43**" 
+{ P20-3 }
+
+Layer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 56000 2000 1500 PlaneSignal 5V Visible
+CopperFlood
+
+}
+Layer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 0 64000 Visible
+CopperFlood
+
+}
+
+SilkLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+SilkLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+MaskLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Invisible
+
+}
+MaskLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+AuxLayer 1 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 0 32000 4000 Visible
+
+}
+AuxLayer 2 { Outer
+AnnularRing 20 VoidRing 20 SurroundWidth
+10 PathColor 32000 40000 32000 Invisible
+
+}
+
+PinChange { 0 3275 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2150 3675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1950 1675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 400 125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3325 2600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1725 450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 850 4000 
+Hole { 0.20m P } NoMask }
+PinChange { 0 825 2950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1475 2950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 750 1700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3525 950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1775 2725 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 850 975 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1500 700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1000 150 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2300 800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2750 625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3175 650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1950 625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3925 2875 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4350 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4650 3125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3325 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 5000 3875 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4800 3350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4675 3750 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4975 3775 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3400 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4550 3325 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3500 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3775 550 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3450 650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 725 2275 
+Hole { 0.20m P } NoMask }
+PinChange { 0 825 2275 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1525 2075 
+Hole { 0.20m P } NoMask }
+PinChange { 0 625 2750 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3075 1125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3225 350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3775 3175 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3675 2675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 2525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 3450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3950 1950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3100 575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3525 475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1625 1500 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2350 375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1700 3950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1600 2575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1500 2800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2350 200 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3050 3125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4300 2325 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 850 1875 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3350 2625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3725 650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2600 975 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2300 1850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4825 3475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2850 625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 925 450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4900 3650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1700 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3500 400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 625 525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3075 800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3450 775 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3700 550 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3425 825 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1550 3275 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2600 2025 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1500 1750 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3475 925 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2525 1850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2825 1250 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1725 1500 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3175 600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3425 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 2800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3425 2150 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 2700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3575 2200 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3400 2675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 1700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4075 2125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 97.48299m 13.97388m 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4500 3175 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3500 2800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1575 1475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3800 2125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3700 2075 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2500 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4775 3050 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3650 2025 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3325 2650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4350 3925 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3475 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3625 1900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1400 525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3125 800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2000 3325 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1525 825 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1425 3675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 3800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1900 3825 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1450 2625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3125 3900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 2625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3500 600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 2150 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3525 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3525 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 750 1225 
+Hole { 0.20m P } NoMask }
+PinChange { 0 5200 3450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3425 2350 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3075 3475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4450 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 3300 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3125 3475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 5275 3775 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3450 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3350 2675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2550 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2300 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2425 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1500 3850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1575 1275 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1550 3150 
+Hole { 0.20m P } NoMask }
+PinChange { 0 400 1225 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3700 950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3075 2075 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1700 3600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1500 1925 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1600 3575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3700 600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1575 1150 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 1100 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 2650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 700 3800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1650 250 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3925 2425 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3175 775 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3375 1125 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1550 2550 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1150 1700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3450 875 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1450 1575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3950 1850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3350 2575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1150 3800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1525 2225 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1150 2750 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3100 475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1550 450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1250 2750 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1725 1850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 950 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3750 2450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3100 100 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3600 925 
+Hole { 0.20m P } NoMask }
+PinChange { 0 725 475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3225 2075 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1725 800 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3850 2875 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3775 3325 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1775 2600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2500 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3125 3575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3325 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1025 450 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3675 2250 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1475 300 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3325 2700 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3275 2650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2625 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2575 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3475 2400 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3350 2375 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3300 2425 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3450 3175 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3250 2900 
+Hole { 0.20m P } NoMask }
+PinChange { 0 625 1475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 625 475 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3125 650 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3750 2850 
+Hole { 0.20m P } NoMask }
+PinChange { 0 4500 3925 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1550 3600 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1950 3675 
+Hole { 0.20m P } NoMask }
+PinChange { 0 1225 3300 
+Hole { 0.20m P } NoMask }
+PinChange { 0 3075 1250 
+Hole { 0.20m P } NoMask }
+PinChange { 0 825 525 
+Hole { 0.20m P } NoMask }
+PinChange { 0 2500 800 
+Hole { 0.20m P } NoMask }
+
+PadChange { 1 0 2200 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL3-2 Surround 349 }
+PadChange { 1 0 3750 1700 
+Pad { Rectangle 1.20m 2.50m Thermal Circle 50 Spacing 10 } P C9-2 Surround 343 }
+PadChange { 1 0 1500 1550 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC3-7 Surround 471 }
+PadChange { 1 0 1615 2850 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C7-1 Surround 469 }
+PadChange { 1 0 600 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL9-2 Surround 351 }
+PadChange { 1 0 785 100 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P R1-2 Surround 349 }
+PadChange { 1 0 2200 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL7-2 Surround 349 }
+PadChange { 1 0 3810 1975 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C12-2 Surround 349 }
+PadChange { 1 0 5125 3803 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC5-12 Surround 375 }
+PadChange { 1 0 300 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P9-3 Surround 469 }
+PadChange { 1 0 3780 2951 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC6-5 Surround 375 }
+PadChange { 1 0 3780 3003 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC6-3 Surround 375 }
+PadChange { 1 0 3315 125 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C3-1 Surround 477 }
+PadChange { 1 0 4740 3625 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P R20-1 Surround 503 }
+PadChange { 1 0 1100 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P6-3 Surround 469 }
+PadChange { 1 0 3625 2800 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P R39-2 Surround 383 }
+PadChange { 1 0 3850 2765 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C22-1 Surround 343 }
+PadChange { 1 0 1500 66.03999m 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC2-7 Surround 471 }
+PadChange { 1 0 3000 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL8-2 Surround 349 }
+PadChange { 1 0 4340 1175 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P R31-1 Surround 469 }
+PadChange { 1 0 5025 87.74m 
+Pad { Rectangle 1.20m 2.50m Thermal Circle 50 Spacing 10 } P C15-2 Surround 343 }
+PadChange { 1 0 1100 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P2-3 Surround 469 }
+PadChange { 1 0 1590 3900 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C8-1 Surround 469 }
+PadChange { 1 0 3660 2475 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C14-1 Surround 349 }
+PadChange { 1 0 1100 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P10-3 Surround 469 }
+PadChange { 1 0 600 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL5-2 Surround 349 }
+PadChange { 1 0 3625 2725 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C24-2 Surround 383 }
+PadChange { 1 0 1400 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL10-2 Surround 351 }
+PadChange { 1 0 4390 3250 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P R23-1 Surround 503 }
+PadChange { 1 0 2700 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P8-3 Surround 469 }
+PadChange { 1 0 3325 875 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C2-1 Surround 477 }
+PadChange { 1 0 1400 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL14-2 Surround 351 }
+PadChange { 1 0 1615 1800 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C6-1 Surround 469 }
+PadChange { 1 0 600 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL13-2 Surround 351 }
+PadChange { 1 0 3951 652 
+Pad { Rectangle 63 12 Thermal Circle 50 Spacing 10 } P IC8-21 Surround 375 }
+PadChange { 1 0 3629 684 
+Pad { Rectangle 63 12 Thermal Circle 50 Spacing 10 } P IC8-3 Surround 375 }
+PadChange { 1 0 3629 621 
+Pad { Rectangle 63 12 Thermal Circle 50 Spacing 10 } P IC8-5 Surround 375 }
+PadChange { 1 0 3750 55.99m 
+Pad { Rectangle 1.20m 2.50m Thermal Circle 50 Spacing 10 } P C11-2 Surround 351 }
+PadChange { 1 0 3000 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL12-2 Surround 349 }
+PadChange { 1 0 1615 750 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C5-1 Surround 469 }
+PadChange { 1 0 4500 94.09m 
+Pad { Rectangle 0.70m 1.20m Thermal Circle 50 Spacing 10 } P Z1-0 Surround 343 }
+PadChange { 1 0 3810 1275 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C13-2 Surround 349 }
+PadChange { 1 0 1100 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P14-3 Surround 469 }
+PadChange { 1 0 1500 3650 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC1-7 Surround 471 }
+PadChange { 1 0 107.06m 5.24m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J4-3 Surround 341 }
+PadChange { 1 0 116.46m 5.24m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J4-4 Surround 341 }
+PadChange { 1 0 5075 3985 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C18-2 Surround 373 }
+PadChange { 1 0 2200 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL11-2 Surround 351 }
+PadChange { 1 0 3925 2765 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C23-1 Surround 343 }
+PadChange { 1 0 2700 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P16-3 Surround 469 }
+PadChange { 1 0 1400 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL2-2 Surround 349 }
+PadChange { 1 0 4950 100 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J1-1 Surround 511 }
+PadChange { 1 0 121.03m 5.24m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J1-3 Surround 341 }
+PadChange { 1 0 130.43m 5.24m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J1-4 Surround 341 }
+PadChange { 1 0 1900 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P11-3 Surround 469 }
+PadChange { 1 0 4650 3300 
+Pad { Rectangle 40 30 Thermal Circle 50 Spacing 10 } P C16-1 Surround 469 }
+PadChange { 1 0 2200 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL15-2 Surround 351 }
+PadChange { 1 0 4950 650 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J2-1 Surround 341 }
+PadChange { 1 0 121.03m 19.21m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J2-3 Surround 341 }
+PadChange { 1 0 130.43m 19.21m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J2-4 Surround 341 }
+PadChange { 1 0 300 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P1-3 Surround 469 }
+PadChange { 1 0 3750 1550 
+Pad { Rectangle 1.20m 2.50m Thermal Circle 50 Spacing 10 } P C10-1 Surround 373 }
+PadChange { 1 0 300 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P13-3 Surround 469 }
+PadChange { 1 0 1900 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P7-3 Surround 469 }
+PadChange { 1 0 1900 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P3-3 Surround 469 }
+PadChange { 1 0 4500 1400 
+Pad { Rectangle 1.50m 1.50m Thermal Circle 90 Spacing 10 } P P20-1 Surround 511 }
+PadChange { 1 0 4300 1400 
+Pad { Rectangle 1.50m 1.50m Thermal Rectangle 2.09m 2.09m Spacing 10 } P P20-3 Surround 469
+}
+PadChange { 1 0 1900 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P15-3 Surround 469 }
+PadChange { 1 0 4400 650 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J3-1 Surround 341 }
+PadChange { 1 0 107.06m 19.21m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J3-3 Surround 341 }
+PadChange { 1 0 116.46m 19.21m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J3-4 Surround 341 }
+PadChange { 1 0 90.17116m 17.18406m 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C1-2 Surround 501 }
+PadChange { 1 0 1400 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL6-2 Surround 349 }
+PadChange { 1 0 4000 375 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C4-1 Surround 343 }
+PadChange { 1 0 2700 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P4-3 Surround 469 }
+PadChange { 1 0 3334 2250 
+Pad { Rectangle 63 83 Thermal Circle 50 Spacing 10 } P VR1-1 Surround 471 }
+PadChange { 1 0 1500 12.69998m 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC4-7 Surround 471 }
+PadChange { 1 0 2700 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P12-3 Surround 469 }
+PadChange { 1 0 300 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P5-3 Surround 469 }
+PadChange { 1 0 5000 3985 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P C17-2 Surround 381 }
+PadChange { 1 0 3000 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL4-2 Surround 349 }
+PadChange { 1 0 4795 3224 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC7-13 Surround 375 }
+PadChange { 1 0 4575 3094 
+Pad { Rectangle 40 16 Thermal Circle 50 Spacing 10 } P IC7-7 Surround 471 }
+PadChange { 1 0 5225 2785 
+Pad { Rectangle 30 40 Thermal Circle 50 Spacing 10 } P R27-1 Surround 501 }
+PadChange { 2 0 2200 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL3-2 Surround 351 }
+PadChange { 2 0 600 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL9-2 Surround 351 }
+PadChange { 2 0 2200 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL7-2 Surround 351 }
+PadChange { 2 0 3500 1525 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-12 Surround 375 }
+PadChange { 2 0 3500 1725 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-3 Surround 375 }
+PadChange { 2 0 3500 1625 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-3 Surround 375 }
+PadChange { 2 0 3400 1725 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-6 Surround 375 }
+PadChange { 2 0 3400 1625 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-6 Surround 375 }
+PadChange { 2 0 3400 1525 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN2-7 Surround 375 }
+PadChange { 2 0 300 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P9-3 Surround 501 }
+PadChange { 2 0 1000 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P6-0 Surround 511 }
+PadChange { 2 0 1400 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P6-0 Surround 511 }
+PadChange { 2 0 1100 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P6-3 Surround 501 }
+PadChange { 2 0 3000 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL8-2 Surround 477 }
+PadChange { 2 0 1000 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P2-0 Surround 511 }
+PadChange { 2 0 1400 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P2-0 Surround 511 }
+PadChange { 2 0 1100 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P2-3 Surround 501 }
+PadChange { 2 0 1000 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P10-0 Surround 511 }
+PadChange { 2 0 1400 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P10-0 Surround 511 }
+PadChange { 2 0 1100 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P10-3 Surround 501 }
+PadChange { 2 0 600 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL5-2 Surround 351 }
+PadChange { 2 0 1400 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL10-2 Surround 477 }
+PadChange { 2 0 2600 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P8-0 Surround 511 }
+PadChange { 2 0 3000 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P8-0 Surround 511 }
+PadChange { 2 0 2700 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P8-3 Surround 501 }
+PadChange { 2 0 1400 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL14-2 Surround 463 }
+PadChange { 2 0 600 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL13-2 Surround 351 }
+PadChange { 2 0 3800 725 
+Pad { Circle 0.30m Thermal Circle 1.57m Spacing 10 } P VIA39-1 Surround 511 }
+PadChange { 2 0 3000 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL12-2 Surround 351 }
+PadChange { 2 0 1000 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P14-0 Surround 511 }
+PadChange { 2 0 1400 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P14-0 Surround 511 }
+PadChange { 2 0 1100 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P14-3 Surround 505 }
+PadChange { 2 0 107.06m 5.24m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J4-3 Surround 341 }
+PadChange { 2 0 116.46m 5.24m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J4-4 Surround 341 }
+PadChange { 2 0 2200 1350 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL11-2 Surround 351 }
+PadChange { 2 0 2600 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P16-0 Surround 511 }
+PadChange { 2 0 3000 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P16-0 Surround 511 }
+PadChange { 2 0 2700 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P16-3 Surround 477 }
+PadChange { 2 0 1400 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL2-2 Surround 477 }
+PadChange { 2 0 121.03m 5.24m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J1-3 Surround 341 }
+PadChange { 2 0 130.43m 5.24m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J1-4 Surround 341 }
+PadChange { 2 0 1800 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P11-0 Surround 511 }
+PadChange { 2 0 2200 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P11-0 Surround 511 }
+PadChange { 2 0 1900 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P11-3 Surround 501 }
+PadChange { 2 0 2200 300 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL15-2 Surround 349 }
+PadChange { 2 0 4950 650 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J2-1 Surround 341 }
+PadChange { 2 0 121.03m 19.21m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J2-3 Surround 341 }
+PadChange { 2 0 130.43m 19.21m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J2-4 Surround 341 }
+PadChange { 2 0 3775 650 
+Pad { Circle 0.30m Thermal Circle 1.57m Spacing 10 } P VIA33-1 Surround 511 }
+PadChange { 2 0 3750 100 
+Pad { Circle 1.60m Thermal Circle 80 Spacing 10 } P CN1-6 Surround 471 }
+PadChange { 2 0 200 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P1-0 Surround 511 }
+PadChange { 2 0 600 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P1-0 Surround 511 }
+PadChange { 2 0 300 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P1-3 Surround 501 }
+PadChange { 2 0 300 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P13-3 Surround 501 }
+PadChange { 2 0 1800 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P7-0 Surround 511 }
+PadChange { 2 0 2200 2850 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P7-0 Surround 511 }
+PadChange { 2 0 1900 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P7-3 Surround 501 }
+PadChange { 2 0 1800 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P3-0 Surround 511 }
+PadChange { 2 0 2200 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P3-0 Surround 511 }
+PadChange { 2 0 1900 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P3-3 Surround 501 }
+PadChange { 2 0 4300 1400 
+Pad { Rectangle 1.50m 1.50m Thermal Rectangle 2.09m 2.09m Spacing 10 } P P20-3 Surround 469
+}
+PadChange { 2 0 1800 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P15-0 Surround 511 }
+PadChange { 2 0 2200 750 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P15-0 Surround 511 }
+PadChange { 2 0 1900 450 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P15-3 Surround 501 }
+PadChange { 2 0 4400 650 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J3-1 Surround 341 }
+PadChange { 2 0 107.06m 19.21m 
+Pad { Circle 2.50m Thermal Circle 150 Spacing 10 } P J3-3 Surround 341 }
+PadChange { 2 0 116.46m 19.21m 
+Pad { Circle 1.50m Thermal Circle 90 Spacing 10 } P J3-4 Surround 341 }
+PadChange { 2 0 1400 2400 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL6-2 Surround 477 }
+PadChange { 2 0 2600 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P4-0 Surround 511 }
+PadChange { 2 0 3000 3900 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P4-0 Surround 511 }
+PadChange { 2 0 2700 3600 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P4-3 Surround 501 }
+PadChange { 2 0 2600 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P12-0 Surround 511 }
+PadChange { 2 0 3000 1800 
+Pad { Circle 2.50m Thermal Circle 135 Spacing 10 } P P12-0 Surround 511 }
+PadChange { 2 0 2700 1500 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P12-3 Surround 477 }
+PadChange { 2 0 300 2550 
+Pad { Rectangle 1.80m 1.80m Thermal Circle 90 Spacing 10 } P P5-3 Surround 501 }
+PadChange { 2 0 3000 3450 
+Pad { Circle 62 Thermal Circle 80 Spacing 10 } P RL4-2 Surround 477 }
+PadChange { 2 0 5275 3775 
+Pad { Circle 0.30m Thermal Circle 60 Spacing 10 } P VIA199-1 Surround 511 }
+PadChange { 2 0 5000 3875 
+Pad { Circle 0.30m Thermal Circle 60 Spacing 10 } P VIA162-1 Surround 511 }
+
+
+Path L 1 { P D10-10 39.36999m 1950 W 0.20m S 0.20m 1525 1975 1400 1975 1200 1775
+P P10-2 1200 1500 }
+Path L 1 { P D2-10 39.36999m 4050 W 0.20m S 0.20m 1400 4050 1200 3875 P P2-2 1200
+3600 }
+Path L 1 { P IC3-14 1720 1706 W 0.20m S 0.20m 1720 1780 1700 1800 { P C6-2 1675 1800
+}
+1725 1825 P VIA154-1 1725 1850 }
+Path L 1 { P IC3-4 1500 1628 W 0.20m S 0.20m 1375 1625 1300 1550 P P10-1 1300 1500
+}
+Path L 1 { P VIA28-1 1950 575 W 0.20m S 0.20m P IC4-11 1720 14.68118m }
+Path L 1 { P D1-10 755 4050 W 0.20m S 0.20m 600 4050 400 3875 P P1-2 400 3600 }
+Path L 1 { P VIA24-1 2900 1625 W 0.20m S 0.20m P P12-1 2900 1500 }
+Path L 1 { P VIA27-1 1925 550 W 0.20m S 0.20m P IC4-10 1720 14.02078m }
+Path L 1 { P D22-10 2000 2220 W 0.20m S 0.20m 2000 2200 2075 2125 2425 2125 2450
+2150 2450 2200 2475 2225 2875 2225 P L8-1 2900 2200 }
+Path L 1 { P L4-2 3000 3250 W 0.20m S 0.20m 76.28m 83.74m 2975 3325 2225 3325
+2200 3300 P L3-2 2200 3250 2100 3375 1650 3375 1625 3350 1425 3350 1400 3325
+P L2-2 1400 3250 1400 3325 1375 3350 700 3350 P L1-2 600 3250 }
+Path L 1 { P S4-1 2700 81.63m W 0.20m S 0.20m 2725 3175 3050 3175 3075 3200 P VIA174-1 3075
+3475 }
+Path L 1 { P S4-5 66.08m 3450 W 0.20m S 0.20m 2600 3425 2625 3400 2875 3400 2900
+3425 P RL4-1 2900 3450 }
+Path L 1 { P S4-6 63.58m 3450 W 0.20m S 0.20m P R4-2 2400 3450 }
+Path L 1 { P VIA25-1 1150 575 W 0.20m S 0.20m 600 575 500 500 P P13-1 500 450 }
+Path L 1 { P R40-2 3625 2650 W 0.20m S 0.20m 3650 2650 P VIA190-1 3675 2675 }
+Path L 1 { P R1-1 725 100 W 0.20m S 0.20m P L13-2 600 100 600 125 650 175 1050 175
+1075 150 1375 150 P L14-2 1400 100 1550 225 1600 225 1625 200 1775 200 1800
+175 2175 175 2200 150 P L15-2 2200 100 2250 150 2975 150 P L16-2 3000 100 }
+Path L 1 { P R38-1 3615 2975 W 0.20m S 0.20m 3615 2925 3625 2900 P IC6-7 3780 2899
+3775 2875 P VIA248-1 3750 2850 }
+Path L 1 { P IC5-13 5125 3829 W 0.20m S 0.20m P IC5-14 5125 3855 }
+Path L 1 { P IC5-10 5125 3751 W 0.20m S 0.20m 5175 3750 5200 3725 P R25-2 5200 3585
+}
+Path L 1 { P IC5-7 4905 3699 W 0.20m S 0.20m 4900 3694 P VIA159-1 4900 3650 }
+Path L 1 { P IC5-1 4905 3855 W 0.20m S 0.20m 4905 3970 4875 4000 P D33-0 4820 4000
+}
+Path L 1 { P D4-10 3075 4050 W 0.20m S 0.20m 3000 4050 2800 3875 P P4-2 2800 3600
+}
+Path L 1 { P VIA7-1 2725 3725 W 0.20m S 0.20m 2175 3725 2125 3775 P VIA6-1 2075
+3775 }
+Path L 1 { P VIA18-1 2100 1600 W 0.20m S 0.20m P P11-1 2100 1500 }
+Path L 1 { P VIA17-1 1925 1600 W 0.20m S 0.20m P IC3-10 1720 1602 }
+Path L 1 { P D6-10 1545 3000 W 0.20m S 0.20m 1400 3000 1200 2825 P P6-2 1200 2550
+}
+Path L 1 { P VIA15-1 1300 1650 W 0.20m S 0.20m P IC3-3 1500 1654 }
+Path L 1 { P VIA12-1 2100 2650 W 0.20m S 0.20m P P7-1 2100 2550 }
+Path L 1 { P VIA11-1 1925 2650 W 0.20m S 0.20m P IC2-10 1720 67.36079m }
+Path L 1 { P CN2-1 3500 1425 W 15 S 10 P CN2-8 3400 1425 P D32-0 3400 1275 }
+Path L 1 { P CN2-5 3400 1825 W 15 S 10 P CN2-4 3500 1825 3400 1825 P D31-10 3400 1975
+}
+Path L 1 { P P18-2 4950 1400 W 0.20m S 0.20m P P18-1 5050 1400 }
+Path L 1 { P P18-3 4850 1400 W 0.20m S 0.20m P R26-2 4850 2075 }
+Path L 1 { P R21-1 4740 3700 W 0.20m S 0.20m 4650 3700 4625 3725 4625 3775 4653
+3803 P IC5-3 4905 3803 }
+Path L 1 { P D30-10 1575 175 W 0.20m S 0.20m 1775 175 1800 150 1975 150 2000 125
+2000 50 2025 25 2875 25 2900 50 P L16-1 2900 100 2900 50 2925 25 3600 25
+3600 175 3625 200 P CN1-5 3750 200 3800 250 3800 350 3825 375 3850 375 3869
+394 P IC8-15 3869 475 }
+Path L 1 { P VIA32-1 2850 575 W 8 S 8 2875 575 2900 550 P P16-1 2900 450 }
+Path L 1 { P D28-10 400 170 W 0.20m S 0.20m P VIA51-1 400 125 }
+Path L 1 { P IC6-12 4000 3003 W 0.20m S 0.20m 4100 3000 4125 2975 4125 1275 4150
+1250 4375 1250 4400 1225 P R31-2 4400 1175 P J3-2 4400 24.61m }
+Path L 1 { P IC6-6 3780 2925 W 0.20m S 0.20m 3700 2925 3675 2950 P R38-2 3675 2975
+3675 3000 3625 3050 P R35-2 3510 3050 P R36-2 3510 2900 P R37-2 3510 2975 }
+Path L 1 { P IC6-4 3780 2977 W 0.20m S 0.20m 3825 2975 3850 2950 P VIA192-1 3850
+2875 W 15 S 10 P C22-2 3850 2825 3800 2825 3775 2800 3775 2650 3800 2625 P VIA194-1 3850
+2625 }
+Path L 1 { P IC6-2 3780 3029 W 0.20m S 0.20m 3729 3029 3700 3050 3675 3075 3675
+3150 3650 3175 3625 3175 3600 3200 P R34-1 3600 3250 P R33-2 3385 3250 }
+Path L 1 { P C3-2 3375 125 W 0.20m S 0.20m 3350 175 P Q1-1 3350 7.64500m 3350 500
+3375 525 3575 525 P IC8-8 3629 526 }
+Path L 1 { P D17-10 1200 3270 W 0.20m S 0.20m P VIA121-1 1225 3300 }
+Path L 1 { P S14-2 25.44m 1.62m W 0.20m S 0.20m P VIA43-1 1000 150 }
+Path L 1 { P S14-5 25.44m 300 W 0.20m S 0.20m 1000 275 1025 250 1275 250 1300
+275 P RL14-1 1300 300 }
+Path L 1 { P S14-6 22.94m 300 W 0.20m S 0.20m P R14-2 800 300 }
+Path L 1 { P D12-10 3100 1875 W 0.20m S 0.20m 2925 1875 2800 1775 P P12-2 2800 1500
+}
+Path L 1 { P IC2-8 1720 66.03999m W 0.20m S 0.20m P VIA93-1 1775 2600 }
+Path L 1 { P IC2-4 1500 68.02119m W 0.20m S 0.20m 1375 2675 1300 2600 P P6-1 1300
+2550 }
+Path L 1 { P VIA31-1 2750 575 W 0.20m S 0.20m P VIA29-1 2075 575 }
+Path L 1 { P L2-1 1300 3250 W 0.20m S 0.20m 1300 3150 1350 3100 3025 3100 P VIA127-1 3050
+3125 }
+Path L 1 { P P17-1 4200 3500 W 0.20m S 0.20m P P17-2 4100 3500 }
+Path L 1 { P P17-3 4000 3500 W 0.20m S 0.20m 4000 3350 4025 3325 P R22-1 4390 3325
+}
+Path L 1 { P L5-2 600 2200 W 0.20m S 0.20m 725 2200 800 2325 975 2325 1000 2300
+1300 2300 P L6-2 1400 2200 1475 2275 2125 2275 P L7-2 2200 2200 2275 2275 2925
+2275 P L8-2 3000 2200 }
+Path L 1 { P S8-2 66.08m 54.96m W 0.20m S 0.20m P VIA82-1 2600 2025 }
+Path L 1 { P S8-5 66.08m 2400 W 0.20m S 0.20m 66.08m 59.65m 2625 2325 2875 2325
+2900 2350 P RL8-1 2900 2400 }
+Path L 1 { P S8-6 63.58m 2400 W 0.20m S 0.20m P R8-2 2400 2400 }
+Path L 1 { P R22-2 4450 3325 W 0.20m S 0.20m P R23-2 4450 3250 P IC7-1 4575 3250 }
+Path L 1 { P S11-2 45.76m 28.29m W 0.20m S 0.20m 45.68m 27.26500m 1825 1050 1975
+1050 P D26-0 2000 1075 }
+Path L 1 { P S11-5 45.76m 1350 W 0.20m S 0.20m 1800 1300 1825 1275 2075 1275 2100
+1300 P RL11-1 2100 1350 }
+Path L 1 { P S11-6 43.26m 1350 W 0.20m S 0.20m P R11-2 1600 1350 }
+Path L 1 { P VIA39-1 3800 725 W 0.20m S 0.20m 3806 731 P IC8-28 3806 797 }
+Path L 1 { P VIA9-1 1275 2700 W 0.20m S 0.20m P IC2-3 1500 68.68159m }
+Path L 1 { P S12-2 66.08m 28.29m W 0.20m S 0.20m P VIA55-1 2600 975 }
+Path L 1 { P S12-5 66.08m 1350 W 0.20m S 0.20m 2600 1325 2625 1300 2875 1300 73.73999m
+33.73499m P RL12-1 2900 1350 }
+Path L 1 { P S12-6 63.58m 1350 W 0.20m S 0.20m P R12-2 2400 1350 }
+Path L 1 { P VIA2-1 1125 3750 W 0.20m S 0.20m 600 3750 500 3675 P P1-1 500 3600
+}
+Path L 1 { P VIA4-1 2100 3725 W 0.20m S 0.20m P P3-1 2100 3600 }
+Path L 1 { P VIA21-1 2725 2675 W 0.20m S 0.20m P VIA13-1 2075 2675 }
+Path L 1 { P C8-2 1650 3900 W 0.20m S 0.20m 1700 3900 1700 3850 { 1720 3830 P IC1-14 1720
+3806 }
+P VIA149-1 1700 3950 }
+Path L 1 { P S6-2 25.44m 54.96m W 0.20m S 0.20m 25.36m 54.01500m 1025 2100 1175
+2100 P D21-0 1200 2125 }
+Path L 1 { P S6-5 25.44m 2400 W 0.20m S 0.20m 25.36m 59.73m 1025 2325 1275 2325
+1300 2350 P RL6-1 1300 2400 }
+Path L 1 { P S6-6 22.94m 2400 W 0.20m S 0.20m P R6-2 800 2400 }
+Path L 1 { P VIA23-1 2725 1625 W 0.20m S 0.20m P VIA19-1 2075 1625 }
+Path L 1 { P VIA10-1 1125 2700 W 0.20m S 0.20m 600 2700 500 2625 P P5-1 500 2550
+}
+Path L 1 { P C20-1 5050 3150 W 0.20m S 0.20m P R28-2 4960 3150 P C21-2 4960 3075 }
+Path L 1 { P R25-1 5200 3525 W 0.20m S 0.20m P VIA168-1 5200 3450 }
+Path L 1 { P S3-2 45.76m 81.63m W 0.20m S 0.20m 45.76m 80.60500m 1825 3150 1975
+3150 P D18-0 2000 3175 }
+Path L 1 { P S3-6 43.26m 3450 W 0.20m S 0.20m P R3-2 1600 3450 }
+Path L 1 { P D23-0 2445 1850 W 0.20m S 0.20m P VIA83-1 2525 1850 }
+Path L 1 { P D23-10 2350 1850 W 0.20m S 0.20m P VIA85-1 2300 1850 }
+Path L 1 { P P8-1 2900 2550 W 0.20m S 0.20m P VIA22-1 2900 2675 }
+Path L 1 { P P8-2 2800 2550 W 0.20m S 0.20m 2800 2825 2975 2975 P D8-10 3100 2975
+}
+Path L 1 { P D25-10 1200 1170 W 0.20m S 0.20m 1225 1150 P VIA72-1 1250 1100 }
+Path L 1 { P VIA14-1 1950 2675 W 0.20m S 0.20m P IC2-11 1720 68.02119m }
+Path L 1 { P C2-2 3385 875 W 0.20m S 0.20m 3375 850 3350 825 P Q1-2 3350 675 3350
+600 86.19969m 14.16158m 3583 558 P IC8-7 3629 558 }
+Path L 1 { P D14-10 1545 900 W 0.20m S 0.20m 1400 900 1200 725 P P14-2 1200 450
+}
+Path L 1 { P VIA37-1 625 2075 W 0.20m S 0.20m P VIA38-1 900 2075 }
+Path L 1 { P IC8-18 3951 558 W 0.20m S 0.20m 101.58653m 14.17627m P C4-2 4000 435
+102.13215m 10.72547m 4050 400 4050 325 P F1-2 4000 275 }
+Path L 1 { P IC8-24 3951 747 W 0.20m S 0.20m 3951 974 3900 1025 3275 1025 3250
+1000 3250 550 3225 525 2975 525 2950 550 2950 600 2925 625 P VIA59-1 2850
+625 }
+Path L 1 { P IC8-31 3711 797 W 0.20m S 0.20m 94.24567m 21.13020m 3700 875 3625
+925 P VIA126-1 3600 925 }
+Path L 1 { P IC8-4 3629 652 W 0.20m S 0.20m 3600 650 P C1-1 90.17116m 15.66006m
+3586 589 P IC8-6 3629 589 93.44601m 14.95942m P VIA157-1 3700 600 }
+Path L 1 { P IC8-9 3680 475 W 0.20m S 0.20m P VIA108-1 3525 475 }
+Path L 1 { P VIA33-1 3775 650 W 0.20m S 0.20m P IC8-29 3774 797 P R16-1 3775 875 }
+Path L 1 { P VIA34-1 3975 150 W 0.20m S 0.20m 3975 175 P F1-1 4000 215 }
+Path L 1 { P D16-0 3170 900 W 0.20m S 0.20m 3170 930 3150 950 3025 950 2975 900
+P D15-0 2445 900 2400 975 1640 975 P D14-0 1640 900 1640 975 900 975 850 925
+P D13-0 845 900 P VIA62-1 850 975 }
+Path L 1 { P D16-10 3075 900 W 8 S 8 3025 900 2975 850 2925 825 2925 700 73.93070m
+675 2825 675 2800 650 P P16-2 2800 450 }
+Path L 1 { P VIA3-1 1925 3725 W 0.20m S 0.20m 1850 3700 P IC1-10 1720 3702 }
+Path L 1 { P R34-2 3660 3250 W 0.20m S 0.20m 4200 3250 4350 3125 4350 3000 4375
+2975 4625 2975 4650 2950 4650 2425 P P19-2 4675 2350 P P19-1 4775 2350 }
+Path L 1 { P D15-10 2350 900 W 0.20m S 0.20m 2200 900 2000 725 P P15-2 2000 450
+}
+Path L 1 { P R18-1 4740 3925 W 0.20m S 0.20m 4755 3902 4800 3875 P R17-2 4800 3850
+123.15003m 97.24371m P IC5-2 4905 3829 }
+Path L 1 { P R18-2 4800 3925 W 0.20m S 0.20m 4775 3975 P D33-10 4725 4000 4725 4025
+4750 4050 4925 4050 4950 4025 4950 3850 5025 3800 5025 3750 5000 3725 4950
+3750 P IC5-5 4905 3751 }
+Path L 1 { P R19-2 4800 3775 W 0.20m S 0.20m 4825 3775 4850 3750 { 4850 3600 4900
+3575 5000 3575 P C15-1 5025 3600 }
+4850 3725 P IC5-6 4905 3725 }
+Path L 1 { P IC1-11 1720 3728 W 0.20m S 0.20m 1800 3725 P VIA5-1 1925 3775 }
+Path L 1 { P IC1-4 1500 3728 W 0.20m S 0.20m 1375 3725 1300 3650 P P2-1 1300 3600
+}
+Path L 1 { P D5-10 750 3000 W 0.20m S 0.20m 600 3000 400 2825 P P5-2 400 2550 }
+Path L 1 { P J4-2 4400 10.64m W 0.20m S 0.20m 4150 425 4100 475 P R30-2 4100 1175
+}
+Path L 1 { P C23-2 3925 2825 W 0.20m S 0.20m P VIA191-1 3925 2875 3925 2950 3950
+2975 P IC6-11 4000 2977 }
+Path L 1 { P C19-1 4390 3175 W 0.20m S 0.20m 111.54013m 79.79357m 4400 3125 4500
+3125 4521 3146 P IC7-5 4575 3146 4625 3150 4650 3175 4675 3175 4700 3150
+4700 2525 4725 2500 4875 2500 4900 2475 4900 2125 P R26-1 4910 2075 }
+Path L 1 { P S5-2 5.12m 54.96m W 0.20m S 0.20m 200 2125 225 2100 375 2100 P D20-0 400
+2125 }
+Path L 1 { P S5-5 5.12m 2400 W 0.20m S 0.20m 5.15615m 59.68857m 225 2325 475 2325
+500 2350 P RL5-1 500 2400 }
+Path L 1 { P S5-6 2.62m 2400 W 0.20m S 0.20m P R5-2 100 2500 }
+Path L 1 { P D34-0 4725 3550 W 0.20m S 0.20m 4800 3600 P R20-2 4800 3625 P R21-2 4800
+3700 }
+Path L 1 { P D34-10 4820 3550 W 0.20m S 0.20m 4820 3480 P VIA160-1 4825 3475 }
+Path L 1 { P D27-0 2445 800 W 0.20m S 0.20m P VIA56-1 2500 800 }
+Path L 1 { P VIA8-1 2900 3725 W 0.20m S 0.20m P P4-1 2900 3600 }
+Path L 1 { P J1-2 4950 10.64m W 0.20m S 0.20m 5250 425 5275 450 P R24-1 5275 515
+}
+Path L 1 { P R29-2 5110 3075 W 0.20m S 0.20m P C20-2 5110 3150 5110 3215 5075 3250
+P IC7-14 4795 3250 { 4800 3250 P VIA166-1 4800 3350 }
+4800 3250 4800 3300 P C16-2 4710 3300 }
+Path L 1 { P S13-2 5.12m 1.62m W 0.20m S 0.20m 225 125 325 125 375 75 P D28-0 400
+75 }
+Path L 1 { P S13-5 5.12m 300 W 0.20m S 0.20m 200 250 225 225 475 225 500 250 P RL13-1 500
+300 }
+Path L 1 { P S13-6 2.62m 300 W 0.20m S 0.20m P R13-2 100 400 }
+Path L 1 { P VIA1-1 1275 3750 W 0.20m S 0.20m P IC1-3 1500 3754 }
+Path L 1 { P VIA35-1 625 1025 W 0.20m S 0.20m P VIA36-1 900 1025 }
+Path L 1 { P D18-10 2000 3270 W 0.20m S 0.20m P VIA118-1 2000 3325 }
+Path L 1 { P R30-1 4040 1175 W 0.20m S 0.20m 4000 1200 P IC6-8 4000 2899 P IC6-9 4000
+2925 }
+Path L 1 { P S9-2 5.12m 28.29m W 0.20m S 0.20m 5.12m 1075 225 1050 375 1050 P D24-0 400
+1075 }
+Path L 1 { P S9-5 5.12m 1350 W 0.20m S 0.20m 5.12m 32.98m 225 1275 475 1275 500
+1300 P RL9-1 500 1350 }
+Path L 1 { P S9-6 2.62m 1350 W 0.20m S 0.20m P R9-2 100 1450 }
+Path L 1 { P VIA20-1 1950 1625 W 0.20m S 0.20m P IC3-11 1720 1628 }
+Path L 1 { P D7-10 2340 3000 W 0.20m S 0.20m 2200 3000 2000 2825 P P7-2 2000 2550
+}
+Path L 1 { P J2-2 4950 24.61m W 0.20m S 0.20m 5200 975 5225 1000 P R27-2 5225 2725
+4750 2725 4725 2750 4725 3150 4750 3175 P IC7-11 4795 3172 }
+Path L 1 { P S7-2 45.76m 54.96m W 0.20m S 0.20m 1800 2125 1825 2100 1975 2100
+P D22-0 2000 2125 }
+Path L 1 { P S7-5 45.76m 2400 W 0.20m S 0.20m 1800 2350 1825 2325 2075 2325 2100
+2350 P RL7-1 2100 2400 }
+Path L 1 { P S7-6 43.26m 2400 W 0.20m S 0.20m P R7-2 1600 2400 }
+Path L 1 { P CN1-1 3850 300 W 0.20m S 0.20m 3900 325 P IC8-16 3900 475 }
+Path L 1 { P CN1-2 3850 200 W 0.20m S 0.20m 3925 200 3950 225 3951 424 P IC8-17 3951
+526 }
+Path L 1 { P VIA16-1 1100 1650 W 0.20m S 0.20m 600 1650 500 1575 P P9-1 500 1500
+}
+Path L 1 { P D19-0 2445 2900 W 0.20m S 0.20m P VIA112-1 2500 2900 }
+Path L 1 { P D19-10 2350 2900 W 0.20m S 0.20m P VIA113-1 2300 2900 }
+Path L 1 { P D24-10 400 1170 W 0.20m S 0.20m P VIA76-1 400 1225 }
+Path L 1 { P VIA30-1 2100 550 W 0.20m S 0.20m P P15-1 2100 450 }
+Path L 1 { P D20-10 400 2220 W 0.20m S 0.20m 400 2250 425 2275 P VIA101-1 725 2275
+}
+Path L 1 { P S2-2 25.44m 81.63m W 0.20m S 0.20m 25.44m 3175 1025 3150 1175 3150
+P D17-0 1200 3175 }
+Path L 1 { P S2-5 25.44m 3450 W 0.20m S 0.20m 1000 3425 1025 3400 1275 3400 1300
+3425 P RL2-1 1300 3450 }
+Path L 1 { P S2-6 22.94m 3450 W 0.20m S 0.20m P R2-2 785 3450 }
+Path L 1 { P R24-2 5275 575 W 0.20m S 0.20m 5275 3350 5250 3375 5150 3375 5125
+3400 P IC5-8 5125 3699 P IC5-9 5125 3725 }
+Path L 1 { P P20-1 4500 1400 W 0.20m S 0.20m 4500 1325 4475 1300 4225 1300 4200
+1325 4200 1500 4300 1600 P R32-1 4300 2100 }
+Path L 1 { P P20-2 4400 1400 W 0.20m S 0.20m 4400 2300 4375 2325 P VIA181-1 4300
+2325 }
+Path L 1 { P D26-10 2000 1170 W 0.20m S 0.20m 2000 1150 2050 1100 2400 1100 2475
+1175 2875 1175 P L12-1 2900 1150 2900 1100 2950 1075 4000 1075 4025 1050
+4025 750 4015 715 P IC8-23 3951 715 }
+Path L 1 { P D21-10 1200 2220 W 0.20m S 0.20m P VIA99-1 1250 2150 }
+Path L 1 { P D3-10 2345 4050 W 0.20m S 0.20m 2200 4050 2000 3875 P P3-2 2000 3600
+}
+Path L 1 { P D13-10 750 900 W 0.20m S 0.20m 600 900 400 725 P P13-2 400 450 }
+Path L 1 { P D9-10 755 1950 W 0.20m S 0.20m 600 1950 400 1775 P P9-2 400 1500 }
+Path L 1 { P D11-10 2345 1950 W 0.20m S 0.20m 2200 1950 2000 1775 P P11-2 2000 1500
+}
+Path L 1 { P S15-2 45.76m 1.62m W 0.20m S 0.20m 1775 125 1625 125 P D30-0 1575 80
+}
+Path L 1 { P S15-5 45.76m 300 W 0.20m S 0.20m 1800 275 1825 250 2075 250 2100
+275 P RL15-1 2100 300 }
+Path L 1 { P S15-6 43.26m 300 W 0.20m S 0.20m P R15-2 1600 300 }
+Path L 1 { P R32-2 4240 2100 W 0.20m S 0.20m 4240 3035 4220 3055 4000 3055 P IC6-13 4000
+3029 P IC6-14 4000 3055 }
+Path L 1 { P IC4-14 1720 16.66238m W 0.20m S 0.20m 1720 730 1700 750 { 1725 775
+P VIA155-1 1725 800 }
+P C5-2 1675 750 }
+Path L 1 { P IC4-4 1500 14.68118m W 0.20m S 0.20m 1375 575 1300 500 P P14-1 1300
+450 }
+Path L 1 { P IC4-3 1500 15.34158m W 0.20m S 0.20m 1475 600 1350 600 P VIA26-1 1250
+575 }
+Path L 1 { P S10-2 25.44m 28.29m W 0.20m S 0.20m 1000 1075 1025 1050 1175 1050
+P D25-0 1200 1075 }
+Path L 1 { P S10-5 25.44m 1350 W 0.20m S 0.20m 1000 1300 1025 1275 1275 1275 1300
+1300 P RL10-1 1300 1350 }
+Path L 1 { P S10-6 22.94m 1350 W 0.20m S 0.20m P R10-2 800 1350 }
+Path L 1 { P D29-0 880 450 W 0.20m S 0.20m P VIA42-1 925 450 }
+Path L 1 { P D29-10 975 450 W 0.20m S 0.20m P VIA41-1 1025 450 }
+Path L 1 { P IC7-10 4795 3146 W 0.20m S 0.20m 123.81347m 79.97808m P R28-1 4900
+3150 }
+Path L 1 { P IC7-9 4795 3120 W 0.20m S 0.20m 123.17938m 79.20848m P C21-1 4900 3075
+4900 3050 4925 3025 5025 3025 5050 3050 P R29-1 5050 3075 }
+Path L 1 { P IC7-3 4575 3198 W 0.20m S 0.20m P IC7-2 4575 3224 4500 3225 113.57006m
+81.38272m P C19-2 4450 3175 }
+Path L 1 { P L10-1 1300 1150 W 0.20m S 0.20m 1300 1050 1325 1025 2525 1025 2550
+1000 2550 950 2575 925 2950 925 3000 975 3200 975 3225 950 3225 625 3200
+600 P VIA73-1 3175 600 }
+Path L 1 { P L9-2 600 1150 W 0.20m S 0.20m 825 1150 950 1225 1325 1225 P L10-2 1400
+1150 1425 1100 1600 1100 1725 1225 2175 1225 2200 1200 P L11-2 2200 1150
+2200 1175 2225 1200 2975 1200 76.28m 29.76500m P L12-2 3000 1150 }
+Path L 1 { P VIA60-1 2750 625 W 0.20m S 0.20m 2375 625 2350 650 P D27-10 2350 800
+P VIA58-1 2300 800 }
+Path L 1 { P VIA57-1 1500 700 W 0.20m S 0.20m P IC4-1 1500 16.66238m 32.53738m 16.66238m
+P VIA54-1 1250 625 }
+Path L 1 { P VIA92-1 1775 2725 W 0.20m S 0.20m P IC2-13 1720 69.34199m }
+Path L 1 { P VIA123-1 3525 950 W 0.20m S 0.20m 92.74474m 20.24485m P IC8-32 3680
+797 }
+Path L 1 { P VIA80-1 750 1700 W 0.20m S 0.20m P VIA79-1 1150 1700 }
+Path L 1 { P VIA140-1 1475 2950 W 0.20m S 0.20m 1475 2925 1550 2800 1550 69.34199m
+P IC2-2 1500 69.34199m 1550 69.34199m { 1550 67.36079m { P IC2-5 1500 67.36079m
+}
+P VIA141-1 1550 2550 }
+1650 68.68159m { 1650 66.70039m P IC2-9 1720 66.70039m }
+P IC2-12 1720 68.68159m }
+Path L 1 { P VIA64-1 850 4000 W 0.20m S 0.20m P D1-0 850 4050 850 4075 900 4125
+41.78299m 4125 P D2-0 41.78299m 4050 41.78299m 4125 2440 4125 P D3-0 2440 4050
+2440 4125 3150 4125 3170 4105 P D4-0 3170 4050 }
+Path L 1 { P VIA45-1 1725 450 W 0.20m S 0.20m 1725 475 P IC4-8 1720 12.69998m }
+Path L 1 { P VIA65-1 1950 1675 W 0.20m S 0.20m P IC3-13 1720 1680 }
+Path L 1 { P VIA61-1 850 1875 W 0.20m S 0.20m P D9-0 850 1950 850 1975 875 2000
+1650 2000 P D10-0 41.78299m 1950 1650 2000 2425 2000 P D11-0 2440 1950 2925
+1950 2950 1975 3070 1975 P D12-0 3100 1970 }
+Path L 1 { P VIA89-1 3725 650 W 0.20m S 0.20m 3743 632 P IC8-11 3743 475 }
+Path L 1 { P VIA40-1 3850 700 W 0.20m S 0.20m 3869 731 P IC8-26 3869 797 }
+Path L 1 { P VIA152-1 1700 2900 W 0.20m S 0.20m 1700 2850 { P C7-2 1675 2850 }
+1700 2800 1720 2780 P IC2-14 1720 70.00239m }
+Path L 1 { P VIA86-1 3500 400 W 0.20m S 0.20m 3750 400 3774 424 P IC8-12 3774 475
+}
+Path L 1 { P VIA50-1 625 525 W 0.20m S 0.20m P VIA49-1 825 525 }
+Path L 1 { P VIA104-1 3075 800 W 0.20m S 0.20m 3075 600 P VIA105-1 3100 575 }
+Path L 1 { P VIA91-1 3450 775 W 0.20m S 0.20m P VIA90-1 3450 650 }
+Path L 1 { P VIA94-1 3700 550 W 0.20m S 0.20m 3711 539 P IC8-10 3711 475 }
+Path L 1 { P VIA96-1 3425 825 W 0.20m S 0.20m 3475 825 88.96116m 20.20586m 3500
+700 P VIA95-1 3500 600 }
+Path L 1 { P VIA117-1 3475 925 W 0.20m S 0.20m 92.16058m 19.50445m P IC8-1 3629
+747 }
+Path L 1 { P VIA70-1 2825 1250 W 0.20m S 0.20m P VIA69-1 3075 1250 }
+Path L 1 { P VIA71-1 1725 1500 W 0.20m S 0.20m 1725 1525 P IC3-8 1720 1550 }
+Path L 1 { P VIA186-1 3375 2800 W 0.20m S 0.20m 3375 2950 3400 2975 P R37-1 3450
+2975 }
+Path L 1 { P VIA200-1 3425 2150 W 15 S 10 P VR1-2 3425 2250 }
+Path L 1 { P VIA201-1 3575 2200 W 15 S 10 3600 2225 3600 2350 P C11-1 3750 2350
+{ P VIA164-1 3750 2450 }
+3600 2350 P C14-2 3600 2475 }
+Path L 1 { P VIA78-1 1250 1700 W 0.20m S 0.20m P IC3-1 1500 1706 P VIA84-1 1500 1750
+}
+Path L 1 { P VIA180-1 4075 2125 W 0.20m S 0.20m 4075 2925 4050 2950 P IC6-10 4000
+2951 }
+Path L 1 { P VIA66-1 97.48299m 13.97388m W 0.20m S 0.20m 3837 537 P IC8-14 3837
+475 }
+Path L 1 { P VIA169-1 4500 3175 W 0.20m S 0.20m P IC7-4 4575 3172 }
+Path L 1 { P VIA185-1 3500 2800 W 0.20m S 0.20m P R39-1 3565 2800 P C24-1 3565 2725
+P R40-1 3565 2650 }
+Path L 1 { P VIA179-1 3800 2125 W 0.20m S 0.20m 3775 2100 3725 2100 P VIA178-1 3700
+2075 }
+Path L 1 { P VIA176-1 4775 3050 W 0.20m S 0.20m 4795 3070 P IC7-8 4795 3094 }
+Path L 1 { P VIA188-1 3650 2025 W 15 S 10 3650 2125 3675 2150 P VIA189-1 3675 2250
+}
+Path L 1 { P VIA250-1 4350 3925 W 0.20m S 0.20m 3800 3925 3775 3900 P VIA247-1 3775
+3325 }
+Path L 1 { P VIA187-1 3625 1900 W 15 S 10 3625 1275 P C13-1 3750 1275 { P C10-2 3750
+35.67m }
+P D32-10 90.06m 1275 }
+Path L 1 { P VIA68-1 3125 800 W 0.20m S 0.20m P VIA67-1 3125 650 }
+Path L 1 { P VIA145-1 3850 900 W 0.20m S 0.20m 3837 887 P IC8-27 3837 797 }
+Path L 1 { P VIA136-1 1525 825 W 0.20m S 0.20m 1550 800 1550 16.00198m P IC4-2 1500
+16.00198m 1550 16.00198m { 1550 14.02078m P IC4-5 1500 14.02078m }
+1650 15.34158m { 1650 525 { P IC4-9 1720 13.36038m }
+1650 400 1675 375 P VIA148-1 2350 375 }
+P IC4-12 1720 15.34158m }
+Path L 1 { P VIA125-1 1425 3675 W 0.20m S 0.20m P IC1-6 1500 3676 }
+Path L 1 { P VIA128-1 1250 3800 W 0.20m S 0.20m P IC1-1 1500 3806 P VIA132-1 1500
+3850 }
+Path L 1 { P VIA116-1 1900 3825 W 0.20m S 0.20m 1800 3825 1755 3780 P IC1-13 1720
+3780 }
+Path L 1 { P VIA100-1 1450 2625 W 0.20m S 0.20m P IC2-6 1500 66.70039m }
+Path L 1 { P VIA175-1 3125 3900 W 0.20m S 0.20m 3350 4125 4375 4125 4400 4100
+4400 3625 4550 3475 P VIA177-1 4550 3325 }
+Path L 1 { P VIA81-1 750 1225 W 0.20m S 0.20m 525 1225 500 1200 P L9-1 500 1150
+}
+Path L 1 { P VIA195-1 3850 3300 W 15 S 10 P VIA196-1 3850 3450 }
+Path L 1 { P VIA172-1 3125 3475 W 0.20m S 0.20m 3125 3100 P D8-0 3100 3070 3050
+3075 2435 3075 P D7-0 2435 3000 2435 3075 1640 3075 P D6-0 1640 3000 1640 3075
+900 3075 850 3025 P D5-0 845 3000 P VIA63-1 825 2950 }
+Path L 1 { P VIA199-1 5275 3775 W 0.20m S 0.20m P IC5-11 5125 3777 5075 3775 5050
+3825 5050 3875 5075 3900 P C18-1 5075 3925 }
+Path L 1 { P VIA134-1 1575 1275 W 0.20m S 0.20m P VIA135-1 1575 1150 }
+Path L 1 { P VIA139-1 1550 3150 W 0.20m S 0.20m P VIA138-1 1550 3275 }
+Path L 1 { P VIA130-1 3700 950 W 0.20m S 0.20m 3725 900 95.04028m 21.14976m P IC8-30 3743
+797 }
+Path L 1 { P VIA98-1 3075 2075 W 0.20m S 0.20m P VIA97-1 3225 2075 }
+Path L 1 { P VIA144-1 1500 1925 W 0.20m S 0.20m 1500 1900 1550 1850 1550 1680
+P IC3-2 1500 1680 1550 1680 { 1550 1602 { P IC3-5 1500 1602 }
+P VIA133-1 1575 1475 }
+1650 1654 { P IC3-12 1720 1654 }
+1650 1576 P IC3-9 1720 1576 }
+Path L 1 { P VIA131-1 700 3800 W 0.20m S 0.20m P VIA129-1 1150 3800 }
+Path L 1 { P VIA46-1 1650 250 W 0.20m S 0.20m 1675 250 1700 225 2250 225 2300
+275 3250 275 3275 300 3275 975 3300 1000 3875 1000 3900 975 P IC8-25 3900
+797 }
+Path L 1 { P VIA182-1 3925 2425 W 0.20m S 0.20m 3925 2550 3900 2575 3750 2575
+3725 2600 3725 2825 3700 2850 3475 2850 3450 2875 P R36-1 3450 2900 }
+Path L 1 { P VIA147-1 2350 200 W 0.20m S 0.20m 3075 200 3100 175 P VIA146-1 3100
+100 }
+Path L 1 { P VIA153-1 1625 1500 W 0.20m S 0.20m 1625 1425 1575 1425 { 1540 1390
+P R11-1 1540 1350 1540 1390 1525 1400 775 1400 740 1390 P R10-1 740 1350 740
+1390 725 1400 400 1400 375 1425 250 1425 150 1500 50 1500 { 25 1550 P R5-1 40
+2500 50 2550 { 150 2550 225 2475 700 2475 740 2440 P R6-1 740 2400 740 2440
+775 2475 1525 2475 1540 2440 P R7-1 1540 2400 1540 2440 1575 2475 { 2300 2475
+2340 2435 P R8-1 2340 2400 2340 2440 2375 2475 3075 2475 3100 2500 3100 2875
+3125 2900 P VIA165-1 3250 2900 }
+1600 2475 P VIA151-1 1600 2575 }
+100 2550 100 3025 525 3450 P R2-1 725 3450 725 3500 750 3525 1475 3525 1540
+3490 P R3-1 1540 3450 1540 3490 1550 3500 1600 3525 { 40.89424m 89.55697m
+1875 3525 2275 3525 P R4-1 2340 3450 }
+P VIA150-1 1600 3575 }
+P R9-1 40 1450 25 1425 25 475 50 450 { 175 450 225 375 700 375 725 350 P R14-1 740
+300 750 225 1500 225 1540 265 P R15-1 1540 300 1540 440 P VIA156-1 1550 450
+}
+P R13-1 40 400 }
+2300 1425 2340 1385 P R12-1 2340 1350 }
+Path L 1 { P VIA171-1 3950 1950 W 0.20m S 0.20m P VIA170-1 3950 1850 }
+Path L 1 { P VIA193-1 3850 2525 W 15 S 10 3850 2375 3875 2350 3875 2075 3850 2050
+3775 2050 3750 2025 P C12-1 3750 1975 { P C9-1 3750 46.88m }
+P D31-0 90.06m 1975 90.06m 54.33900m 3525 2150 3525 2200 P VR1-3 3515 2250
+}
+Path L 1 { P VIA183-1 3775 3175 W 0.20m S 0.20m P IC6-1 3780 3055 3780 3080 3800
+3100 4275 3100 4300 3075 4300 2825 4325 2800 4550 2800 4575 2775 P P19-3 4575
+2350 }
+Path L 1 { P VIA111-1 625 2750 W 0.20m S 0.20m P VIA110-1 1150 2750 }
+Path L 1 { P VIA102-1 825 2275 W 0.20m S 0.20m 1275 2275 1300 2250 P L6-1 1300 2200
+1300 2050 1325 2025 2500 2025 2600 1975 2875 1975 2925 2025 3150 2025 3175
+2000 3175 1150 3150 1125 P VIA103-1 3075 1125 }
+Path L 1 { P VIA74-1 3775 550 W 0.20m S 0.20m 3806 519 P IC8-13 3806 475 }
+Path L 1 { P VIA161-1 4975 3775 W 0.20m S 0.20m P IC5-4 4905 3777 }
+Path L 1 { P VIA158-1 4675 3750 W 0.20m S 0.20m 4700 3750 P R19-1 4740 3775 }
+Path L 1 { P VIA162-1 5000 3875 W 0.20m S 0.20m P C17-1 5000 3925 }
+Path L 1 { P VIA167-1 4650 3125 W 0.20m S 0.20m 4645 3120 P IC7-6 4575 3120 }
+Path L 1 { P VIA197-1 4350 2900 W 15 S 10 P VIA198-1 4450 2900 }
+Path L 1 { P VIA44-1 1950 625 W 0.20m S 0.20m 1925 625 P IC4-13 1720 16.00198m }
+Path L 1 { P VIA87-1 3175 650 W 0.20m S 0.20m P VIA88-1 3175 775 }
+Path L 1 { P VIA122-1 3375 1125 W 0.20m S 0.20m 3300 1125 3275 1150 3275 2100
+3250 2125 3150 2200 3150 2825 3175 2850 3275 2850 3300 2875 3300 2925 3275
+2950 3200 2950 3175 2975 3175 3500 3150 3525 2575 3525 2550 3550 2550 3650
+2525 3675 P VIA120-1 2150 3675 }
+Path L 1 { P VIA115-1 3450 875 W 0.20m S 0.20m 3475 875 3575 775 3575 725 3585
+715 P IC8-2 3629 715 }
+Path L 1 { P VIA142-1 1525 2225 W 0.20m S 0.20m P VIA143-1 1525 2075 }
+Path L 1 { P VIA106-1 3100 475 W 0.20m S 0.20m 3100 375 3125 350 P VIA107-1 3225
+350 }
+Path L 1 { P VIA109-1 1250 2750 W 0.20m S 0.20m P IC2-1 1500 70.00239m P VIA114-1 1500
+2800 }
+Path L 1 { P VIA163-1 3850 950 W 0.20m S 0.20m 3790 950 P R16-2 3775 935 }
+Path L 1 { P VIA173-1 3125 3575 W 0.20m S 0.20m 3300 3575 3325 3550 P R33-1 3325
+3250 }
+Path L 1 { P VIA47-1 1475 300 W 0.20m S 0.20m 1475 325 1400 400 1400 525 1450
+525 { P VIA48-1 1400 525 }
+P IC4-6 1500 13.36038m }
+Path L 1 { P VIA184-1 3450 3175 W 0.20m S 0.20m P R35-1 3450 3050 }
+Path L 1 { P VIA77-1 625 1475 W 0.20m S 0.20m 775 1475 825 1425 1375 1425 1400
+1450 1400 1550 1425 1575 P VIA75-1 1450 1575 P IC3-6 1500 1576 }
+Path L 1 { P VIA52-1 625 475 W 0.20m S 0.20m P VIA53-1 725 475 }
+Path L 1 { P VIA249-1 4500 3925 W 0.20m S 0.20m P Z1-0 4500 3850 P R17-1 4740 3850
+}
+Path L 1 { P VIA137-1 1550 3600 W 0.20m S 0.20m 1550 3702 { 1550 3780 { P IC1-2 1500
+3780 }
+1650 3754 { P IC1-12 1720 3754 }
+1650 3676 P IC1-9 1720 3676 }
+P IC1-5 1500 3702 }
+Path L 1 { P VIA124-1 1950 3675 W 0.20m S 0.20m 1900 3675 1825 3650 1720 3650
+1720 3620 P VIA119-1 1700 3600 1720 3620 P IC1-8 1720 3650 }
+Path L 1 { 3245 2710 W 10 S 10 3495 2710 }
+Path L 1 { 3245 2720 W 10 S 10 3495 2720 }
+Path L 1 { 3235 2700 W 10 S 10 3495 2700 }
+Path L 1 { 3225 2680 W 10 S 10 3495 2680 }
+Path L 1 { 3550 2325 W 10 S 10 3250 2325 3225 2350 3225 2700 { 3250 2725 3500
+2725 3500 2650 3550 2600 3550 2325 }
+3245 2690 3225 2690 3495 2690 }
+Path L 1 { 3225 2670 W 10 S 10 3495 2670 }
+Path L 1 { 3495 2660 W 10 S 10 3225 2660 }
+Path L 1 { 3225 2650 W 10 S 10 3495 2650 }
+Path L 1 { 3225 2640 W 10 S 10 3505 2640 }
+Path L 1 { 3225 2620 W 10 S 10 3525 2620 }
+Path L 1 { 3515 2630 W 10 S 10 3235 2630 }
+Path L 1 { 3225 2610 W 10 S 10 3535 2610 }
+Path L 1 { 3235 2600 W 10 S 10 3545 2600 }
+Path L 1 { 3225 2590 W 10 S 10 3545 2590 }
+Path L 1 { 3245 2590 W 10 S 10 3225 2600 }
+Path L 1 { 3225 2540 W 10 S 10 3545 2540 }
+Path L 1 { 3545 2550 W 10 S 10 3225 2550 }
+Path L 1 { 3225 2580 W 10 S 10 3545 2580 }
+Path L 1 { 3225 2570 W 10 S 10 3545 2570 }
+Path L 1 { 3225 2520 W 10 S 10 3545 2520 }
+Path L 1 { 3225 2530 W 10 S 10 3545 2530 }
+Path L 1 { 3225 2510 W 10 S 10 3545 2510 }
+Path L 1 { 3545 2500 W 10 S 10 3225 2500 }
+Path L 1 { 3225 2480 W 10 S 10 3545 2480 }
+Path L 1 { 3235 2470 W 10 S 10 3545 2470 }
+Path L 1 { 3225 2460 W 10 S 10 3545 2460 }
+Path L 1 { 3225 2450 W 10 S 10 3545 2450 }
+Path L 1 { 3225 2440 W 10 S 10 3545 2440 }
+Path L 1 { 3545 2430 W 10 S 10 3225 2430 }
+Path L 1 { 3225 2410 W 10 S 10 3545 2410 }
+Path L 1 { 3225 2400 W 10 S 10 3545 2400 }
+Path L 1 { 3545 2390 W 10 S 10 3225 2390 }
+Path L 1 { 3225 2380 W 10 S 10 3545 2380 }
+Path L 1 { 3545 2360 W 10 S 10 3225 2360 }
+Path L 1 { 3225 2370 W 10 S 10 3545 2370 }
+Path L 1 { 3545 2350 W 10 S 10 3235 2350 }
+Path L 1 { 3245 2340 W 10 S 10 3545 2340 }
+Path L 1 { 3545 2330 W 10 S 10 3245 2330 }
+Path L 1 { 82.08413m 64.91969m W 10 S 10 89.98987m 64.86132m }
+Path L 1 { 82.12512m 64.17576m W 10 S 10 89.98995m 64.15601m }
+Path L 1 { 90.08117m 63.64624m W 10 S 10 82.11358m 63.67332m }
+Path L 1 { 82.09309m 63.36657m W 10 S 10 89.99069m 63.37974m }
+Path L 1 { 82.03967m 62.80102m W 10 S 10 89.94807m 62.78127m }
+Path L 1 { 82.17543m 62.30775m W 10 S 10 89.99409m 62.34068m }
+Path L 1 { 82.07178m 61.86554m W 10 S 10 89.90020m 61.90342m }
+Path L 1 { 82.07148m 61.59275m W 10 S 10 90.06623m 61.63226m }
+Path L 1 { 82.19645m 61.07322m W 10 S 10 89.98070m 61.04037m }
+Path L 1 { 90.00119m 60.58735m W 10 S 10 82.03123m 60.60126m }
+Path L 1 { 82.08887m 60.06937m W 10 S 10 90.08517m 60.09726m }
+Path L 1 { 89.99468m 59.78815m W 10 S 10 82.13067m 59.80790m }
+Path L 1 { 82.28116m 59.49383m W 10 S 10 89.96753m 59.62530m }
+Path L 1 { 90.04647m 59.29732m W 10 S 10 82.60840m 59.31042m }
+Path L 1 { 82.11173m 65.43161m W 10 S 10 90.10884m 65.45055m }
+Path L 1 { 89.60322m 66.42228m W 10 S 10 82.08073m 66.36783m }
+Path L 1 { 82.06016m 66.66799m W 10 S 10 89.34123m 66.71409m }
+Path L 1 { 88.82244m 67.16866m W 10 S 10 82.33376m 67.16207m }
+Path L 1 { 82.15701m 67.67110m W 10 S 10 88.79773m 67.65793m }
+Path L 1 { 88.81586m 68.18168m W 10 S 10 82.03286m 68.18013m }
+Path L 1 { 82.30091m 68.74486m W 10 S 10 88.80513m 68.68412m }
+Path L 1 { 88.78693m 68.95062m W 10 S 10 82.45133m 68.94559m }
+Path L 1 { 3245 2710 W 10 S 10 3495 2710 }
+Path L 1 { 3245 2720 W 10 S 10 3495 2720 }
+Path L 1 { 3235 2700 W 10 S 10 3495 2700 }
+Path L 1 { 3225 2680 W 10 S 10 3495 2680 }
+Path L 1 { 3550 2325 W 10 S 10 3250 2325 3225 2350 3225 2700 { 3250 2725 3500
+2725 3500 2650 3550 2600 3550 2325 }
+3245 2690 3225 2690 3495 2690 }
+Path L 1 { 3225 2670 W 10 S 10 3495 2670 }
+Path L 1 { 3495 2660 W 10 S 10 3225 2660 }
+Path L 1 { 3225 2650 W 10 S 10 3495 2650 }
+Path L 1 { 3225 2640 W 10 S 10 3505 2640 }
+Path L 1 { 3225 2620 W 10 S 10 3525 2620 }
+Path L 1 { 3515 2630 W 10 S 10 3235 2630 }
+Path L 1 { 3225 2610 W 10 S 10 3535 2610 }
+Path L 1 { 82.03967m 62.80102m W 10 S 10 89.94807m 62.78127m }
+Path L 1 { 82.07178m 61.86554m W 10 S 10 89.90020m 61.90342m }
+Path L 1 { 82.28116m 59.49383m W 10 S 10 89.96753m 59.62530m }
+Path L 1 { 89.60322m 66.42228m W 10 S 10 82.08073m 66.36783m }
+Path L 1 { 82.06016m 66.66799m W 10 S 10 89.34123m 66.71409m }
+Path L 1 { 88.82244m 67.16866m W 10 S 10 82.33376m 67.16207m }
+Path L 1 { 82.15701m 67.67110m W 10 S 10 88.79773m 67.65793m }
+Path L 1 { 88.81586m 68.18168m W 10 S 10 82.03286m 68.18013m }
+Path L 1 { 82.30091m 68.74486m W 10 S 10 88.80513m 68.68412m }
+Path L 1 { 88.78693m 68.95062m W 10 S 10 82.45133m 68.94559m }
+Path L 1 { 3225 2570 W 10 S 10 3545 2570 }
+Path L 1 { 82.11173m 65.43161m W 10 S 10 90.10884m 65.45055m }
+Path L 1 { 3225 2580 W 10 S 10 3545 2580 }
+Path L 1 { 3225 2590 W 10 S 10 3545 2590 }
+Path L 1 { 3235 2600 W 10 S 10 3545 2600 }
+Path L 1 { 3245 2590 W 10 S 10 3225 2600 }
+Path L 1 { 82.08413m 64.91969m W 10 S 10 89.98987m 64.86132m }
+Path L 1 { 3545 2550 W 10 S 10 3225 2550 }
+Path L 1 { 3225 2540 W 10 S 10 3545 2540 }
+Path L 1 { 82.12512m 64.17576m W 10 S 10 89.98995m 64.15601m }
+Path L 1 { 3225 2520 W 10 S 10 3545 2520 }
+Path L 1 { 3225 2530 W 10 S 10 3545 2530 }
+Path L 1 { 3545 2500 W 10 S 10 3225 2500 }
+Path L 1 { 82.09309m 63.36657m W 10 S 10 89.99069m 63.37974m }
+Path L 1 { 90.08117m 63.64624m W 10 S 10 82.11358m 63.67332m }
+Path L 1 { 3225 2510 W 10 S 10 3545 2510 }
+Path L 1 { 3225 2480 W 10 S 10 3545 2480 }
+Path L 1 { 3235 2470 W 10 S 10 3545 2470 }
+Path L 1 { 3225 2460 W 10 S 10 3545 2460 }
+Path L 1 { 3225 2450 W 10 S 10 3545 2450 }
+Path L 1 { 82.17543m 62.30775m W 10 S 10 89.99409m 62.34068m }
+Path L 1 { 3225 2440 W 10 S 10 3545 2440 }
+Path L 1 { 3545 2430 W 10 S 10 3225 2430 }
+Path L 1 { 82.07148m 61.59275m W 10 S 10 90.06623m 61.63226m }
+Path L 1 { 3225 2410 W 10 S 10 3545 2410 }
+Path L 1 { 3225 2400 W 10 S 10 3545 2400 }
+Path L 1 { 82.19645m 61.07322m W 10 S 10 89.98070m 61.04037m }
+Path L 1 { 3545 2390 W 10 S 10 3225 2390 }
+Path L 1 { 90.00119m 60.58735m W 10 S 10 82.03123m 60.60126m }
+Path L 1 { 3225 2380 W 10 S 10 3545 2380 }
+Path L 1 { 3225 2370 W 10 S 10 3545 2370 }
+Path L 1 { 3545 2360 W 10 S 10 3225 2360 }
+Path L 1 { 82.08887m 60.06937m W 10 S 10 90.08517m 60.09726m }
+Path L 1 { 89.99468m 59.78815m W 10 S 10 82.13067m 59.80790m }
+Path L 1 { 3545 2350 W 10 S 10 3235 2350 }
+Path L 1 { 3245 2340 W 10 S 10 3545 2340 }
+Path L 1 { 90.04647m 59.29732m W 10 S 10 82.60840m 59.31042m }
+Path L 1 { 3545 2330 W 10 S 10 3245 2330 }
+Path L 2 { P VIA24-1 2900 1625 W 0.20m S 0.20m P VIA23-1 2725 1625 }
+Path L 2 { P S4-2 66.08m 81.63m W 0.20m S 0.20m 2600 3000 P VIA112-1 2500 2900 }
+Path L 2 { P VIA26-1 1250 575 W 0.20m S 0.20m P VIA25-1 1150 575 }
+Path L 2 { P VIA6-1 2075 3775 W 0.20m S 0.20m P VIA5-1 1925 3775 }
+Path L 2 { P VIA18-1 2100 1600 W 0.20m S 0.20m P VIA17-1 1925 1600 }
+Path L 2 { P VIA15-1 1300 1650 W 0.20m S 0.20m P VIA16-1 1100 1650 }
+Path L 2 { P VIA12-1 2100 2650 W 0.20m S 0.20m P VIA11-1 1925 2650 }
+Path L 2 { P P18-1 5050 1400 W 15 S 10 5050 1875 5025 1900 3800 1900 3775 1925
+3775 2425 P VIA164-1 3750 2450 3775 2425 3775 2400 { 3775 2425 3750 2450 3775
+2425 3775 1000 3800 975 3825 975 P VIA163-1 3850 950 3825 925 3800 925 3775
+900 3775 800 3975 650 P VIA34-1 3975 150 3975 125 3900 50 3825 50 3800 75
+3800 250 P CN1-4 3750 300 3750 350 3775 375 3850 375 3875 400 3875 575 3850
+600 P VIA157-1 3700 600 }
+3775 2200 3750 2175 3650 2175 3625 2200 3625 3100 3600 3125 3275 3125 3250
+3150 P VIA165-1 3250 2900 3250 3350 3275 3375 4775 3375 P VIA166-1 4800 3350
+}
+Path L 2 { P VIA31-1 2750 575 W 0.20m S 0.20m P VIA32-1 2850 575 }
+Path L 2 { P P17-1 4200 3500 W 0.20m S 0.20m 4250 3550 4625 3550 4650 3575 4650
+3725 P VIA158-1 4675 3750 }
+Path L 2 { P P17-3 4000 3500 W 0.20m S 0.20m 4000 3450 4025 3425 4275 3425 4325
+3475 P VIA160-1 4825 3475 4875 3475 4900 3500 P VIA159-1 4900 3650 }
+Path L 2 { P L5-1 500 2200 W 0.20m S 0.20m 500 2225 550 2325 550 2475 625 2500
+P VIA111-1 625 2750 }
+Path L 2 { P S8-1 2700 54.96m W 0.20m S 0.20m 2700 2125 2675 2100 2075 2100 2050
+2075 1925 2075 1900 2100 P S7-1 1900 54.96m 48.18m 53.89500m 1900 2100 1875
+2075 1675 2075 1625 2125 1475 2125 1450 2100 1275 2100 1250 2075 1125 2075
+1100 2100 P S6-1 1100 54.96m { 1100 2100 1075 2075 P VIA38-1 900 2075 }
+1050 2225 1050 2450 975 2525 975 2650 1100 2775 1100 3125 { P S2-1 1100 81.63m
+}
+1125 3125 1150 3150 36.55724m 80.03779m 1500 3200 1600 3200 1675 3125 1875
+3125 1900 3150 P S3-1 1900 81.63m 1900 3150 1925 3125 2400 3125 2425 3150
+2425 3275 2450 3300 2675 3300 2700 3275 P S4-1 2700 81.63m }
+Path L 2 { P VIA2-1 1125 3750 W 0.20m S 0.20m P VIA1-1 1275 3750 }
+Path L 2 { P VIA4-1 2100 3725 W 0.20m S 0.20m P VIA3-1 1925 3725 }
+Path L 2 { P VIA22-1 2900 2675 W 0.20m S 0.20m P VIA21-1 2725 2675 }
+Path L 2 { P VIA10-1 1125 2700 W 0.20m S 0.20m P VIA9-1 1275 2700 }
+Path L 2 { P L13-2 600 100 W 0.20m S 0.20m 675 175 675 1075 P L9-2 600 1150 675
+1225 675 2125 P L5-2 600 2200 600 2225 725 2350 725 3125 P L1-2 600 3250 }
+Path L 2 { P S3-5 45.76m 3450 W 0.20m S 0.20m 1800 3400 1825 3375 1925 3375 2000
+3450 P RL3-1 2100 3450 }
+Path L 2 { P VIA13-1 2075 2675 W 0.20m S 0.20m P VIA14-1 1950 2675 }
+Path L 2 { P VIA19-1 2075 1625 W 0.20m S 0.20m P VIA20-1 1950 1625 }
+Path L 2 { P L12-1 2900 1150 W 0.20m S 0.20m 2900 1250 2850 1300 2450 1300 2425
+1325 2425 1650 2400 1675 P VIA65-1 1950 1675 }
+Path L 2 { P VIA36-1 900 1025 W 0.20m S 0.20m 1050 1025 27.86m 27.22500m P S10-1 1100
+28.29m 27.86m 27.22500m 1150 1025 1475 1025 1500 1050 1500 1175 1525 1200
+1875 1200 1900 1175 P S11-1 1900 28.29m 1900 1050 1925 1025 2675 1025 2700
+1050 { 2700 825 2725 800 2900 800 2925 775 2925 700 2950 675 3025 675 3075
+725 P VIA39-1 3800 725 }
+P S12-1 2700 28.29m }
+Path L 2 { P L3-1 2100 3250 W 0.20m S 0.20m 2100 3300 2125 3325 2250 3325 2275
+3350 2275 3500 2250 3525 1725 3525 1700 3550 P VIA119-1 1700 3600 1700 3550
+1650 3550 1625 3525 1625 3250 1600 3225 1475 3225 1425 3175 1250 3175 1225
+3200 P VIA121-1 1225 3300 }
+Path L 2 { P VIA29-1 2075 575 W 0.20m S 0.20m P VIA28-1 1950 575 }
+Path L 2 { P VIA8-1 2900 3725 W 0.20m S 0.20m P VIA7-1 2725 3725 }
+Path L 2 { P CN1-3 3850 100 W 0.20m S 0.20m 3900 100 3925 125 3925 325 3900 350
+3900 625 3875 650 P VIA33-1 3775 650 }
+Path L 2 { P VIA30-1 2100 550 W 0.20m S 0.20m P VIA27-1 1925 550 }
+Path L 2 { P S15-1 1900 1.62m W 0.20m S 0.20m 1900 100 1875 125 1675 125 1650
+100 1650 50 1625 25 28.84500m 25 P S14-1 1100 1.62m 27.86m 125 775 125 700
+25 325 25 P S13-1 300 1.62m 150 5.43m 150 600 300 675 P S9-1 300 28.29m { 300
+1025 P VIA35-1 625 1025 }
+250 1175 250 1400 200 1450 200 1550 300 1650 300 2075 { P VIA37-1 625 2075
+}
+P S5-1 300 54.96m }
+Path L 2 { P L1-1 500 3250 W 0.20m S 0.20m 500 3400 700 3600 P VIA131-1 700 3800
+}
+Path L 2 { P VIA60-1 2750 625 W 0.20m S 0.20m P VIA59-1 2850 625 }
+Path L 2 { P VIA43-1 1000 150 W 0.20m S 0.20m 950 200 950 375 P VIA42-1 925 450
+}
+Path L 2 { P VIA57-1 1500 700 W 0.20m S 0.20m 1500 725 1625 850 2275 850 2300
+825 P VIA58-1 2300 800 }
+Path L 2 { P VIA54-1 1250 625 W 0.20m S 0.20m 750 625 725 600 P VIA53-1 725 475
+}
+Path L 2 { P VIA140-1 1475 2950 W 0.20m S 0.20m 1475 2975 1550 3125 P VIA139-1 1550
+3150 }
+Path L 2 { P VIA64-1 850 4000 W 0.20m S 0.20m 825 4000 800 3975 800 2950 P VIA63-1 825
+2950 800 2950 800 2350 875 2300 875 2250 825 2225 825 1875 P VIA61-1 850
+1875 825 1875 800 1850 800 1000 825 975 P VIA62-1 850 975 }
+Path L 2 { P VIA51-1 400 125 W 0.20m S 0.20m 400 150 375 175 275 175 250 200 250
+350 200 400 200 500 225 525 P VIA50-1 625 525 }
+Path L 2 { P VIA181-1 4300 2325 W 0.20m S 0.20m 3950 2325 3925 2350 P VIA182-1 3925
+2425 }
+Path L 2 { P VIA89-1 3725 650 W 0.20m S 0.20m P VIA90-1 3450 650 }
+Path L 2 { P VIA40-1 3850 700 W 0.20m S 0.20m 3100 700 3050 650 3050 400 3025
+375 3025 200 3050 175 3050 50 3025 25 2125 25 2100 50 P L15-1 2100 100 2025
+175 2025 350 2000 375 { 1750 375 1725 400 P VIA45-1 1725 450 }
+1025 375 P VIA41-1 1025 450 }
+Path L 2 { P VIA152-1 1700 2900 W 0.20m S 0.20m 1625 2900 1600 2875 P VIA151-1 1600
+2575 }
+Path L 2 { P VIA91-1 3450 775 W 0.20m S 0.20m 3225 775 3200 800 3200 2025 3100
+2125 2925 2125 73.74m 54.53m P L8-1 2900 2200 73.74m 54.53m 2925 2125 3100
+2125 3075 2125 3075 2700 3050 2725 P VIA92-1 1775 2725 }
+Path L 2 { P VIA94-1 3700 550 W 0.20m S 0.20m 3525 550 3500 575 P VIA95-1 3500 600
+}
+Path L 2 { P VIA96-1 3425 825 W 0.20m S 0.20m 3250 825 3225 850 P VIA97-1 3225 2075
+}
+Path L 2 { P VIA82-1 2600 2025 W 0.20m S 0.20m 2575 2000 2575 1875 2550 1850 P VIA83-1 2525
+1850 }
+Path L 2 { P VIA117-1 3475 925 W 0.20m S 0.20m 3450 950 3300 950 3275 975 3275
+2000 3300 2025 3300 2150 3275 2175 3150 2175 3125 2200 3125 2750 3100 2775
+2925 2775 2900 2800 P L4-1 2900 3250 2850 3250 2825 3275 2825 3500 2800 3525
+2625 3525 2600 3550 { 2600 3750 2575 3775 2225 3775 2150 3825 P VIA116-1 1900
+3825 }
+2575 3525 2350 3525 2325 3500 2325 3175 2300 3150 2025 3150 2000 3175 P VIA118-1 2000
+3325 }
+Path L 2 { P VIA71-1 1725 1500 W 0.20m S 0.20m 1725 1475 { 1700 1450 1650 1450
+1625 1425 1625 1250 1600 1225 1500 1225 1475 1200 1475 1075 1450 1050 1275
+1050 1250 1075 P VIA72-1 1250 1100 }
+1750 1425 2000 1425 2025 1400 2025 1250 2050 1225 2100 1225 P L11-1 2100
+1150 2100 1225 2125 1250 P VIA70-1 2825 1250 }
+Path L 2 { P VIA186-1 3375 2800 W 0.20m S 0.20m P VIA185-1 3500 2800 }
+Path L 2 { P VIA200-1 3425 2150 W 15 S 10 3550 2150 3575 2175 P VIA201-1 3575 2200
+}
+Path L 2 { P VIA78-1 1250 1700 W 0.20m S 0.20m P VIA79-1 1150 1700 }
+Path L 2 { P VIA66-1 97.48299m 13.97388m W 0.20m S 0.20m 97.48299m 11.75799m 3800
+425 3625 425 3600 400 3600 325 3525 250 3150 250 3125 275 3125 425 3150
+450 3150 575 3125 600 P VIA67-1 3125 650 }
+Path L 2 { P VIA169-1 4500 3175 W 0.20m S 0.20m 4500 3100 4475 3075 4425 3075
+4400 3050 4400 1975 4375 1950 P VIA171-1 3950 1950 }
+Path L 2 { P VIA133-1 1575 1475 W 0.20m S 0.20m P VIA134-1 1575 1275 }
+Path L 2 { P VIA179-1 3800 2125 W 0.20m S 0.20m P VIA180-1 4075 2125 }
+Path L 2 { P VIA178-1 3700 2075 W 0.20m S 0.20m 3350 2075 3350 1975 { 3325 1950
+3325 1250 3425 1175 3525 1075 3675 1075 3700 1050 P VIA130-1 3700 950 }
+3350 2225 3200 2225 3175 2250 3175 3975 3150 4000 1675 4000 41.82211m 100.94053m
+1525 3975 1500 3950 P VIA132-1 1500 3850 }
+Path L 2 { P VIA188-1 3650 2025 W 15 S 10 3650 1975 3625 1950 P VIA187-1 3625 1900
+}
+Path L 2 { P VIA250-1 4350 3925 W 0.20m S 0.20m P VIA249-1 4500 3925 }
+Path L 2 { P VIA125-1 1425 3675 W 0.20m S 0.20m 1425 3650 1475 3600 1475 3350
+1450 3325 1350 3325 1300 3275 P L2-1 1300 3250 }
+Path L 2 { P VIA100-1 1450 2625 W 0.20m S 0.20m 1450 2300 1425 2275 1325 2275
+1300 2250 P L6-1 1300 2200 }
+Path L 2 { P VIA175-1 3125 3900 W 0.20m S 0.20m 3075 3850 P VIA174-1 3075 3475 }
+Path L 2 { P VIA194-1 3850 2625 W 15 S 10 P VIA193-1 3850 2525 }
+Path L 2 { P VIA81-1 750 1225 W 0.20m S 0.20m P VIA80-1 750 1700 }
+Path L 2 { P VIA168-1 5200 3450 W 0.20m S 0.20m 5200 3150 5175 3125 P VIA167-1 4650
+3125 }
+Path L 2 { P VIA195-1 3850 3300 W 15 S 10 P VIA192-1 3850 2875 }
+Path L 2 { P VIA199-1 5275 3775 W 15 S 10 5275 2925 5250 2900 P VIA198-1 4450 2900
+}
+Path L 2 { P VIA144-1 1500 1925 W 0.20m S 0.20m 1500 2050 P VIA143-1 1525 2075 }
+Path L 2 { P VIA150-1 1600 3575 W 0.20m S 0.20m 1600 3875 1650 3925 P VIA149-1 1700
+3950 }
+Path L 2 { P VIA135-1 1575 1150 W 0.20m S 0.20m 1575 1050 1525 1000 P VIA136-1 1525
+825 }
+Path L 2 { P VIA148-1 2350 375 W 0.20m S 0.20m P VIA147-1 2350 200 }
+Path L 2 { P VIA153-1 1625 1500 W 0.20m S 0.20m 1625 1825 1650 1850 P VIA154-1 1725
+1850 }
+Path L 2 { P VIA105-1 3100 575 W 0.20m S 0.20m P VIA106-1 3100 475 }
+Path L 2 { P VIA183-1 3775 3175 W 0.20m S 0.20m P VIA184-1 3450 3175 }
+Path L 2 { P VIA107-1 3225 350 W 0.20m S 0.20m 3250 375 3250 450 3275 475 P VIA108-1 3525
+475 }
+Path L 2 { P VIA103-1 3075 1125 W 0.20m S 0.20m P VIA104-1 3075 800 }
+Path L 2 { P VIA101-1 725 2275 W 0.20m S 0.20m P VIA102-1 825 2275 }
+Path L 2 { P VIA74-1 3775 550 W 0.20m S 0.20m 3775 500 3750 475 3575 475 3600
+475 3550 425 3550 325 3500 275 3175 275 3150 300 3150 400 3175 425 P VIA73-1 3175
+600 }
+Path L 2 { P VIA177-1 4550 3325 W 0.20m S 0.20m 4550 3075 4575 3050 P VIA176-1 4775
+3050 }
+Path L 2 { P VIA162-1 5000 3875 W 0.20m S 0.20m 5000 3800 P VIA161-1 4975 3775 4800
+3775 4775 3800 4425 3800 W 15 S 10 4400 3775 4400 3650 4375 3625 3875 3625
+3850 3600 P VIA196-1 3850 3450 }
+Path L 2 { P VIA197-1 4350 2900 W 15 S 10 3950 2900 P VIA191-1 3925 2875 3925 2700
+3900 2675 P VIA190-1 3675 2675 P VIA189-1 3675 2250 }
+Path L 2 { P VIA44-1 1950 625 W 0.20m S 0.20m 2075 625 2125 675 2575 675 2600
+650 2600 125 2625 100 P L16-1 2900 100 }
+Path L 2 { P VIA87-1 3175 650 W 0.20m S 0.20m 3225 600 3200 575 3200 400 3175
+375 3175 325 3200 300 3475 300 3500 325 P VIA86-1 3500 400 }
+Path L 2 { P VIA88-1 3175 775 W 0.20m S 0.20m 3175 1650 3150 1675 2500 1675 2475
+1700 2475 1825 2425 1850 P VIA85-1 2300 1850 2275 1875 1775 1875 1750 1900
+1700 1900 1675 1875 1525 1875 1500 1850 P VIA84-1 1500 1750 }
+Path L 2 { P VIA122-1 3375 1125 W 0.20m S 0.20m 3375 1025 3400 1000 3475 1000
+P VIA123-1 3525 950 }
+Path L 2 { P VIA141-1 1550 2550 W 0.20m S 0.20m 1550 2250 P VIA142-1 1525 2225 }
+Path L 2 { P VIA115-1 3450 875 W 0.20m S 0.20m 3450 900 3425 925 3275 925 3250
+950 3250 2025 3275 2050 3275 2125 3250 2150 3125 2150 3100 2175 3100 2725
+3075 2750 2325 2750 2300 2775 P VIA113-1 2300 2900 2250 2950 1525 2950 1500
+2925 P VIA114-1 1500 2800 }
+Path L 2 { P VIA75-1 1450 1575 W 0.20m S 0.20m 1450 1100 1425 1075 1325 1075 1300
+1100 P L10-1 1300 1150 }
+Path L 2 { P VIA170-1 3950 1850 W 0.20m S 0.20m 3950 925 3925 900 P VIA145-1 3850
+900 3850 800 4075 650 4075 50 4050 25 3125 25 3100 50 P VIA146-1 3100 100
+}
+Path L 2 { P VIA129-1 1150 3800 W 0.20m S 0.20m P VIA128-1 1250 3800 }
+Path L 2 { P VIA110-1 1150 2750 W 0.20m S 0.20m P VIA109-1 1250 2750 }
+Path L 2 { P VIA126-1 3600 925 W 0.20m S 0.20m 3600 1025 3575 1050 3500 1050 3400
+1150 3300 1225 3300 1975 3325 2000 3325 2175 3300 2200 3175 2200 3150 2225
+3150 3100 3125 3125 P VIA127-1 3050 3125 }
+Path L 2 { P VIA155-1 1725 800 W 0.20m S 0.20m 1650 800 1625 775 1625 475 1600
+450 P VIA156-1 1550 450 }
+Path L 2 { P VIA247-1 3775 3325 W 0.20m S 0.20m 3775 3225 3800 3200 3800 3125
+3775 3100 3775 2875 P VIA248-1 3750 2850 }
+Path L 2 { P VIA93-1 1775 2600 W 0.20m S 0.20m 1775 2500 { 1800 2475 2000 2475
+2025 2450 2025 2225 2050 2200 P L7-1 2100 2200 2175 2125 2425 2125 2450 2150
+2450 2200 2475 2225 2775 2225 2800 2200 2800 2100 2825 2075 P VIA98-1 3075
+2075 }
+1800 2475 2000 2475 2025 2450 2025 2225 1625 2225 1550 2150 1450 2150 1400
+2125 1275 2125 P VIA99-1 1250 2150 }
+Path L 2 { P VIA173-1 3125 3575 W 0.20m S 0.20m P VIA172-1 3125 3475 }
+Path L 2 { P VIA47-1 1475 300 W 0.20m S 0.20m 1475 250 { 1300 150 P L14-1 1300 100
+}
+P VIA46-1 1650 250 }
+Path L 2 { P VIA77-1 625 1475 W 0.20m S 0.20m 400 1375 P VIA76-1 400 1225 }
+Path L 2 { P VIA52-1 625 475 W 0.20m S 0.20m 625 425 550 375 450 375 425 350 425
+275 500 175 P L13-1 500 100 }
+Path L 2 { P VIA137-1 1550 3600 W 0.20m S 0.20m P VIA138-1 1550 3275 }
+Path L 2 { P VIA124-1 1950 3675 W 0.20m S 0.20m P VIA120-1 2150 3675 }
+Path L 2 { P VIA69-1 3075 1250 W 0.20m S 0.20m 3100 1250 3125 1225 P VIA68-1 3125
+800 }
+Path L 2 { P VIA49-1 825 525 W 0.20m S 0.20m P VIA48-1 1400 525 }
+Path L 2 { P VIA56-1 2500 800 W 0.20m S 0.20m 2525 800 2600 875 P VIA55-1 2600 975
+}
+Path L 2 { 82.42174m 68.84197m W 10 S 10 88.77174m 68.84197m }
+Path L 2 { 82.42174m 69.09597m W 10 S 10 88.77174m 69.09597m }
+Path L 2 { 82.16774m 68.58797m W 10 S 10 88.77174m 68.58797m }
+Path L 2 { 81.91374m 68.07997m W 10 S 10 88.77174m 68.07997m }
+Path L 2 { 81.91374m 67.82597m W 10 S 10 88.77174m 67.82597m }
+Path L 2 { 88.77174m 67.57197m W 10 S 10 81.91374m 67.57197m }
+Path L 2 { 81.91374m 67.31797m W 10 S 10 88.77174m 67.31797m }
+Path L 2 { 81.91374m 67.06397m W 10 S 10 89.02574m 67.06397m }
+Path L 2 { 81.91374m 66.55597m W 10 S 10 89.53374m 66.55597m }
+Path L 2 { 82.16774m 66.80997m W 10 S 10 89.27974m 66.80997m }
+Path L 2 { 81.91374m 66.30197m W 10 S 10 89.78774m 66.30197m }
+Path L 2 { 82.16774m 66.04797m W 10 S 10 90.04174m 66.04797m }
+Path L 2 { 81.91374m 65.79397m W 10 S 10 90.04174m 65.79397m }
+Path L 2 { 82.42174m 65.79397m W 10 S 10 81.91374m 66.04797m }
+Path L 2 { 81.91374m 64.52397m W 10 S 10 90.04174m 64.52397m }
+Path L 2 { 90.04174m 64.77797m W 10 S 10 81.91374m 64.77797m }
+Path L 2 { 81.91374m 65.53997m W 10 S 10 90.04174m 65.53997m }
+Path L 2 { 81.91374m 65.28597m W 10 S 10 90.04174m 65.28597m }
+Path L 2 { 81.91374m 64.01597m W 10 S 10 90.04174m 64.01597m }
+Path L 2 { 81.91374m 64.26997m W 10 S 10 90.04174m 64.26997m }
+Path L 2 { 81.91374m 63.76197m W 10 S 10 90.04174m 63.76197m }
+Path L 2 { 90.04174m 63.50797m W 10 S 10 81.91374m 63.50797m }
+Path L 2 { 81.91374m 62.99997m W 10 S 10 90.04174m 62.99997m }
+Path L 2 { 82.16774m 62.74597m W 10 S 10 90.04174m 62.74597m }
+Path L 2 { 81.91374m 62.49197m W 10 S 10 90.04174m 62.49197m }
+Path L 2 { 81.91374m 62.23797m W 10 S 10 90.04174m 62.23797m }
+Path L 2 { 81.91374m 61.98397m W 10 S 10 90.04174m 61.98397m }
+Path L 2 { 90.04174m 61.72997m W 10 S 10 81.91374m 61.72997m }
+Path L 2 { 81.91374m 60.96797m W 10 S 10 90.04174m 60.96797m }
+Path L 2 { 90.04174m 60.71397m W 10 S 10 81.91374m 60.71397m }
+Path L 2 { 81.91374m 60.45997m W 10 S 10 90.04174m 60.45997m }
+Path L 2 { 90.04174m 59.95197m W 10 S 10 81.91374m 59.95197m }
+Path L 2 { 81.91374m 60.20597m W 10 S 10 90.04174m 60.20597m }
+Path L 2 { 90.04174m 59.69797m W 10 S 10 82.16774m 59.69797m }
+Path L 2 { 82.42174m 59.44397m W 10 S 10 90.04174m 59.44397m }
+Path L 2 { 90.04174m 59.18997m W 10 S 10 82.42174m 59.18997m }
+Path L 2 { 82.08287m 64.92766m W 10 S 10 89.98861m 64.86929m }
+Path L 2 { 82.12386m 64.18373m W 10 S 10 89.98869m 64.16398m }
+Path L 2 { 90.07991m 63.65421m W 10 S 10 82.11232m 63.68129m }
+Path L 2 { 82.09183m 63.37454m W 10 S 10 89.98943m 63.38771m }
+Path L 2 { 82.03841m 62.80899m W 10 S 10 89.94681m 62.78924m }
+Path L 2 { 82.17417m 62.31572m W 10 S 10 89.99283m 62.34865m }
+Path L 2 { 82.07052m 61.87351m W 10 S 10 89.89894m 61.91139m }
+Path L 2 { 82.07022m 61.60072m W 10 S 10 90.06497m 61.64023m }
+Path L 2 { 82.19519m 61.08119m W 10 S 10 89.97944m 61.04834m }
+Path L 2 { 89.99993m 60.59532m W 10 S 10 82.02997m 60.60923m }
+Path L 2 { 82.08761m 60.07734m W 10 S 10 90.08391m 60.10523m }
+Path L 2 { 89.99342m 59.79612m W 10 S 10 82.12941m 59.81587m }
+Path L 2 { 82.27990m 59.50180m W 10 S 10 89.96627m 59.63327m }
+Path L 2 { 90.04521m 59.30529m W 10 S 10 82.60714m 59.31839m }
+Path L 2 { 82.11047m 65.43958m W 10 S 10 90.10758m 65.45852m }
+Path L 2 { 89.60196m 66.43025m W 10 S 10 82.07947m 66.37580m }
+Path L 2 { 82.05890m 66.67596m W 10 S 10 89.33997m 66.72206m }
+Path L 2 { 88.82118m 67.17663m W 10 S 10 82.33250m 67.17004m }
+Path L 2 { 82.15575m 67.67907m W 10 S 10 88.79647m 67.66590m }
+Path L 2 { 88.81460m 68.18965m W 10 S 10 82.03160m 68.18810m }
+Path L 2 { 82.29965m 68.75283m W 10 S 10 88.80387m 68.69209m }
+Path L 2 { 88.78567m 68.95859m W 10 S 10 82.45007m 68.95356m }
+Path L 2 { 82.42174m 68.84197m W 10 S 10 88.77174m 68.84197m }
+Path L 2 { 82.42174m 69.09597m W 10 S 10 88.77174m 69.09597m }
+Path L 2 { 82.16774m 68.58797m W 10 S 10 88.77174m 68.58797m }
+Path L 2 { 81.91374m 68.07997m W 10 S 10 88.77174m 68.07997m }
+Path L 2 { 81.91374m 67.82597m W 10 S 10 88.77174m 67.82597m }
+Path L 2 { 88.77174m 67.57197m W 10 S 10 81.91374m 67.57197m }
+Path L 2 { 81.91374m 67.31797m W 10 S 10 88.77174m 67.31797m }
+Path L 2 { 81.91374m 67.06397m W 10 S 10 89.02574m 67.06397m }
+Path L 2 { 81.91374m 66.55597m W 10 S 10 89.53374m 66.55597m }
+Path L 2 { 89.27974m 66.80997m W 10 S 10 82.16774m 66.80997m }
+Path L 2 { 81.91374m 66.30197m W 10 S 10 89.78774m 66.30197m }
+Path L 2 { 82.03841m 62.80899m W 10 S 10 89.94681m 62.78924m }
+Path L 2 { 82.07052m 61.87351m W 10 S 10 89.89894m 61.91139m }
+Path L 2 { 82.27990m 59.50180m W 10 S 10 89.96627m 59.63327m }
+Path L 2 { 89.60196m 66.43025m W 10 S 10 82.07947m 66.37580m }
+Path L 2 { 82.05890m 66.67596m W 10 S 10 89.33997m 66.72206m }
+Path L 2 { 88.82118m 67.17663m W 10 S 10 82.33250m 67.17004m }
+Path L 2 { 82.15575m 67.67907m W 10 S 10 88.79647m 67.66590m }
+Path L 2 { 88.81460m 68.18965m W 10 S 10 82.03160m 68.18810m }
+Path L 2 { 82.29965m 68.75283m W 10 S 10 88.80387m 68.69209m }
+Path L 2 { 88.78567m 68.95859m W 10 S 10 82.45007m 68.95356m }
+Path L 2 { 81.91374m 65.28597m W 10 S 10 90.04174m 65.28597m }
+Path L 2 { 82.11047m 65.43958m W 10 S 10 90.10758m 65.45852m }
+Path L 2 { 81.91374m 65.53997m W 10 S 10 90.04174m 65.53997m }
+Path L 2 { 81.91374m 65.79397m W 10 S 10 90.04174m 65.79397m }
+Path L 2 { 82.16774m 66.04797m W 10 S 10 90.04174m 66.04797m }
+Path L 2 { 82.42174m 65.79397m W 10 S 10 81.91374m 66.04797m }
+Path L 2 { 82.08287m 64.92766m W 10 S 10 89.98861m 64.86929m }
+Path L 2 { 90.04174m 64.77797m W 10 S 10 81.91374m 64.77797m }
+Path L 2 { 81.91374m 64.52397m W 10 S 10 90.04174m 64.52397m }
+Path L 2 { 82.12386m 64.18373m W 10 S 10 89.98869m 64.16398m }
+Path L 2 { 81.91374m 64.01597m W 10 S 10 90.04174m 64.01597m }
+Path L 2 { 81.91374m 64.26997m W 10 S 10 90.04174m 64.26997m }
+Path L 2 { 90.04174m 63.50797m W 10 S 10 81.91374m 63.50797m }
+Path L 2 { 82.09183m 63.37454m W 10 S 10 89.98943m 63.38771m }
+Path L 2 { 90.07991m 63.65421m W 10 S 10 82.11232m 63.68129m }
+Path L 2 { 81.91374m 63.76197m W 10 S 10 90.04174m 63.76197m }
+Path L 2 { 81.91374m 62.99997m W 10 S 10 90.04174m 62.99997m }
+Path L 2 { 82.16774m 62.74597m W 10 S 10 90.04174m 62.74597m }
+Path L 2 { 81.91374m 62.49197m W 10 S 10 90.04174m 62.49197m }
+Path L 2 { 81.91374m 62.23797m W 10 S 10 90.04174m 62.23797m }
+Path L 2 { 82.17417m 62.31572m W 10 S 10 89.99283m 62.34865m }
+Path L 2 { 81.91374m 61.98397m W 10 S 10 90.04174m 61.98397m }
+Path L 2 { 90.04174m 61.72997m W 10 S 10 81.91374m 61.72997m }
+Path L 2 { 82.07022m 61.60072m W 10 S 10 90.06497m 61.64023m }
+Path L 2 { 81.91374m 61.22197m W 10 S 10 90.04174m 61.22197m }
+Path L 2 { 81.91374m 60.96797m W 10 S 10 90.04174m 60.96797m }
+Path L 2 { 82.19519m 61.08119m W 10 S 10 89.97944m 61.04834m }
+Path L 2 { 90.04174m 60.71397m W 10 S 10 81.91374m 60.71397m }
+Path L 2 { 89.99993m 60.59532m W 10 S 10 82.02997m 60.60923m }
+Path L 2 { 81.91374m 60.45997m W 10 S 10 90.04174m 60.45997m }
+Path L 2 { 81.91374m 60.20597m W 10 S 10 90.04174m 60.20597m }
+Path L 2 { 90.04174m 59.95197m W 10 S 10 81.91374m 59.95197m }
+Path L 2 { 82.08761m 60.07734m W 10 S 10 90.08391m 60.10523m }
+Path L 2 { 89.99342m 59.79612m W 10 S 10 82.12941m 59.81587m }
+Path L 2 { 90.04174m 59.69797m W 10 S 10 82.16774m 59.69797m }
+Path L 2 { 82.42174m 59.44397m W 10 S 10 90.04174m 59.44397m }
+Path L 2 { 90.04521m 59.30529m W 10 S 10 82.60714m 59.31839m }
+Path L 2 { 90.04174m 59.18997m W 10 S 10 82.42174m 59.18997m }
+Path L 2 { 90.16012m 59.05080m W 10 S 10 82.54012m 59.05080m 81.90512m 59.68580m
+81.90512m 68.57580m { 82.54012m 69.21080m 88.89012m 69.21080m 88.89012m
+67.30580m 90.16012m 66.03580m 90.16012m 59.05080m }
+82.41312m 68.32180m 81.90512m 68.32180m { 88.76312m 68.32180m }
+88.76312m 68.32180m }
+Path L 2 { 82.14527m 65.12390m W 10 S 10 89.91761m 65.05598m }
+Path L 2 { 82.16614m 63.19030m W 10 S 10 89.95701m 63.19030m }
+Path L 2 { 82.17601m 61.42450m W 10 S 10 89.98664m 61.38633m }
+Path L 2 { 81.91374m 61.22197m W 10 S 10 90.04174m 61.22197m }
+
+
+
+Path A 1 { 67.50990m 0.06840m W 10 S 10 134.87962m 0.06840m 134.87962m 105.95397m
+0.14018m 105.95397m 0.14018m 0.06840m 67.50990m 0.06840m }
+
+
+End
