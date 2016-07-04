@@ -10,8 +10,7 @@ ShareAlike — If you remix, transform, or build upon the material, you must dis
 
 *
 
-All the files are creatd by Àlex Ballester @ Plankton Electronics
-I'm not responsible of any use of these documents. 
+All the files are created by Àlex Ballester @ Plankton Electronics
 
 Àlex Ballester
 www.planktonelectronics.com
