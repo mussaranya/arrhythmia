@@ -10,7 +10,10 @@ ShareAlike — If you remix, transform, or build upon the material, you must dis
 
 *
 
-All the files are created by Àlex Ballester @ Plankton Electronics
+////////The files are cread with Kicad////////////
+
+
+All the files are created by Àlex Ballester (unless noticed) @ Plankton Electronics
 
 Àlex Ballester
 www.planktonelectronics.com
